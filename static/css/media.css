@@ -18699,3 +18699,40 @@ form#reject-reccurent-form .info__item+.info__item {
     font-size: 12px;
 }
 }
+
+/* Перекладка заголовков внутрь списка карточек новостей */
+.news__items .content-block__title {
+    grid-column: 1 / -1;
+    margin-top: 52px;
+    margin-bottom: 0;
+}
+  
+@media only screen and (max-width: 1430px) {
+    .news__items .content-block__title {
+        margin-top: 68px;
+        margin-bottom: 16px;
+    }
+}
+
+@media only screen and (max-width: 1279px) {
+    .news__items .content-block__title {
+        margin-bottom: 0;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .news__items .content-block__title {
+        margin-top: 48px;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .news__items .content-block__title {
+        margin-top: 50px;
+        margin-bottom: 2px;
+    }
+}
+
+.news__items .content-block__title:first-child {
+    margin-top: 0;
+}
