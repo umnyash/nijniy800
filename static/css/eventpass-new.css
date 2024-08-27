@@ -1,0 +1,4076 @@
+.main__inner {
+  overflow-x: hidden;
+}
+
+.general-section-eventpass {
+  min-height: 100vh;
+  position: relative;
+  padding: 305px 0 85px;
+}
+
+.general-section-eventpass .grid__content {
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  color: #fff;
+}
+
+.general-section.general-section-eventpass>.grid__content {
+  min-height: auto;
+  height: auto;
+}
+
+.general-section-eventpass__bg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  left: 0;
+}
+
+.day .general-section-eventpass__bg {
+  background: url('../img/eventpass/eventpass-general-bg-day.jpg') no-repeat center;
+  background-size: cover;
+}
+
+.night .general-section-eventpass__bg {
+  background: url('../img/eventpass/eventpass-general-bg-night.jpg') no-repeat center;
+  background-size: cover;
+}
+
+.eventpass-description {
+  width: 100%;
+}
+
+.eventpass-description__title {
+  font-size: 72px;
+  line-height: 80px;
+}
+
+.eventpass-description__text {
+  margin-top: 60px;
+}
+
+.eventpass-description__text,
+.eventpass-description__text>* {
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.eventpass-description__text>*+* {
+  margin-top: 30px;
+}
+
+.eventpass-description__footer {
+  margin-top: 75px;
+}
+
+.eventpass-description__social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.eventpass-description__social-title {
+  font-weight: 600;
+  color: #fff;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.eventpass-description__social-items {
+  margin-left: 27px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.eventpass-description__social-link {
+  margin-right: 14px;
+  width: 44px;
+  height: 44px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 2px solid rgba(255, 255, 255, 0.33);
+  -webkit-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+}
+
+.eventpass-description__social-link:hover {
+  border-color: #fff;
+}
+
+.eventpass-description__social-link:last-child {
+  margin-right: 0;
+}
+
+.eventpass-description__social-link img {
+  margin: 0;
+  padding: 0;
+}
+
+.eventpass-description__footer>*+* {
+  margin-top: 55px;
+}
+
+.eventpass-description__btn {
+  position: relative;
+  padding: 0 35px;
+  height: 44px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 50px;
+}
+
+.eventpass-description__btn::before {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  -webkit-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+  border-radius: 50px;
+}
+
+.eventpass-description__btn:hover::before {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.eventpass-description__btn span {
+  position: relative;
+  z-index: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1;
+  color: #161310;
+}
+
+.eventpass-description__btn span::before {
+  content: "";
+  position: relative;
+  margin-right: 14px;
+  width: 14px;
+  height: 18px;
+  background-image: url('../img/tourist/mouse-icon.svg');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.eventpass-container {
+  padding-bottom: 165px;
+}
+
+.eventpass-section__calendar {
+  padding-top: 85px;
+}
+
+.eventpass-section__cards {
+  padding-top: 0px;
+}
+
+.day .eventpass-container {
+  color: #161310;
+  background: url('../img/eventpass/eventpass-arrow-bg-day.svg'), #fff;
+  background-repeat: no-repeat;
+  background-position: top 4% right 9.2%;
+  background-size: cover;
+}
+
+.night .eventpass-container {
+  color: #fff;
+  background: url('../img/eventpass/eventpass-arrow-bg-night.svg'), -o-linear-gradient(top, #081025 1.29%, #0D1C3B 32.81%, #132B54 97.36%);
+  background: url('../img/eventpass/eventpass-arrow-bg-night.svg'), -webkit-gradient(linear, left top, left bottom, color-stop(1.29%, #081025), color-stop(32.81%, #0D1C3B), color-stop(97.36%, #132B54));
+  background: url('../img/eventpass/eventpass-arrow-bg-night.svg'), linear-gradient(180deg, #081025 1.29%, #0D1C3B 32.81%, #132B54 97.36%);
+  background-repeat: no-repeat;
+  background-position: top 4% right 9.2%;
+  background-size: cover;
+}
+
+.content-block__title.eventpass-block__title {
+  z-index: 1;
+}
+
+.day .content-block__title.eventpass-block__title {
+  border-color: #161310;
+}
+
+.night .content-block__title.eventpass-block__title {
+  border-color: #fff;
+}
+
+.eventpass-section__calendar_reset-btn {
+  display: none;
+  font-size: 20px;
+  line-height: 22px;
+  color: rgba(22, 19, 16, 0.3);
+  cursor: pointer;
+  -webkit-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+}
+
+.eventpass-section__calendar_reset-btn:hover {
+  color: rgba(22, 19, 16, 0.6);
+}
+
+.night .eventpass-section__calendar_reset-btn {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.night .eventpass-section__calendar_reset-btn:hover {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.eventpass-header {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.eventpass-header__item {
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.eventpass-header__item,
+.eventpass-header__item input {
+  height: 54px;
+  background: #FFEAE4;
+  border-radius: 50px;
+}
+
+.night .eventpass-header__item,
+.night .eventpass-header__item input {
+  background: #102242;
+}
+
+.eventpass-header__item+.eventpass-header__item {
+  margin-left: 14px;
+}
+
+.eventpass-header__item {
+  position: relative;
+}
+
+.eventpass-header__item::before,
+.eventpass-header__item.eventpass-calendar__field::after {
+  content: "";
+  pointer-events: none;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.eventpass-header__item::before {
+  right: 70px;
+  width: 2px;
+  height: 28px;
+  background-color: #FF4D1C;
+  opacity: 0.1;
+}
+
+.night .eventpass-header__item::before {
+  background-color: #fff;
+
+}
+
+.eventpass-header__item.eventpass-calendar__field::after {
+  right: 20px;
+  width: 26px;
+  height: 24px;
+  background-image: url('../img/eventpass/calendar-icon-orange.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.night .eventpass-header__item.eventpass-calendar__field::after {
+  background-image: url('../img/eventpass/calendar-icon-white.svg');
+}
+
+.eventpass__datepicker.datepicker {
+  width: 320px;
+  padding: 20px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  border: none;
+  color: #161310;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.eventpass__datepicker.datepicker .datepicker--nav {
+  border: none;
+  padding: 0;
+}
+
+.eventpass__datepicker.datepicker .datepicker--content {
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.eventpass__datepicker.datepicker .datepicker--pointer {
+  display: none !important;
+}
+
+.eventpass__datepicker.datepicker .datepicker--nav-action {
+  width: 32px;
+  height: 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.eventpass__datepicker.datepicker .datepicker--nav-action svg {
+  width: 10px;
+  height: 18px;
+  -o-object-fit: contain;
+  object-fit: contain;
+}
+
+.eventpass__datepicker.datepicker .datepicker--nav-action svg path {
+  stroke: #FF4D1C;
+}
+
+.eventpass__datepicker.datepicker .datepicker--nav-title,
+.eventpass__datepicker.datepicker .datepicker--nav-title i {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 20px;
+  color: #FF4D1C;
+}
+
+.eventpass__datepicker.datepicker .datepicker--day-name {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #627D8B;
+}
+
+.eventpass__datepicker.datepicker .datepicker--cell-day {
+  width: 40px;
+  height: 40px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1;
+  border-radius: 0px;
+}
+
+.eventpass__datepicker.datepicker .datepicker--cell {
+  position: relative;
+}
+
+.eventpass__datepicker.datepicker .datepicker--cell::before,
+.eventpass__datepicker.datepicker .datepicker--cell::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  z-index: -2;
+  width: 100%;
+  height: 100%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.eventpass__datepicker.datepicker .datepicker--cell::after {
+  z-index: -1;
+}
+
+.eventpass__datepicker.datepicker .datepicker--cell.-event- {}
+
+.eventpass__datepicker.datepicker .datepicker--cell.-event-::before {
+  background: rgba(255, 77, 28, 0.1);
+  border-radius: 50%;
+}
+
+.eventpass__datepicker.datepicker .datepicker--cell.-focus- {
+  background: none;
+}
+
+.eventpass__datepicker.datepicker .datepicker--cell.-focus-::before {
+  background: rgba(255, 77, 28, 0.5);
+  border-radius: 50%;
+}
+
+.eventpass__datepicker.datepicker .datepicker--cell.-selected-,
+.eventpass__datepicker.datepicker .datepicker--cell.-selected-.-current- {
+  background: #FF4D1C;
+  color: #fff;
+}
+
+.eventpass__datepicker.datepicker .datepicker--cell.-weekend- {
+  border-radius: 0 50% 50% 0;
+}
+
+.eventpass__datepicker.datepicker .datepicker--cell.-weekend-.-range-from-,
+.eventpass__datepicker.datepicker .datepicker--cell.-weekend-.-range-to- {
+  border-radius: 50%;
+}
+
+.eventpass__datepicker.datepicker .datepicker--cell.-weekend-+.-weekend- {
+  border-radius: 50% 0 0 50%;
+}
+
+.eventpass__datepicker.datepicker .datepicker--cell.-weekend-+.-weekend-.-range-from- {
+  border-radius: 50%;
+}
+
+.eventpass__datepicker.datepicker .datepicker--cell.-range-from-,
+.eventpass__datepicker.datepicker .datepicker--cell.-range-to- {
+  border-radius: 50%;
+}
+
+.eventpass__datepicker.datepicker .datepicker--cell.-range-from-::before,
+.eventpass__datepicker.datepicker .datepicker--cell.-weekend-+.-weekend-.-range-from-::before {
+  border-radius: 50% 0 0 50%;
+  background: rgba(255, 77, 28, 0.5);
+}
+
+.eventpass__datepicker.datepicker .datepicker--cell.-in-range- {
+  background: rgba(255, 77, 28, 0.5);
+}
+
+.eventpass__datepicker.datepicker .datepicker--cell.-range-from-,
+.eventpass__datepicker.datepicker .datepicker--cell.-range-to- {
+  border: none;
+  background: #FF4D1C;
+  color: #fff;
+}
+
+.eventpass__datepicker.datepicker .datepicker--cell.-range-to-.-focus- {
+  border-radius: 50%;
+  border: none;
+  background: rgba(255, 77, 28, 0.5);
+}
+
+/* .eventpass__datepicker.datepicker .datepicker--cell.-range-to-.-current-.-focus- {
+  border-radius: 0 50% 50% 0;
+} */
+.eventpass__datepicker.datepicker .datepicker--cell.-range-to-::before,
+.eventpass__datepicker.datepicker .datepicker--cell.-weekend-.-range-to-::before,
+.eventpass__datepicker.datepicker .datepicker--cell.-range-to-.-focus-::before,
+.eventpass__datepicker.datepicker .datepicker--cell.-range-to-.-selected-::before {
+  border-radius: 0 50% 50% 0;
+  background: rgba(255, 77, 28, 0.5);
+}
+
+.eventpass__datepicker.datepicker .datepicker--cell.-range-from-.-focus-::after,
+.eventpass__datepicker.datepicker .datepicker--cell.-range-to-.-focus-::after {
+  border: 2px solid #FF4D1C;
+  border-radius: 50%;
+}
+
+.eventpass__datepicker.datepicker .datepicker--cell.-selected-.-range-to- {
+  border-radius: 50%;
+}
+
+.eventpass__datepicker.datepicker .datepicker--cell-day.-other-month- {
+  opacity: 0;
+}
+
+
+.eventpass-search__field-btn {
+  display: block;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  right: 22px;
+  width: 23px;
+  height: 25px;
+  background-image: url('../img/eventpass/search-icon-orange.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  -webkit-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+}
+
+.eventpass-search__field-btn:hover {
+  opacity: 0.6;
+}
+
+.eventpass-search__field-btn.disabled {
+  pointer-events: none;
+  opacity: 0.6;
+}
+
+.night .eventpass-search__field-btn {
+  background-image: url('../img/eventpass/search-icon-white.svg');
+}
+
+.eventpass-header__item input {
+  padding: 0 75px 0 38px;
+  font-weight: 500;
+  color: #FF4D1C;
+  font-size: 16px;
+  line-height: 1;
+  border: 2px solid transparent;
+  -webkit-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+  cursor: pointer;
+}
+
+.night .eventpass-header__item input {
+  color: #fff;
+}
+
+.eventpass-header__item input:focus {
+  border-color: #FF4D1C;
+}
+
+.night .eventpass-header__item input:focus {
+  border-color: #fff;
+}
+
+.eventpass-header__item input::-webkit-input-placeholder {
+  font-weight: 500;
+  color: #FF4D1C;
+  font-size: 16px;
+  line-height: 1;
+  opacity: 0.5;
+}
+
+.eventpass-header__item input::-moz-placeholder {
+  font-weight: 500;
+  color: #FF4D1C;
+  font-size: 16px;
+  line-height: 1;
+  opacity: 0.5;
+}
+
+.eventpass-header__item input:-ms-input-placeholder {
+  font-weight: 500;
+  color: #FF4D1C;
+  font-size: 16px;
+  line-height: 1;
+  opacity: 0.5;
+}
+
+.eventpass-header__item input::-ms-input-placeholder {
+  font-weight: 500;
+  color: #FF4D1C;
+  font-size: 16px;
+  line-height: 1;
+  opacity: 0.5;
+}
+
+.eventpass-header__item input::placeholder {
+  font-weight: 500;
+  color: #FF4D1C;
+  font-size: 16px;
+  line-height: 1;
+  opacity: 0.5;
+}
+
+.night .eventpass-header__item input::-webkit-input-placeholder {
+  color: #fff;
+}
+
+.night .eventpass-header__item input::-moz-placeholder {
+  color: #fff;
+}
+
+.night .eventpass-header__item input:-ms-input-placeholder {
+  color: #fff;
+}
+
+.night .eventpass-header__item input::-ms-input-placeholder {
+  color: #fff;
+}
+
+.night .eventpass-header__item input::placeholder {
+  color: #fff;
+}
+
+.eventpass-header__item.eventpass-categories {
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  -webkit-box-flex: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+}
+
+.eventpass-header__item.eventpass-categories::before {
+  display: none;
+}
+
+.eventpass-categories__wrapper {
+  height: 100%;
+  padding: 0 6px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.eventpass-categories__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.eventpass-categories__item {
+  position: relative;
+  width: 46px;
+  height: 46px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: transparent;
+  border-radius: 50%;
+  cursor: pointer;
+  -webkit-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+}
+
+.eventpass-categories__item+.eventpass-categories__item {
+  margin-left: 6px;
+}
+
+.eventpass-categories__item:hover {
+  background-color: rgba(255, 77, 28, 0.15);
+}
+
+.eventpass-categories__item.active {
+  background-color: #FF4D1C;
+}
+
+.night .eventpass-categories__item:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+.night .eventpass-categories__item.active {
+  background-color: #fff;
+}
+
+.eventpass-categories__item svg {
+  max-width: 80%;
+  max-height: 80%;
+  -o-object-fit: contain;
+  object-fit: contain;
+}
+
+.eventpass-categories__item svg path,
+.eventpass-categories__item svg rect {
+  stroke: #FF4D1C;
+  -webkit-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+}
+
+.eventpass-categories__item.active svg path,
+.eventpass-categories__item.active svg rect {
+  stroke: #fff;
+  -webkit-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+}
+
+.night .eventpass-categories__item svg path,
+.night .eventpass-categories__item svg rect {
+  stroke: #fff;
+}
+
+.night .eventpass-categories__item.active svg path,
+.night .eventpass-categories__item.active svg rect {
+  stroke: #0B1631;
+}
+
+.eventpass-categories__item .tooltip {
+  padding: 8px 20px;
+  position: absolute;
+  z-index: 5;
+  bottom: 150%;
+  min-width: 220%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  font-size: 14px;
+  line-height: 142.34%;
+  color: #FFFFFF;
+  text-align: center;
+  background: #161310;
+  border-radius: 4px;
+  -webkit-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+}
+
+.eventpass-categories__item .tooltip::before {
+  content: "";
+  width: 10px;
+  height: 8px;
+  position: absolute;
+  bottom: -7px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  background-image: url('../img/hint-arrow.svg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.eventpass-categories__item .tooltip-out {
+  opacity: 0;
+}
+
+.eventpass-categories__item .tooltip-in {
+  opacity: 1;
+  bottom: 125%;
+}
+
+.eventpass-main {
+  overflow: hidden;
+  height: 775px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.eventpass-main.empty {
+  height: auto;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.eventpass-months {
+  position: relative;
+  margin: 0;
+  padding: 44px 0 50px;
+  width: 29.6%;
+  color: #FF4D1C;
+  border-top: 2px solid rgba(255, 77, 28, 0.3);
+  border-bottom: 2px solid rgba(255, 77, 28, 0.3);
+}
+
+.night .eventpass-months {
+  color: #fff;
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.eventpass-months::before {
+  top: 0;
+}
+
+.eventpass-months::after {
+  bottom: 0;
+}
+
+.eventpass-month__month {
+  margin-bottom: 15px;
+  font-family: 'Platform';
+  font-size: 40px;
+  line-height: 44px;
+}
+
+.eventpass-month__events-count {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 1;
+}
+
+.eventpass-months__arrows {
+  margin-top: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.eventpass-months__arrow {
+  position: relative;
+  z-index: 2;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  cursor: pointer;
+  -webkit-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+}
+
+.eventpass-months__arrow:hover {
+  opacity: 0.6;
+}
+
+.eventpass-months__arrow.swiper-button-disabled {
+  opacity: 0.6;
+  pointer-events: none;
+}
+
+.eventpass-months__arrow+.eventpass-months__arrow {
+  margin-left: 8px;
+}
+
+.eventpass-months__arrow.arrow-prev {
+  background-image: url('../img/eventpass/eventpass-months-arrow-prev-new-orange.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.eventpass-months__arrow.arrow-next {
+  background-image: url('../img/eventpass/eventpass-months-arrow-next-new-orange.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.night .eventpass-months__arrow.arrow-prev {
+  background-image: url('../img/eventpass/eventpass-months-arrow-prev-new-white.svg');
+}
+
+.night .eventpass-months__arrow.arrow-next {
+  background-image: url('../img/eventpass/eventpass-months-arrow-next-new-white.svg');
+}
+
+.eventpass-events {
+  margin: 0;
+  overflow: visible;
+  padding-left: 130px;
+  width: 67%;
+  /* border-left: 2px solid #FF4D1C; */
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.night .eventpass-events {
+  border-color: #fff;
+}
+
+.eventpass-events::after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  left: -2px;
+  width: 2px;
+  height: 775px;
+  background: -o-linear-gradient(top, rgba(255, 77, 28, 0) 0%, rgba(255, 77, 28, 0.8) 9.98%, #FF4D1C 47.49%, rgba(255, 77, 28, 0.8) 86.89%, rgba(255, 255, 255, 0) 100%, rgba(255, 77, 28, 0.138834) 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 77, 28, 0)), color-stop(9.98%, rgba(255, 77, 28, 0.8)), color-stop(47.49%, #FF4D1C), color-stop(86.89%, rgba(255, 77, 28, 0.8)), color-stop(100%, rgba(255, 255, 255, 0)), to(rgba(255, 77, 28, 0.138834)));
+  background: linear-gradient(180deg, rgba(255, 77, 28, 0) 0%, rgba(255, 77, 28, 0.8) 9.98%, #FF4D1C 47.49%, rgba(255, 77, 28, 0.8) 86.89%, rgba(255, 255, 255, 0) 100%, rgba(255, 77, 28, 0.138834) 100%);
+}
+
+
+
+
+
+
+/* .eventpass-event {
+  margin: 17px 0;
+  pointer-events: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  padding: 0;
+  cursor: pointer;
+  -webkit-transition: all .7s;
+  -o-transition: all .7s;
+  transition: all .7s;
+}
+.eventpass-event.swiper-slide-active {
+  pointer-events: auto;
+  margin: 50px 0;
+  min-height: 295px;
+  padding: 33px 0;
+  border-top: 2px solid rgba(255, 77, 28, 0.3);
+  border-bottom: 2px solid rgba(255, 77, 28, 0.3);
+}
+.night .eventpass-event.swiper-slide-active {
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.eventpass-event::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+  left: -136px;
+  background-color: #FF4D1C;
+  border-radius: 50%;
+  -webkit-transition: all .7s;
+  -o-transition: all .7s;
+  transition: all .7s;
+}
+.night .eventpass-event::before {
+  background-color: #fff;
+}
+.eventpass-event.swiper-slide-active::before {
+  width: 20px;
+  height: 20px;
+  left: -141px;
+}
+.eventpass-event::after {
+  opacity: 0;
+  content: "";
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  border: 2px solid #FF4D1C;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  position: absolute;
+  top: 50%;
+  left: -154px;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+  -webkit-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+}
+.night .eventpass-event::after {
+  border-color: #fff;
+}
+.eventpass-event.swiper-slide-active::after {
+  opacity: 1;
+}
+.eventpass-event__favor-btn-wrap {
+  position: absolute;
+  z-index: 1;
+  top: 25px;
+  right: 0;
+}
+.eventpass-event__favor-btn {
+  opacity: 0;
+  -webkit-transform: scale(0);
+      -ms-transform: scale(0);
+          transform: scale(0);
+  position: relative;
+  border-radius: 50%;
+  background: #FFE3DB;
+  width: 36px;
+  height: 36px;
+  -webkit-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+}
+.night .eventpass-event__favor-btn {
+  background: #283453;
+}
+.eventpass-event.swiper-slide-active .eventpass-event__favor-btn {
+  opacity: 1;
+  -webkit-transform: none;
+      -ms-transform: none;
+          transform: none;
+}
+
+.eventpass-event__favor-btn::before {
+  content: "";
+  width: 19px;
+  height: 17px;
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%,-50%);
+      -ms-transform: translate(-50%,-50%);
+          transform: translate(-50%,-50%);
+  background-image: url('../img/eventpass/heart-icon-orange-default.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  -webkit-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+}
+.night .eventpass-event__favor-btn::before {
+  background-image: url('../img/eventpass/heart-icon-white-default.svg');
+}
+.eventpass-event__favor-btn.active::before {
+  background-image: url('../img/eventpass/heart-icon-orange-active.svg');
+}
+.night .eventpass-event__favor-btn.active::before {
+  background-image: url('../img/eventpass/heart-icon-white-active.svg');
+}
+
+.eventpass-event__favor-btn .tooltip.position-left {
+  padding: 8px 20px;
+  position: absolute;
+  z-index: 5;
+  top: 50%;
+  min-width: 145px;
+  right: 130%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  font-size: 14px;
+  line-height: 142.34%;
+  color: #FFFFFF;
+  text-align: center;
+  background: #161310;
+  border-radius: 4px;
+  -webkit-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+}
+
+.eventpass-event__favor-btn .tooltip.position-left::before {
+  content: "";
+  width: 10px;
+  height: 8px;
+  position: absolute;
+  top: 50%;
+  right: -8px;
+  -webkit-transform: translateY(-50%) rotate(-90deg);
+  -ms-transform: translateY(-50%) rotate(-90deg);
+  transform: translateY(-50%) rotate(-90deg);
+  background-image: url('../img/hint-arrow.svg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.eventpass-event__favor-btn .tooltip-out {
+  opacity: 0;
+}
+
+.eventpass-event__favor-btn .tooltip-in.position-left {
+  opacity: 1;
+  right: 120%;
+}
+
+.eventpass-event__photo {
+  overflow: hidden;
+  opacity: 0;
+  position: absolute;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  width: 230px;
+  height: 230px;
+  border-radius: 10px;
+  -webkit-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+  -webkit-transform: scale(0);
+      -ms-transform: scale(0);
+          transform: scale(0)
+}
+.eventpass-event.swiper-slide-active .eventpass-event__photo {
+  position: relative;
+  margin-right: 32px;
+  opacity: 1;
+  -webkit-transform: none;
+      -ms-transform: none;
+          transform: none;
+}
+.eventpass-event.swiper-slide-active .eventpass-event__photo:hover img {
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1);
+}
+.eventpass-event__cont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.eventpass-event__photo img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;;
+}
+.eventpass-event__date {
+  opacity: 1;
+  margin-bottom: 14px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1;
+  color: #FF4D1C;
+  -webkit-transition: -webkit-transform .3s;
+  transition: -webkit-transform .3s;
+  -o-transition: transform .3s;
+  transition: transform .3s;
+  transition: transform .3s, -webkit-transform .3s;
+}
+.eventpass-event.swiper-slide-active .eventpass-event__date {
+  width: 90%;
+}
+.eventpass-event__title {
+  font-family: 'Platform';
+  font-size: 24px;
+  line-height: 26px;
+  color: #161310;
+  -webkit-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+}
+.night .eventpass-event__title {
+  color: #5A647A;
+}
+.eventpass-event.swiper-slide-active .eventpass-event__title {
+  width: 90%;
+  margin-bottom: 20px;
+  font-size: 28px;
+  line-height: 31px;
+}
+.night .eventpass-event.swiper-slide-active .eventpass-event__title {
+  color: #fff;
+}
+.eventpass-event.swiper-slide-active .eventpass-event__title:hover {
+  opacity: 0.5;
+}
+.eventpass-event__btn {
+  margin-top: auto;
+  opacity: 1;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  cursor: pointer;
+  -webkit-transition: -webkit-transform .3s;
+  transition: -webkit-transform .3s;
+  -o-transition: transform .3s;
+  transition: transform .3s;
+  transition: transform .3s, -webkit-transform .3s;
+}
+.eventpass-event__btn::before {
+  content: "";
+  margin-right: 17px;
+  position: relative;
+  z-index: 1;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: url('../img/eventpass/plus-icon-orange-new.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+}
+.eventpass-event__btn:hover::before {
+  opacity: 0.6;
+}
+.eventpass-event:not(.swiper-slide-active) .eventpass-event__date,
+.eventpass-event:not(.swiper-slide-active) .eventpass-event__btn {
+  -webkit-transform: scale(0);
+      -ms-transform: scale(0);
+          transform: scale(0);
+  opacity: 0;
+  margin-top: 0;
+  position: absolute;
+}
+
+.eventpass-event__btn span {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 18px;
+  color: #FF4D1C;
+  -webkit-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+}
+
+.eventpass-event__btn:hover span {
+  opacity: 0.6;
+} */
+
+
+
+
+
+
+.eventpass-event {
+  pointer-events: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  cursor: pointer;
+  -webkit-transition: all .7s;
+  -o-transition: all .7s;
+  transition: all .7s;
+}
+
+.eventpass-event {
+  margin: 25px 0;
+  min-height: 295px;
+  padding: 33px 0;
+  border-top: 2px solid transparent;
+  border-bottom: 2px solid transparent;
+}
+
+.eventpass-event.swiper-slide-active {
+  pointer-events: auto;
+  border-color: rgba(255, 77, 28, 0.3);
+}
+
+.night .eventpass-event.swiper-slide-active {
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.eventpass-event::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  left: -136px;
+  background-color: #FF4D1C;
+  border-radius: 50%;
+  -webkit-transition: all .7s;
+  -o-transition: all .7s;
+  transition: all .7s;
+}
+
+.night .eventpass-event::before {
+  background-color: #fff;
+}
+
+.eventpass-event.swiper-slide-active::before {
+  width: 20px;
+  height: 20px;
+  left: -141px;
+}
+
+.eventpass-event::after {
+  opacity: 0;
+  content: "";
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  border: 2px solid #FF4D1C;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  position: absolute;
+  top: 50%;
+  left: -154px;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  -webkit-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+}
+
+.night .eventpass-event::after {
+  border-color: #fff;
+}
+
+.eventpass-event.swiper-slide-active::after {
+  opacity: 1;
+}
+
+.eventpass-event__favor-btn-wrap {
+  position: absolute;
+  z-index: 1;
+  top: 25px;
+  right: 0;
+}
+
+.eventpass-event__favor-btn {
+  opacity: 0;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  position: relative;
+  border-radius: 50%;
+  background: #FFE3DB;
+  width: 36px;
+  height: 36px;
+  -webkit-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+}
+
+.night .eventpass-event__favor-btn {
+  background: #283453;
+}
+
+.eventpass-event.swiper-slide-active .eventpass-event__favor-btn {
+  opacity: 1;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+}
+
+.eventpass-event__favor-btn::before {
+  content: "";
+  width: 19px;
+  height: 17px;
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  background-image: url('../img/eventpass/heart-icon-orange-default.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  -webkit-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+}
+
+.night .eventpass-event__favor-btn::before {
+  background-image: url('../img/eventpass/heart-icon-white-default.svg');
+}
+
+.eventpass-event__favor-btn.active::before {
+  background-image: url('../img/eventpass/heart-icon-orange-active.svg');
+}
+
+.night .eventpass-event__favor-btn.active::before {
+  background-image: url('../img/eventpass/heart-icon-white-active.svg');
+}
+
+.eventpass-event__favor-btn .tooltip.position-left {
+  padding: 8px 20px;
+  position: absolute;
+  z-index: 5;
+  top: 50%;
+  min-width: 145px;
+  right: 130%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  font-size: 14px;
+  line-height: 142.34%;
+  color: #FFFFFF;
+  text-align: center;
+  background: #161310;
+  border-radius: 4px;
+  -webkit-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+}
+
+.eventpass-event__favor-btn .tooltip.position-left::before {
+  content: "";
+  width: 10px;
+  height: 8px;
+  position: absolute;
+  top: 50%;
+  right: -8px;
+  -webkit-transform: translateY(-50%) rotate(-90deg);
+  -ms-transform: translateY(-50%) rotate(-90deg);
+  transform: translateY(-50%) rotate(-90deg);
+  background-image: url('../img/hint-arrow.svg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.eventpass-event__favor-btn .tooltip-out {
+  opacity: 0;
+}
+
+.eventpass-event__favor-btn .tooltip-in.position-left {
+  opacity: 1;
+  right: 120%;
+}
+
+.eventpass-event__photo {
+  overflow: hidden;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  width: 230px;
+  height: 230px;
+  border-radius: 10px;
+  -webkit-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+}
+
+.eventpass-event .eventpass-event__photo {
+  position: relative;
+  margin-right: 32px;
+  opacity: 1;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+}
+
+.eventpass-event .eventpass-event__photo:hover img {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.eventpass-event__cont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.eventpass-event__photo img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -webkit-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+  ;
+}
+
+.eventpass-event__date {
+  opacity: 1;
+  margin-bottom: 14px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1;
+  color: #FF4D1C;
+  -webkit-transition: -webkit-transform .3s;
+  transition: -webkit-transform .3s;
+  -o-transition: transform .3s;
+  transition: transform .3s;
+  transition: transform .3s, -webkit-transform .3s;
+}
+
+.eventpass-event__title {
+  margin-bottom: 20px;
+  width: 90%;
+  font-family: 'Platform';
+  font-size: 24px;
+  line-height: 26px;
+  color: #161310;
+  -webkit-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+}
+
+.night .eventpass-event__title {
+  color: #5A647A;
+}
+
+.night .eventpass-event.swiper-slide-active .eventpass-event__title {
+  color: #fff;
+}
+
+.eventpass-event.swiper-slide-active .eventpass-event__title:hover {
+  opacity: 0.5;
+}
+
+.eventpass-event__btn {
+  margin-top: auto;
+  opacity: 1;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+  -webkit-transition: -webkit-transform .3s;
+  transition: -webkit-transform .3s;
+  -o-transition: transform .3s;
+  transition: transform .3s;
+  transition: transform .3s, -webkit-transform .3s;
+}
+
+.eventpass-event__btn::before {
+  content: "";
+  margin-right: 17px;
+  position: relative;
+  z-index: 1;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: url('../img/eventpass/plus-icon-orange-new.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+}
+
+.eventpass-event__btn:hover::before {
+  opacity: 0.6;
+}
+
+.eventpass-event__btn span {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 18px;
+  color: #FF4D1C;
+  -webkit-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+}
+
+.eventpass-event__btn:hover span {
+  opacity: 0.6;
+}
+
+
+
+
+
+
+
+
+
+.tourist-tours__empty {
+  padding: 100px 0;
+}
+
+.tourist-tours__empty-logo {
+  margin: 0 auto;
+  width: 132px;
+  height: 102px;
+}
+
+.tourist-tours__empty-logo img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.tourist-tours__empty-title {
+  margin-top: 35px;
+  text-align: center;
+  font-size: 28px;
+  line-height: 31px;
+  color: #161310;
+}
+
+.tourist-tours__empty-text {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 26px;
+  color: #161310;
+}
+
+.night .tourist-tours__empty-title,
+.night .tourist-tours__empty-text {
+  color: #fff;
+}
+
+.eventpass-section__cards-filters {
+  overflow-x: auto;
+}
+
+.eventpass-section__cards-filters-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.eventpass-section__cards-filter {
+  margin-right: 13px;
+  margin-bottom: 10px;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.eventpass-section__cards-filter-input {
+  opacity: 0;
+  position: absolute;
+}
+
+.eventpass-section__cards-filter-label {
+  padding: 0 25px;
+  min-width: 98px;
+  height: 42px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1;
+  color: #161310;
+  border: 2px solid rgba(22, 19, 16, 0.1);
+  border-radius: 30px;
+  -webkit-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+  cursor: pointer;
+}
+
+.eventpass-section__cards-filter-label:hover,
+.eventpass-section__cards-filter-input:checked~.eventpass-section__cards-filter-label {
+  border-color: #102242;
+}
+
+.night .eventpass-section__cards-filter-label {
+  color: #fff;
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.night .eventpass-section__cards-filter-label:hover,
+.night .eventpass-section__cards-filter-input:checked~.eventpass-section__cards-filter-label {
+  border-color: #fff;
+}
+
+.tourist-tours__cards {
+  margin-top: 60px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 30px 1fr 30px 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 30px;
+}
+
+.tourist-tours__cards.empty {
+  margin-top: 60px;
+  display: block;
+}
+
+.tourist-tours__cards.past .tourist-tours__card-bg {
+  -webkit-filter: grayscale(1);
+          filter: grayscale(1);
+}
+
+.tourist-tours__card {
+  min-height: 420px;
+  overflow: hidden;
+  padding: 25px 35px 30px;
+  position: relative;
+  z-index: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  border-radius: 20px;
+  will-change: transform, opacity;
+}
+
+.tourist-tours__card::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  background: -o-linear-gradient(top, #0A1227 0%, rgba(10, 18, 39, 0) 75.52%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#0A1227), color-stop(75.52%, rgba(10, 18, 39, 0)));
+  background: linear-gradient(180deg, #0A1227 0%, rgba(10, 18, 39, 0) 75.52%);
+  opacity: 0.4;
+}
+
+.tourist-tours__card-bg {
+  overflow: hidden;
+  position: absolute;
+  z-index: -2;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.tourist-tours__card-bg img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -webkit-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+}
+
+.tourist-tours__card:hover .tourist-tours__card-bg img {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.tourist-tours__card-tags {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.tourist-tours__card-tag {
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+.tourist__card-tag {
+  padding: 0 24px;
+  height: 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 1;
+  color: #FF4D1C;
+  text-transform: uppercase;
+  background: #FFFFFF;
+  border-radius: 15px;
+}
+
+.tourist__card-favorite {
+  width: 36px;
+  height: 36px;
+  position: absolute;
+  right: 35px;
+  top: 22px;
+  border-radius: 50%;
+  background-color: #FFE3DB;
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTkiIGhlaWdodD0iMTciIHZpZXdCb3g9IjAgMCAxOSAxNyIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEzLjM2OTUgMS4wMDg1NEMxNC41OTc2IDEuMDA4NTQgMTUuNzE5MiAxLjUyMTY3IDE2LjUyNzggMi40NTM0MUMxNy4yOTkgMy4zNDIyNSAxNy43MjM4IDQuNTMyNjUgMTcuNzIzOCA1LjgwNTM2QzE3LjcyMzggNy4xOTA2OSAxNy4xOTEyIDguNDc5MTUgMTYuMDQ3OCA5Ljg2MDIyQzE1LjAyNiAxMS4wOTQ2IDEzLjU1NTkgMTIuMzY2OSAxMS44NTM2IDEzLjg0MDJMMTEuODQ3NSAxMy44NDUzQzExLjIxNSAxNC4zOTI5IDEwLjU2MDkgMTQuOTU5IDkuODY0NzQgMTUuNTc3Nkw5Ljg0Mzc5IDE1LjU5NjNDOS43NTMxNiAxNS42NzY3IDkuNjQwMzEgMTUuNzE3IDkuNTI3NDUgMTUuNzE3QzkuNDE0NDkgMTUuNzE3IDkuMzAxNjQgMTUuNjc2OCA5LjIxMTEyIDE1LjU5NjNMOS4xOTAxNyAxNS41Nzc2QzguNDkxODggMTQuOTU3MSA3LjgzNTg5IDE0LjM4OTQgNy4yMDE2NCAxMy44NDA1TDcuMjAxMzQgMTMuODQwMkM1LjQ5OTAxIDEyLjM2NjkgNC4wMjg4OCAxMS4wOTQ2IDMuMDA2OTkgOS44NjAyMkMxLjg2MzYgOC40NzkxNSAxLjMzMTA1IDcuMTkwNjkgMS4zMzEwNSA1LjgwNTM2QzEuMzMxMDUgNC41MzI2NSAxLjc1NTgzIDMuMzQyMjUgMi41MjcwNiAyLjQ1MzQ1QzMuMzM1NjEgMS41MjE3IDQuNDU3MjcgMS4wMDg1NCA1LjY4NTM5IDEuMDA4NTRDNy40MTI2MyAxLjAwODU0IDguNTA2MjEgMi4wNTYyNSA5LjExOTQxIDIuOTM1MTlDOS4yNzg1MSAzLjE2MzI3IDkuNDEzOCAzLjM5MTk3IDkuNTI3NDUgMy42MDcxMUM5LjY0MTEgMy4zOTE5NyA5Ljc3NjM5IDMuMTYzMjcgOS45MzU0OSAyLjkzNTE5QzEwLjU0ODcgMi4wNTYyNSAxMS42NDIyIDEuMDA4NTQgMTMuMzY5NSAxLjAwODU0WiIgc3Ryb2tlPSIjRkY0RDFDIiBzdHJva2Utd2lkdGg9IjIiLz4KPC9zdmc+Cg==");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 50%;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s;
+  z-index: 10;
+  cursor: pointer;
+}
+
+.tourist__card-favorite.active {
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTkiIGhlaWdodD0iMTciIHZpZXdCb3g9IjAgMCAxOSAxNyIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEzLjE5NTIgMS4wMDg1NEMxNC40MjMzIDEuMDA4NTQgMTUuNTQ0OSAxLjUyMTY3IDE2LjM1MzUgMi40NTM0MUMxNy4xMjQ3IDMuMzQyMjUgMTcuNTQ5NSA0LjUzMjY1IDE3LjU0OTUgNS44MDUzNkMxNy41NDk1IDcuMTkwNjkgMTcuMDE2OSA4LjQ3OTE1IDE1Ljg3MzUgOS44NjAyMkMxNC44NTE3IDExLjA5NDYgMTMuMzgxNiAxMi4zNjY5IDExLjY3OTIgMTMuODQwMkwxMS42NzMyIDEzLjg0NTNDMTEuMDQwNiAxNC4zOTI5IDEwLjM4NjYgMTQuOTU5IDkuNjkwNDIgMTUuNTc3Nkw5LjY2OTQ3IDE1LjU5NjNDOS41Nzg4NSAxNS42NzY3IDkuNDY1OTkgMTUuNzE3IDkuMzUzMTMgMTUuNzE3QzkuMjQwMTggMTUuNzE3IDkuMTI3MzIgMTUuNjc2OCA5LjAzNjggMTUuNTk2M0w5LjAxNTg1IDE1LjU3NzZDOC4zMTc1NiAxNC45NTcxIDcuNjYxNTcgMTQuMzg5NCA3LjAyNzMyIDEzLjg0MDVMNy4wMjcwMiAxMy44NDAyQzUuMzI0NjkgMTIuMzY2OSAzLjg1NDU2IDExLjA5NDYgMi44MzI2OCA5Ljg2MDIyQzEuNjg5MjggOC40NzkxNSAxLjE1Njc0IDcuMTkwNjkgMS4xNTY3NCA1LjgwNTM2QzEuMTU2NzQgNC41MzI2NSAxLjU4MTUxIDMuMzQyMjUgMi4zNTI3NCAyLjQ1MzQ1QzMuMTYxMyAxLjUyMTcgNC4yODI5NSAxLjAwODU0IDUuNTExMDcgMS4wMDg1NEM3LjIzODMxIDEuMDA4NTQgOC4zMzE4OSAyLjA1NjI1IDguOTQ1MDkgMi45MzUxOUM5LjEwNDIgMy4xNjMyNyA5LjIzOTQ5IDMuMzkxOTcgOS4zNTMxMyAzLjYwNzExQzkuNDY2NzggMy4zOTE5NyA5LjYwMjA3IDMuMTYzMjcgOS43NjExOCAyLjkzNTE5QzEwLjM3NDQgMi4wNTYyNSAxMS40Njc5IDEuMDA4NTQgMTMuMTk1MiAxLjAwODU0WiIgZmlsbD0iI0ZGNEQxQyIgc3Ryb2tlPSIjRkY0RDFDIiBzdHJva2Utd2lkdGg9IjIiLz4KPC9zdmc+Cg==")
+}
+
+
+
+.tourist__card-favorite .tooltip {
+  padding: 8px 20px;
+  position: absolute;
+  z-index: 5;
+  bottom: initial;
+  top: initial;
+  margin: auto;
+  min-width: 350%;
+  left: -380%;
+  font-size: 14px;
+  line-height: 142.34%;
+  color: #FFFFFF;
+  text-align: center;
+  background: #161310;
+  border-radius: 4px;
+  -webkit-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+}
+
+.tourist__card-favorite .tooltip::before {
+  content: "";
+  width: 10px;
+  height: 8px;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  margin: auto;
+  right: -9px;
+  -webkit-transform: rotate(-90deg);
+      -ms-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  background-image: url(../img/hint-arrow.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.tourist__card-favorite .tooltip-out {
+  opacity: 0;
+}
+
+.tourist__card-favorite .tooltip-in {
+  opacity: 1;
+}
+
+
+.tourist-tours__card-title {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-size: 26px;
+  line-height: 31px;
+  color: #fff;
+  cursor: pointer;
+  -webkit-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+}
+
+.tourist-tours__card-title:hover {
+  opacity: 0.6;
+}
+
+.tourist-tours__card-date {
+  margin-top: auto;
+  padding: 15px 23px;
+  height: 44px;
+  display: block;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1;
+  color: #fff;
+  background: rgba(22, 19, 16, 0.8);
+  border-radius: 25px;
+}
+
+.tourist-tours .content-block__more {
+  margin-top: 55px;
+  height: 75px;
+}
+
+.tourist-tours .content-block__more:hover {
+  background-color: transparent;
+}
+
+.tourist-tours .content-block__more span {
+  font-size: 22px;
+  line-height: 30px;
+}
+
+.night .content-block__more {
+  border-color: #fff;
+  color: #fff;
+}
+
+.night .content-block__more:hover {
+  background-color: transparent;
+}
+
+/* start modal */
+.eventpass-modal .pp__close {
+  position: absolute;
+  top: 30px;
+  right: 40px;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  -webkit-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+}
+
+.eventpass-modal .pp__close:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.eventpass-modal .pp__close img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.eventpass-modal__content {
+  border-radius: 20px;
+  overflow: hidden;
+  width: 531px;
+  top: 15vh;
+  margin-bottom: 125px;
+  bottom: initial;
+  background-color: #fff;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.eventpass-modal__swiper{
+  width: 100%;
+}
+
+.eventpass-modal__photo {
+  width: 100%;
+  padding-bottom: 55%;
+  position: relative;
+}
+
+.eventpass-modal__photo::before {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: -o-linear-gradient(46.33deg, rgba(14, 13, 13, 0.5) 6.38%, rgba(19, 18, 18, 0) 65.88%);
+  background: linear-gradient(43.67deg, rgba(14, 13, 13, 0.5) 6.38%, rgba(19, 18, 18, 0) 65.88%);
+}
+
+.eventpass-modal__photo img {
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.eventpass-modal__cont {
+  padding: 30px 45px 60px;
+}
+
+.eventpass-modal__infoline {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.eventpass-modal__location {
+  margin-bottom: 40px;
+  padding-left: 30px;
+  position: relative;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1;
+  color: #FF4D1C;
+}
+
+.eventpass-modal__location::before {
+  content: "";
+  width: 14px;
+  height: 18px;
+  position: absolute;
+  top: -1px;
+  left: 0;
+  background-image: url('../img/eventpass/eventpass-modal-map-icon-orange.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.eventpass-modal__category-icon {
+  width: 56px;
+  height: 56px;
+  position: absolute;
+  z-index: 3;
+  left: 28px;
+  bottom: 28px;
+  cursor: pointer;
+}
+
+.eventpass-modal__category-icon img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.eventpass-modal__category-icon .tooltip {
+  padding: 8px 10px;
+  position: absolute;
+  z-index: 5;
+  bottom: 150%;
+  width: 105px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  font-size: 12px;
+  line-height: 140%;
+  color: #FFFFFF;
+  text-align: center;
+  background: #161310;
+  word-break: break-word;
+  border-radius: 4px;
+  -webkit-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+}
+
+.eventpass-modal__category-icon .tooltip::before {
+  content: "";
+  width: 10px;
+  height: 8px;
+  position: absolute;
+  bottom: -7px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  background-image: url('../img/hint-arrow.svg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.eventpass-modal__category-icon .tooltip-out {
+  opacity: 0;
+}
+
+.eventpass-modal__category-icon .tooltip-in {
+  opacity: 1;
+  bottom: 120%;
+}
+
+.eventpass-modal__date {
+  position: absolute;
+  z-index: 3;
+  right: 45px;
+  bottom: 35px;
+  padding: 0 25px;
+  height: 44px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: #fff;
+  background: rgba(22, 19, 16, 0.8);
+  border-radius: 25px;
+}
+
+.eventpass-modal__title-text {
+  font-family: 'Platform';
+  font-size: 28px;
+  line-height: 32px;
+  letter-spacing: 0.02em;
+  color: #101A35;
+}
+
+.eventpass-modal__text {
+  margin-top: 30px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #101A35;
+}
+
+.eventpass-modal__favor-btn {
+  margin-top: 30px;
+  padding: 0 32px;
+  position: relative;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #FF4D1C;
+  border-radius: 30px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1;
+  color: #fff;
+  -webkit-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+  cursor: pointer;
+}
+
+.eventpass-modal__favor-btn:hover {
+  opacity: 0.6;
+}
+
+.eventpass-modal__favor-btn::after {
+  content: "";
+  position: relative;
+  margin-left: auto;
+  width: 23px;
+  height: 20px;
+  background-image: url('../img/eventpass/heart-icon-white-default.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  -webkit-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+}
+
+.eventpass-modal__favor-btn.active::after {
+  background-image: url('../img/eventpass/heart-icon-white-active.svg');
+}
+
+.pp__content.eventpass-modal__content.loading {
+  opacity: 0;
+}
+
+.pp__content.eventpass-modal__content {
+  opacity: 1;
+  -webkit-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+}
+
+
+.eventpass__loader {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.569);
+  z-index: 10000;
+}
+
+.eventpass__loader img {
+  display: block;
+  width: 100px;
+  height: 100px;
+  -o-object-fit: contain;
+  object-fit: contain;
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-animation: loader 1s linear infinite;
+  animation: loader 1s linear infinite;
+}
+
+@-webkit-keyframes loader {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg)
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg)
+  }
+}
+
+@keyframes loader {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg)
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg)
+  }
+}
+
+
+@media(max-width: 1799px) {
+
+  .eventpass-container {
+    padding-bottom: 308px;
+  }
+
+  .eventpass-section__calendar {
+    padding-top: 65px;
+  }
+
+  .eventpass-section__cards {
+    /* padding-top: 50px; */
+  }
+
+  .general-section-eventpass {
+    padding: 250px 0 35px;
+  }
+
+  .eventpass-description__title {
+    font-size: 52px;
+    line-height: 57px;
+  }
+
+  .eventpass-description__text {
+    margin-top: 35px;
+  }
+
+  .eventpass-description__text,
+  .eventpass-description__text>* {
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  .eventpass-description__text>*+* {
+    margin-top: 25px;
+  }
+
+  .tourist-tours__cards {
+    margin-top: 65px;
+    grid-gap: 25px;
+  }
+
+  .tourist-tours__card {
+    padding: 22px 30px 25px;
+    min-height: 384px;
+  }
+
+  .tourist__card-tag {
+    padding: 0 16px;
+    height: 30px;
+    font-size: 14px;
+  }
+
+  .tourist-tours__card-title {
+    margin: 22px 0;
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .tourist-tours__card-date {
+    padding: 13px 20px;
+    height: 40px;
+    font-size: 14px;
+  }
+
+  .tourist-tours .content-block__more {
+    margin-top: 50px;
+    height: 70px;
+  }
+
+  .tourist-tours .content-block__more span {
+    font-size: 20px;
+    line-height: 27px;
+  }
+
+}
+
+@media(max-width: 1430px) {
+  .eventpass-header {
+    margin-top: 60px;
+    margin-bottom: 72px;
+  }
+
+  .eventpass-header__item,
+  .eventpass-header__item input {
+    height: 50px;
+  }
+
+  .eventpass-categories__wrapper {
+    padding: 0 5px;
+  }
+
+  .eventpass-categories__item {
+    width: 43px;
+    height: 43px;
+  }
+
+  .eventpass-categories__item .tooltip {
+    padding: 6px 15px;
+    min-width: 95px;
+  }
+
+  .eventpass-header__item input {
+    padding: 0 70px 0 30px
+  }
+
+  .eventpass-header__item::before {
+    right: 63px;
+    height: 26px;
+  }
+
+  .eventpass-header__item.eventpass-calendar__field::after {
+    width: 23px;
+    height: 22px;
+    right: 18px;
+  }
+
+  .eventpass-search__field-btn {
+    width: 21px;
+    height: 22px;
+    right: 20px;
+  }
+
+  .eventpass-main {
+    height: 700px;
+  }
+
+  .eventpass-months {
+    padding: 40px 0 44px;
+    width: 29%;
+  }
+
+  .eventpass-month__month {
+    font-size: 36px;
+    line-height: 40px;
+  }
+
+  .eventpass-month__events-count {
+    font-size: 20px;
+  }
+
+  .eventpass-months__arrow {
+    width: 40px;
+    height: 40px;
+  }
+
+  .eventpass-months__arrow+.eventpass-months__arrow {
+    margin-left: 7px;
+  }
+
+  .eventpass-events {
+    padding-left: 120px;
+    width: 66%;
+  }
+
+
+
+  /* .eventpass-event {
+    margin: 15px 0;
+  }
+  .eventpass-event.swiper-slide-active {
+    padding: 30px 0;
+    min-height: 270px;
+    margin: 60px 0;
+  }
+  .eventpass-event::before {
+    left: -126px;
+  }
+  .eventpass-event.swiper-slide-active::before {
+    width: 18px;
+    height: 18px;
+    left: -130px;
+  }
+  .eventpass-event::after {
+    width: 42px;
+    height: 42px;
+    left: -142px;
+  }
+  .eventpass-event__photo {
+    width: 208px;
+    height: 208px;
+  }
+  .eventpass-event.swiper-slide-active .eventpass-event__photo {
+    margin-right: 30px;
+  }
+  .eventpass-event__date {
+    margin-bottom: 25px;
+  }
+  .eventpass-event__favor-btn-wrap {
+    top: 30px;
+  }
+  .eventpass-event__favor-btn {
+    width: 32px;
+    height: 32px;
+  }
+  .eventpass-event__favor-btn::before {
+    width: 17px;
+    height: 15px;
+  }
+  .eventpass-event.swiper-slide-active .eventpass-event__title {
+    font-size: 26px;
+    line-height: 29px;
+  }
+  .eventpass-event__btn::before {
+    width: 33px;
+    height: 33px;
+    margin-right: 6px;
+  } */
+
+
+  .eventpass-event {
+    margin: 15px 0;
+    padding: 30px 0;
+    min-height: 270px;
+  }
+
+  .eventpass-event::before {
+    left: -126px;
+  }
+
+  .eventpass-event.swiper-slide-active::before {
+    width: 18px;
+    height: 18px;
+    left: -130px;
+  }
+
+  .eventpass-event::after {
+    width: 42px;
+    height: 42px;
+    left: -142px;
+  }
+
+  .eventpass-event__photo {
+    margin-right: 30px;
+    width: 208px;
+    height: 208px;
+  }
+
+  .eventpass-event__date {
+    margin-bottom: 25px;
+  }
+
+  .eventpass-event__favor-btn-wrap {
+    top: 30px;
+  }
+
+  .eventpass-event__favor-btn {
+    width: 32px;
+    height: 32px;
+  }
+
+  .eventpass-event__favor-btn::before {
+    width: 17px;
+    height: 15px;
+  }
+
+  .eventpass-event .eventpass-event__title {
+    font-size: 26px;
+    line-height: 29px;
+  }
+
+  .eventpass-event__btn::before {
+    width: 33px;
+    height: 33px;
+    margin-right: 6px;
+  }
+
+  .tourist__card-favorite {
+    width: 30px;
+    height: 30px;
+    top: 21px;
+  }
+
+  .tourist__card-favorite .tooltip {
+    left: -450%;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+  }
+}
+
+@media(max-width: 1279px) {
+
+  .eventpass-container {
+    padding-bottom: 145px;
+  }
+
+  .eventpass-section__calendar {
+    padding-top: 50px;
+  }
+
+  .eventpass-section__cards {
+    /* padding-top: 70px; */
+  }
+
+  .section__inner.general-section.general-section-eventpass {
+    padding: 190px 0 40px;
+  }
+
+  .eventpass-description__text {
+    margin-top: 40px;
+  }
+
+  .eventpass-section__calendar_reset-btn {
+    font-size: 18px;
+    line-height: 19px;
+  }
+
+  .eventpass-header {
+    margin-top: 50px;
+    margin-bottom: 60px;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+
+  .eventpass-header__item.eventpass-categories {
+    margin-bottom: 28px;
+    width: 100%;
+  }
+
+  .eventpass-header__item,
+  .eventpass-header__item input {
+    height: 66px;
+  }
+
+  .eventpass-header__item {
+    -webkit-box-flex: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+  }
+
+  .eventpass-header__item+.eventpass-header__item {
+    margin-left: 0;
+  }
+
+  .eventpass-categories__wrapper {
+    padding: 0 5px;
+  }
+
+  .eventpass-categories__box {
+    width: 100%;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+
+  .eventpass-categories__item {
+    width: 56px;
+    height: 56px;
+  }
+
+  .eventpass-categories__item+.eventpass-categories__item {
+    margin-left: 0;
+  }
+
+  .eventpass-header__item.eventpass-calendar__field {
+    width: 39.3%;
+  }
+
+  .eventpass-header__item input {
+    padding: 0 75px 0 37px
+  }
+
+  .eventpass-header__item::before {
+    right: 65px;
+    height: 42px;
+  }
+
+  .eventpass-header__item.eventpass-calendar__field::after {
+    right: 22px;
+  }
+
+  .eventpass-header__item.eventpass-search__field {
+    width: 59.43%;
+  }
+
+  .eventpass-search__field-btn {
+    right: 28px;
+  }
+
+  .eventpass-main {
+    height: 560px;
+  }
+
+  .eventpass-months {
+    padding: 32px 0;
+    width: 29.1%;
+  }
+
+  .eventpass-month__month {
+    margin-bottom: 10px;
+    font-size: 30px;
+    line-height: 33px;
+  }
+
+  .eventpass-month__events-count {
+    font-size: 16px;
+  }
+
+  .eventpass-months__arrows {
+    margin-top: 52px;
+  }
+
+  .eventpass-months__arrow {
+    width: 36px;
+    height: 36px;
+  }
+
+  .eventpass-months__arrow+.eventpass-months__arrow {
+    margin-left: 10px;
+  }
+
+  .eventpass-events {
+    padding-left: 94px;
+    width: 66.13%;
+  }
+
+
+  /* .eventpass-event {
+    margin: 12px 0;
+  }
+  .eventpass-event.swiper-slide-active {
+    padding: 24px 0;
+    min-height: 214px;
+    margin: 53px 0;
+  }
+  .eventpass-event::before {
+    width: 8px;
+    height: 8px;
+    left: -99px;
+  }
+  .eventpass-event.swiper-slide-active::before {
+    width: 14px;
+    height: 14px;
+    left: -102px;
+  }
+  .eventpass-event::after {
+    width: 34px;
+    height: 34px;
+    left: -112px;
+  }
+  .eventpass-event__photo {
+    width: 166px;
+    height: 166px;
+  }
+  .eventpass-event.swiper-slide-active .eventpass-event__photo {
+    margin-right: 23px;
+  }
+  .eventpass-event__date {
+    margin-bottom: 18px;
+    font-size: 14px;
+    line-height: 120%;
+  }
+  .eventpass-event.swiper-slide-active .eventpass-event__date {
+    width: 85%;
+  }
+  .eventpass-event__favor-btn-wrap {
+    top: 24px;
+  }
+  .eventpass-event__favor-btn {
+    width: 30px;
+    height: 30px;
+  }
+  .eventpass-event__favor-btn::before {
+    width: 15px;
+    height: 14px;
+  }
+  .eventpass-event__favor-btn .tooltip.position-left {
+    padding: 5px 8px;
+    min-width: 115px;
+    font-size: 12px;
+  }
+  .eventpass-event__title {
+    font-size: 20px;
+    line-height: 22px;
+  }
+  .eventpass-event.swiper-slide-active .eventpass-event__title {
+    width: 85%;
+    font-size: 22px;
+    line-height: 24px;
+  }
+  .eventpass-event__btn span {
+    font-size: 14px;
+    line-height: 15px;
+  }
+  .eventpass-event__btn::before {
+    width: 26px;
+    height: 26px;
+    margin-right: 7px;
+  } */
+
+
+
+  .eventpass-event {
+    padding: 24px 0;
+    min-height: 214px;
+    margin: 12px 0;
+  }
+
+  .eventpass-event::before {
+    width: 8px;
+    height: 8px;
+    left: -99px;
+  }
+
+  .eventpass-event.swiper-slide-active::before {
+    width: 14px;
+    height: 14px;
+    left: -102px;
+  }
+
+  .eventpass-event::after {
+    width: 34px;
+    height: 34px;
+    left: -112px;
+  }
+
+  .eventpass-event__photo {
+    margin-right: 23px;
+    width: 166px;
+    height: 166px;
+  }
+
+  .eventpass-event__date {
+    width: 85%;
+    margin-bottom: 18px;
+    font-size: 14px;
+    line-height: 120%;
+  }
+
+  .eventpass-event__favor-btn-wrap {
+    top: 24px;
+  }
+
+  .eventpass-event__favor-btn {
+    width: 30px;
+    height: 30px;
+  }
+
+  .eventpass-event__favor-btn::before {
+    width: 15px;
+    height: 14px;
+  }
+
+  .eventpass-event__favor-btn .tooltip.position-left {
+    padding: 5px 8px;
+    min-width: 115px;
+    font-size: 12px;
+  }
+
+  .eventpass-event .eventpass-event__title {
+    width: 85%;
+    font-size: 22px;
+    line-height: 24px;
+  }
+
+  .eventpass-event__btn span {
+    font-size: 14px;
+    line-height: 15px;
+  }
+
+  .eventpass-event__btn::before {
+    width: 26px;
+    height: 26px;
+    margin-right: 7px;
+  }
+
+
+
+  .tourist-tours__cards {
+    margin-top: 40px;
+    grid-gap: 22px;
+  }
+
+  .tourist-tours__card {
+    padding: 22px 30px 25px;
+    min-height: 30vw;
+  }
+
+  .tourist__card-tag {
+    padding: 0 12px;
+    height: 22px;
+    font-size: 10px;
+  }
+
+  .tourist-tours__card-title {
+    margin: 18px 0;
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .tourist-tours__card-date {
+    padding: 9px 14px;
+    height: 30px;
+    font-size: 12px;
+  }
+
+  .tourist-tours .content-block__more {
+    margin-top: 50px;
+    height: 55px;
+  }
+
+  .tourist-tours .content-block__more span {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .eventpass-modal .pp__close {
+    top: 20px;
+    right: 33px;
+  }
+
+  .eventpass-modal__content {
+    width: 400px;
+  }
+
+  .eventpass-modal__date {
+    padding: 0 19px;
+    height: 33px;
+    right: 34px;
+    bottom: 25px;
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .eventpass-modal__category-icon {
+    width: 42px;
+    height: 42px;
+    left: 21px;
+    bottom: 22px;
+  }
+
+  .eventpass-modal__category-icon .tooltip {
+    padding: 5px 8px;
+    width: 75px;
+    font-size: 9px;
+  }
+
+  .eventpass-modal__cont {
+    padding: 25px 35px 45px;
+  }
+
+  .eventpass-modal__location {
+    margin-bottom: 25px;
+    padding-left: 20px;
+    font-size: 12px;
+  }
+
+  .eventpass-modal__location::before {
+    width: 10px;
+    height: 14px;
+  }
+
+  .eventpass-modal__title-text {
+    font-size: 22px;
+    line-height: 24px;
+  }
+
+  .eventpass-modal__text {
+    margin-top: 20px;
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .eventpass-modal__favor-btn {
+    padding: 0 25px;
+    margin-top: 25px;
+    height: 37px;
+    font-size: 12px;
+  }
+
+  .eventpass-modal__favor-btn::after {
+    width: 17px;
+    height: 16px;
+  }
+
+  .tourist__card-favorite {
+    width: 24px;
+    height: 24px;
+    top: 21px;
+  }
+
+  .tourist__card-favorite .tooltip {
+    left: -560%;
+  }
+
+}
+
+@media(max-width: 1023px) {
+  .section__inner.general-section {
+    margin-top: 0;
+  }
+
+  .eventpass-container {
+    padding-bottom: 194px;
+  }
+
+  .eventpass-section__calendar {
+    padding-top: 33px;
+  }
+
+  .eventpass-section__cards {
+    /* padding-top: 63px; */
+  }
+
+  .section__inner.general-section.general-section-eventpass {
+    padding: 140px 0 40px;
+  }
+
+  .eventpass-description__title {
+    font-size: 46px;
+    line-height: 50px;
+  }
+
+  .eventpass-description__text {
+    margin-top: 30px;
+  }
+
+  .eventpass-description__text,
+  .eventpass-description__text>* {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .eventpass-description__text>*+* {
+    margin-top: 20px;
+  }
+
+  .eventpass-header {
+    margin-top: 40px;
+    margin-bottom: 33px;
+  }
+
+  .eventpass-header__item.eventpass-categories {
+    margin-bottom: 16px;
+  }
+
+  .eventpass-header__item.eventpass-calendar__field,
+  .eventpass-header__item.eventpass-search__field {
+    width: 49%;
+  }
+
+  .eventpass-months {
+    width: 25.5%;
+  }
+
+  .eventpass-events {
+    padding-left: 73px;
+    width: 67.84%;
+  }
+
+
+  /* .eventpass-event {
+    margin: 11px 0;
+  }
+  .eventpass-event.swiper-slide-active {
+    padding: 22px 0;
+    margin: 54px 0;
+  }
+  .eventpass-event::before {
+    left: -78px;
+  }
+  .eventpass-event.swiper-slide-active::before {
+    left: -81px;
+  }
+  .eventpass-event::after {
+    left: -91px;
+  } */
+
+
+
+  .eventpass-event {
+    padding: 22px 0;
+    margin: 11px 0;
+  }
+
+  .eventpass-event::before {
+    left: -78px;
+  }
+
+  .eventpass-event.swiper-slide-active::before {
+    left: -81px;
+  }
+
+  .eventpass-event::after {
+    left: -91px;
+  }
+
+
+
+  .tourist-tours__cards {
+    margin-top: 43px;
+    -ms-grid-columns: 1fr 29px 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 29px;
+  }
+
+  .tourist-tours__card {
+    padding: 21px 25px 30px;
+    min-height: 48.9vw;
+  }
+
+  .tourist__card-tag {
+    padding: 0 12px;
+    height: 26px;
+    font-size: 9px;
+  }
+
+  .tourist-tours__card-title {
+    margin: 23px 0;
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .tourist-tours__card-date {
+    padding: 13px 20px;
+    height: 40px;
+    font-size: 14px;
+  }
+
+  .tourist-tours .content-block__more {
+    margin-top: 32px;
+    height: 50px;
+  }
+
+}
+
+@media(max-width: 767px) {
+
+  .day .general-section-eventpass__bg {
+    background: url('../img/eventpass/eventpass-general-bg-day-mob.jpg') no-repeat center;
+    background-size: cover;
+  }
+
+  .night .general-section-eventpass__bg {
+    background: url('../img/eventpass/eventpass-general-bg-night-mob.jpg') no-repeat center;
+    background-size: cover;
+  }
+
+  .eventpass-container {
+    padding-bottom: 180px;
+  }
+
+  .eventpass-section__calendar {
+    padding-top: 30px;
+  }
+
+  .section__inner.general-section.general-section-eventpass {
+    padding: 125px 0 35px;
+  }
+
+  .eventpass-description__title {
+    font-size: 38px;
+    line-height: 41px;
+  }
+
+  .eventpass-description__footer {
+    margin-top: 40px;
+  }
+
+  .eventpass-description__social {
+    display: block;
+  }
+
+  .eventpass-description__social-items {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+
+  .eventpass-description__btn {
+    height: 40px;
+    padding: 0 32px;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .eventpass-description__btn span {
+    font-size: 12px;
+  }
+
+  .eventpass-section__calendar .grid__content {
+    /* width: 100%; */
+  }
+
+  .eventpass-section__calendar .eventpass-block__title {
+    margin: 0 auto;
+    width: 88.2666666667%;
+  }
+
+  .eventpass-section__calendar .eventpass-block__title .title {
+    /* display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; */
+  }
+
+  .eventpass-section__calendar .eventpass-block__title .title .title__name {
+    width: auto;
+    margin-bottom: 0;
+  }
+
+  .eventpass-section__calendar .eventpass-block__title .title__right {
+    margin-top: 0;
+    display: block;
+  }
+
+  .eventpass-section__calendar_reset-btn {
+    margin-top: 15px;
+    /* font-size: 14px;
+    line-height: 15px; */
+  }
+
+
+  .eventpass-section__calendar_reset-btn {
+    font-size: 18px;
+    line-height: 19px;
+  }
+
+  .eventpass-header {
+    position: relative;
+    margin: 30px auto 45px;
+    width: 88.2666666667%;
+    display: block;
+  }
+
+  .eventpass-header::after {
+    content: "";
+    width: 26%;
+    height: 82px;
+    position: absolute;
+    z-index: 1;
+    pointer-events: none;
+    top: 0;
+    right: -15%;
+    background: -o-linear-gradient(right, #FFEAE4 9.33%, rgba(255, 234, 228, 0) 100%);
+    background: -webkit-gradient(linear, right top, left top, color-stop(9.33%, #FFEAE4), to(rgba(255, 234, 228, 0)));
+    background: linear-gradient(270deg, #FFEAE4 9.33%, rgba(255, 234, 228, 0) 100%);
+  }
+
+  .eventpass-header__item.eventpass-categories {
+    height: 82px;
+    margin-bottom: 30px;
+    padding: 0 23px;
+    width: auto;
+    border-radius: 84px 0 0 84px;
+    margin-right: -15%;
+  }
+
+  .eventpass-header__item,
+  .eventpass-header__item input {
+    height: 60px;
+  }
+
+  .eventpass-categories {
+    overflow-x: auto;
+    margin-right: -6.65%;
+    padding-right: 20px;
+  }
+
+  .eventpass-categories::-webkit-scrollbar {
+    display: none;
+  }
+
+  .eventpass-categories__wrapper {
+    padding: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+  }
+
+  .eventpass-categories__box {
+    width: auto;
+    padding-right: 30vw;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+  }
+
+  .eventpass-categories__item {
+    width: 50px;
+    height: 50px;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+  }
+
+  .eventpass-categories__item+.eventpass-categories__item {
+    margin-left: 5px;
+  }
+
+  .eventpass-header__item.eventpass-calendar__field {
+    width: 100%;
+  }
+
+  .eventpass-header__item::before {
+    right: 63px;
+    height: 38px;
+  }
+
+  .eventpass-header__item.eventpass-search__field {
+    margin-top: 20px;
+    width: 100%;
+  }
+
+
+  .eventpass-main {
+    height: auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .eventpass-months {
+    margin: 0 auto 18px;
+    padding: 0 0 27px;
+    width: 88.2666666667%;
+    border-top: none;
+    text-align: center;
+  }
+
+  .eventpass-month__month {
+    margin-bottom: 10px;
+    font-size: 30px;
+    line-height: 33px;
+  }
+
+  .eventpass-month__events-count {
+    font-size: 16px;
+  }
+
+  .eventpass-months__arrows {
+    margin-top: 0;
+  }
+
+  .eventpass-months__arrow {
+    width: 46px;
+    height: 46px;
+    position: absolute;
+    top: 5px;
+  }
+
+  .eventpass-months__arrow.arrow-prev {
+    left: 0;
+  }
+
+  .eventpass-months__arrow.arrow-next {
+    left: auto;
+    right: 0;
+  }
+
+  .eventpass-months__arrow+.eventpass-months__arrow {
+    margin-left: 0;
+  }
+
+  .eventpass-events {
+    overflow: hidden;
+    position: relative;
+    padding: 0 6.1%;
+    height: 135vw;
+    padding-left: calc(5.86666665% + 37px);
+    padding-top: 50px;
+    width: 100%;
+    border-left: none;
+  }
+
+  .eventpass-events::before {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 5.86666665%;
+    width: 2px;
+    height: 100%;
+    background-color: #FF4D1C;
+  }
+
+
+
+
+
+  /* .eventpass-event {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .eventpass-event.swiper-slide-active {
+    padding: 34px 0 44px;
+    min-height: auto;
+    margin: 22px 0;
+  }
+  .eventpass-event::before {
+    left: -40px;
+  }
+  .eventpass-event.swiper-slide-active::before,
+  .eventpass-event.swiper-slide-active::after {
+    display: none;
+  }
+  .eventpass-event__photo {
+    border-radius: 8px;
+    width: 75%;
+    height: auto;
+    padding-bottom: 75%;
+  }
+  .eventpass-event__photo img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .eventpass-event.swiper-slide-active .eventpass-event__photo {
+    margin-right: 0;
+  }
+  .eventpass-event__date {
+    margin-top: 16px;
+    margin-bottom: 15px;
+    font-size: 14px;
+  }
+  .eventpass-event.swiper-slide-active .eventpass-event__date {
+    width: 100%;
+  }
+  .eventpass-event__favor-btn-wrap {
+    top: 34px;
+  }
+  .eventpass-event__title {
+    font-size: 18px;
+    line-height: 20px;
+  }
+  .eventpass-event.swiper-slide-active .eventpass-event__title {
+    width: 100%;
+    position: relative;
+    font-size: 20px;
+    line-height: 22px;
+  }
+  .eventpass-event .eventpass-event__title::before {
+    opacity: 0;
+    content: "";
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background-color: #FF4D1C;
+    position: absolute;
+    z-index: 1;
+    top: 12;
+    left: -43px;
+  }
+  .eventpass-event .eventpass-event__title::after {
+    opacity: 0;
+    content: "";
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: -55px;
+    border: 2px solid #FF4D1C;
+  }
+  .eventpass-event.swiper-slide-active .eventpass-event__title::before,
+  .eventpass-event.swiper-slide-active .eventpass-event__title::after {
+    opacity: 1;
+  } */
+
+
+
+  .eventpass-event {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding: 34px 0;
+    min-height: auto;
+    margin: 22px 0;
+  }
+
+  .eventpass-event::before {
+    left: -40px;
+  }
+
+  .eventpass-event.swiper-slide-active::before,
+  .eventpass-event.swiper-slide-active::after {
+    display: none;
+  }
+
+  .eventpass-event__photo {
+    margin-right: 0;
+    border-radius: 8px;
+    width: 75%;
+    height: auto;
+    padding-bottom: 75%;
+  }
+
+  .eventpass-event__photo img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .eventpass-event__date {
+    width: 100%;
+    margin-top: 16px;
+    margin-bottom: 15px;
+    font-size: 14px;
+  }
+
+  .eventpass-event__favor-btn-wrap {
+    top: 34px;
+  }
+
+  .eventpass-event__title {
+    width: 100%;
+    position: relative;
+    font-size: 20px;
+    line-height: 22px;
+  }
+
+  .eventpass-event .eventpass-event__title::before {
+    opacity: 0;
+    content: "";
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background-color: #FF4D1C;
+    position: absolute;
+    z-index: 1;
+    top: 12;
+    left: -43px;
+  }
+
+  .eventpass-event .eventpass-event__title::after {
+    opacity: 0;
+    content: "";
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: -55px;
+    border: 2px solid #FF4D1C;
+  }
+
+  .eventpass-event.swiper-slide-active .eventpass-event__title::before,
+  .eventpass-event.swiper-slide-active .eventpass-event__title::after {
+    opacity: 1;
+  }
+
+
+
+
+  .eventpass-section__cards-filters {
+    padding-left: 6.65%;
+    margin-left: -6.65%;
+    margin-right: -6.65%;
+  }
+
+  .eventpass-section__cards-filters::-webkit-scrollbar {
+    display: none;
+  }
+
+  .eventpass-section__cards-filters-inner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  .eventpass-section__cards-filters-form {
+    padding-right: 6.65vw;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    width: auto;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+  }
+
+  .eventpass-section__cards-filter:last-child {
+    margin-right: 0;
+  }
+
+  .tourist-tours__cards {
+    margin-top: 50px;
+    display: block;
+  }
+
+  .tourist-tours__card {
+    padding: 20px 22px 30px;
+    min-height: 100vw;
+  }
+
+  .tourist-tours__card+.tourist-tours__card {
+    margin-top: 16px;
+  }
+
+  .tourist__card-tag {
+    padding: 0 19px;
+    font-size: 10px;
+  }
+
+  .tourist-tours__card-title {
+    margin: 23px 0;
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .tourist-tours .content-block__more {
+    margin-top: 27px;
+    height: 50px;
+  }
+
+  .eventpass-modal .pp__close {
+    width: 22px;
+    height: 22px;
+    top: 20px;
+    right: 20px;
+  }
+
+  .eventpass-modal__content {
+    width: 88.5%;
+    border-radius: 15px;
+  }
+
+  .eventpass-modal__date {
+    right: 9px;
+    bottom: 9px;
+  }
+
+  .eventpass-modal__category-icon {
+    left: 4px;
+    bottom: 4px;
+  }
+
+  .eventpass-modal__cont {
+    padding: 22px 20px 40px;
+  }
+
+  .eventpass-modal__location {
+    margin-bottom: 15px;
+    padding-left: 24px;
+    font-size: 14px;
+  }
+
+  .eventpass-modal__location::before {
+    width: 12px;
+    height: 16px;
+  }
+
+  .eventpass-modal__title-text {
+    font-size: 24px;
+    line-height: 26px;
+  }
+
+  .eventpass-modal__text {
+    margin-top: 18px;
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .eventpass-modal__favor-btn {
+    margin-top: 40px;
+  }
+
+
+  .tourist__card-favorite {
+    width: 30px;
+    height: 30px;
+    top: 17px;
+    background-size: 45%;
+  }
+
+}
+
+/* partners-slider */
+
+
+.eventpass-description__footer + .general-section__partners-logos{
+  margin-top: 112px;
+}
+
+.general-section__partners-logos.no-swiper{
+  padding: 0;
+  border-top: none;
+}
+
+.general-section__partners-logos.no-swiper .general-partners-logos__navigation{
+  display: none;
+}
+
+
+@media (max-width:767px) {
+  .eventpass-description__footer + .general-section__partners-logos {
+    margin-top: 50px;
+}
+}
+
+/* partners-slider end */
+
+
+
+/*new year fixes start*/
+.day .general-section-eventpass__bg {
+  background: url(../img/eventpass/bg-2022.jpg) no-repeat center;
+  background-size: cover;
+}
+.eventpass-category{
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: 0.3s;
+}
+.eventpass-category.active{
+  border-color: #E7362C;
+}
+.eventpass-header__item input::-webkit-input-placeholder {
+  color: #E7362C;
+  opacity: 1;
+}
+
+.eventpass-header__item input::-moz-placeholder {
+  color: #E7362C;
+  opacity: 1;
+}
+
+.eventpass-header__item input:-ms-input-placeholder {
+  color: #E7362C;
+  opacity: 1;
+}
+
+.eventpass-header__item input::-ms-input-placeholder {
+  color: #E7362C;
+  opacity: 1;
+}
+.eventpass-header__item input {
+  color: #E7362C;
+}
+.eventpass-header__item input:focus {
+  border-color: #E7362C;
+}
+.eventpass-header__item input::placeholder {
+  color: #E7362C;
+}
+.eventpass-header__item, .eventpass-header__item input{
+  background: #FFEAE4;
+}
+.category-list{
+  position: absolute;
+  top: 100%;
+  background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgb(0 0 0 / 25%);
+    border-radius: 20px;
+    width: 100%;
+    margin-top: 10px;
+    padding: 15px 25px;
+    display: flex;
+    flex-direction: column;
+    z-index: 3;
+    transition: 0.3s;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(50px);
+}
+.category-list.active{
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+.category-list-item{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  color: #161310;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.category-list-item:hover{
+  opacity: 0.3;
+}
+.category-placeholder{
+  padding: 0 54px 0 30px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  color: #E7362C;
+  opacity: 1;
+}
+.eventpass-category{
+  align-items: center;
+  display: flex;
+}
+.eventpass-category::after {
+  content: "";
+  position: absolute;
+  right: 20px;
+  width: 26px;
+  height: 24px;
+  background-image: url(../img/eventpass/down.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.eventpass-header-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-column-gap: 14px;
+}
+.eventpass-header-grid .eventpass-header__item+.eventpass-header__item {
+  margin-left: 0;
+}
+.eventpass-container-back{
+  position: absolute;
+  pointer-events: none;
+}
+.eventpass-container-back.i1{
+  top: 13.85%;
+  left: 0;
+}
+.eventpass-container-back.i2{
+  top: 7%;
+  right: 0;
+}
+.eventpass-container-back.i3{
+  top: 38%;
+  left: 0;
+}
+.eventpass-container-back.i5{
+  top: 37%;
+  right: 0;
+}
+.eventpass-container-back.i6{
+  top: 63%;
+  left: 0;
+}
+.eventpass-container-back.i7{
+  top: 63%;
+  right: 0;
+}
+.eventpass-container-back.i8{
+  top: auto;
+  bottom: 0%;
+  left: 0;
+}
+.eventpass-container-back.i9{
+  top: auto;
+  bottom: -6%;
+  right: 0;
+}
+
+/* <!-- new year --> */
+.eventpass-container-back{
+  display: none !important;
+}
+/* <!-- new year --> */
+
+.eventpass-container{
+  position: relative;
+  overflow: hidden;
+}
+.day .eventpass-container{
+  background: transparent;
+}
+.eventpass-section__cards-filter {
+  margin-right: 6px;
+}
+
+.eventpass-category-wrapper{
+  position: relative;
+}
+
+@media screen and (max-width:1799px){
+.eventpass-container-back.i1 {
+    width: 150px;
+}
+.eventpass-container-back.i2 {
+    width: 100px;
+}
+.eventpass-container-back.i3 {
+  width: 150px;
+}
+.eventpass-container-back.i5 {
+  width: 150px;
+}
+.eventpass-container-back.i6 {
+  width: 150px;
+}
+.eventpass-container-back.i7 {
+  width: 150px;
+}
+.eventpass-container-back.i8 {
+  width: 150px;
+  bottom: 1%;
+}
+.eventpass-container-back.i9 {
+  width: 150px;
+  bottom: 5%;
+}
+}
+
+@media screen and (max-width:1439px){
+.eventpass-container-back.i9 {
+  width: 125px;
+}
+}
+
+@media screen and (max-width:1279px){
+.eventpass-header-grid {
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 14px;
+  grid-row-gap: 14px;
+}
+.eventpass-header-grid .eventpass-calendar__field{
+  width: 100%;
+}
+.eventpass-header-grid .eventpass-search__field{
+  width: 100%;
+}
+.eventpass-container-back.i1 {
+  width: 100px;
+  top: 22%;
+}
+.eventpass-container-back.i2 {
+  width: 75px;
+  top: 13%;
+}
+.eventpass-container-back.i3 {
+  width: 75px;
+  top: 45%;
+}
+.eventpass-container-back.i5 {
+  width: 100px;
+}
+.eventpass-container-back.i7 {
+  width: 75px;
+}
+.eventpass-container-back.i6 {
+  top: 67%;
+  width: 100px;
+}
+.eventpass-container-back.i8 {
+  width: 100px;
+  bottom: 1%;
+}
+.eventpass-header-grid .eventpass-header__item, .eventpass-header__item input {
+  height: 44px;
+}
+}
+
+@media screen and (max-width:1023px){
+.eventpass-header-grid {
+  grid-template-columns: 1fr;
+  grid-column-gap: 14px;
+  grid-row-gap: 14px;
+  grid-template-areas:
+      'category category'
+      'district district'
+      'date search';
+}
+.eventpass-category{
+  grid-area: category;
+}
+.eventpass-category.districts{
+  grid-area: district;
+}
+.eventpass-header-grid .eventpass-calendar__field {
+  grid-area: date;
+}
+.eventpass-header-grid .eventpass-search__field {
+  grid-area: search;
+}
+}
+
+@media screen and (max-width:767px){
+.eventpass-header-grid {
+  width: 100%;
+  grid-template-areas:
+      'category'
+      'district'
+      'date'
+      'search';
+}
+.eventpass-header-grid .eventpass-header__item, .eventpass-header__item input {
+  height: 60px;
+}
+.eventpass-header-grid .eventpass-search__field {
+  margin-top: 0;
+}
+.eventpass-container-back{
+  display: none;
+}
+.eventpass-section__calendar .eventpass-block__title {
+  width: 100%;
+}
+}
+/*new year fixes end*/
+
+
+
+.eventpass-description__footer{
+  margin-top: 50px;
+}
+.event-btn-main{
+  margin-top: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: fit-content;
+    padding: 21px 40px;
+    transition: 0.3s;
+    position: relative;
+}
+.event-btn-main::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #E7362C;
+  border-radius: 777px;
+  transition: 0.3s;
+  z-index: 1;
+}
+.event-btn-main:hover::before {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.event-btn-main span {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 18px;
+  margin-right: 65px;
+  position: relative;
+  z-index: 2;
+}
+.event-btn-main img {
+  width: 30px;
+  object-fit: contain;
+  position: relative;
+  z-index: 2;
+}
+
+@media screen and (max-width:1439px) {
+  .event-btn-main span {
+    font-size: 16px;
+    line-height: 16px;
+    margin-right: 42px;
+}
+  .event-btn-main{
+    padding: 19px 40px;
+    margin-top: 30px;
+  }
+  .eventpass-description__footer {
+    margin-top: 40px;
+}
+}
+
+
+@media screen and (max-width:767px){
+  .event-btn-main img{
+    display: none;
+  }
+  .event-btn-main span {
+    font-size: 16px;
+    line-height: 16px;
+    margin-right: 0px;
+    width: 100%;
+    text-align: center;
+}
+.event-btn-main{
+  padding: 17px 0px;
+  margin-top: 30px;
+  width: 100%;
+  max-width: 100%;
+}
+.eventpass-description__footer {
+  margin-top: 25px;
+}
+}

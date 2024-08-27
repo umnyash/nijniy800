@@ -1,0 +1,4360 @@
+.video-slider-section-new {
+	padding-top: 0!important;
+	margin-top: -2px;
+}
+.sunsets-inner .top-secetion {
+	overflow: hidden;
+	position: relative;
+	background-color: #fe4800;
+	background-image: url(../img/sunsets2/wave-1.svg),url(../img/sunsets2/wave-2.svg),url(../img/sunsets2/wave-3.svg);
+	background-repeat: repeat-x,repeat-x,repeat-x;
+	background-size: auto,auto,auto;
+	background-position-x: center,center,center;
+	background-position-y: calc(100% + 130px),calc(100% + 180px),calc(100% + 220px);
+	height: 100vh;
+	min-height: 800px;
+	-webkit-animation: waves 20s linear infinite;
+	animation: waves 20s linear infinite;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	overflow: hidden;
+}
+
+.sunsets-inner .top-secetion>.grid__content {
+	position: relative;
+	z-index: 2;
+	min-height: initial;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+}
+
+@-webkit-keyframes waves {
+	from {
+		background-position-x: 0,0,0;
+	}
+
+	to {
+		background-position-x: -2673px,2673px,-2673px;
+	}
+}
+
+@keyframes waves {
+	from {
+		background-position-x: 0,0,0;
+	}
+
+	to {
+		background-position-x: -2673px,2673px,-2673px;
+	}
+}
+
+.sunsets__top-bg {
+	width: 3840px;
+	height: 1940px;
+	position: absolute;
+	z-index: 1;
+	right: 0;
+	bottom: 0;
+}
+
+.sunsets__top-bg img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	-o-object-fit: cover;
+	object-fit: cover;
+}
+
+.sunsets__top-bg {
+	width: 3840px;
+	height: 1940px;
+}
+
+.sunsets-section {
+	padding: 75px 0 90px;
+}
+
+.sunsets-program__title {
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 139%;
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+.sunsets-program__cards {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: start;
+	-ms-flex-pack: start;
+	justify-content: flex-start;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+
+.sunsets-card {
+	width: 31.6666667%;
+	margin-right: 28px;
+	padding: 47px 49px 57px;
+	background-color: #ff6a0f;
+	border-radius: 20px;
+	color: #fff;
+	position: relative;
+	min-height: 150px;
+}
+
+.sunsets-card:last-child {
+	margin-right: 0;
+}
+
+.sunsets-card-1 {
+	background-color: #f4c500;
+}
+
+.sunsets-card-2 {
+	background-color: #31a9ce;
+}
+
+.sunsets-card__ico {
+	margin-bottom: 30px;
+}
+
+.sunsets-card__content {
+	position: relative;
+	z-index: 1;
+}
+
+.sunsets-card__name {
+	margin-bottom: 25px;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 1;
+	font-family: graphik lcg;
+}
+
+.sunsets-card__numbers {
+	font-size: 64px;
+	line-height: 1;
+	margin-bottom: 25px;
+	display: block;
+	font-family: Platform;
+}
+
+.sunsets-card__descr {
+	font-family: Platform;
+	font-size: 30px;
+	line-height: 33px;
+	letter-spacing: .01em;
+}
+
+.sunsets-card__bg {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	z-index: 0;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.sunsets-program__map {
+	margin-top: 30px;
+	border-radius: 20px;
+	overflow: hidden;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+}
+
+.sunsets-program__map picture {
+	max-width: 100%;
+}
+
+.sunsets-program__map img {
+	max-width: 100%;
+}
+
+.sunsets-program {
+	background-image: url(../img/sunsets2/side-waves-left.svg);
+	background-repeat: no-repeat;
+	background-position: left 30%;
+	background-size: auto;
+}
+
+.sunsets-localmap {
+	position: relative;
+}
+
+.sunsets-localmap__wave {
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.sunsets-weather__date {
+	font-weight: 500;
+	font-size: 36px;
+	line-height: 36px;
+}
+
+.sunsets-weather__content {
+	display: -webkit-inline-box;
+	display: -ms-inline-flexbox;
+	display: inline-flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: start;
+	-ms-flex-pack: start;
+	justify-content: flex-start;
+}
+
+.sunsets-weather__part {
+	display: -webkit-inline-box;
+	display: -ms-inline-flexbox;
+	display: inline-flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: start;
+	-ms-flex-pack: start;
+	justify-content: flex-start;
+	margin-right: 25px;
+}
+
+.sunsets-weather__part:last-child {
+	margin-right: 0;
+}
+
+.sunsets-weather__title {
+	font-family: Platform;
+	font-size: 74px;
+	line-height: 1;
+	margin-right: 10px;
+	white-space: nowrap;
+}
+
+.sunsets-weather__icon {
+	width: 56px;
+	height: 56px;
+	-o-object-fit: contain;
+	object-fit: contain;
+	margin-right: 10px;
+}
+
+.sunsets-weather__status {
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 1;
+}
+
+.sunsets-weather__degrees-cont {
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 120%;
+	white-space: nowrap;
+}
+
+.sunsets-weather__degrees-small {
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 120%;
+}
+
+.sunsets-weather__label {
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 120%;
+	margin-left: 10px;
+	margin-right: 50px;
+	-webkit-box-flex: 0;
+	-ms-flex: 0;
+	flex: 0;
+}
+
+.sunsets-weather__descr {
+	font-size: 20px;
+	line-height: 160%;
+	max-width: 49.5%;
+}
+
+.sunsets-events {
+	background-color: #f4c500;
+	background-image: url(../img/sunsets2/sunsets-events__bg.svg);
+	background-repeat: no-repeat;
+	background-size: 500px;
+	background-position: calc(100% - 70px) 40px;
+	color: #fff;
+}
+
+.sunsets-events .content-block__title {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	padding-bottom: 16px;
+	border-color: #fff;
+}
+
+.sunsets-events .title {
+	padding-bottom: 0;
+}
+
+.sunsets-events__switcher {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+.sunsets-events__month {
+	font-weight: 500;
+	font-size: 22px;
+	line-height: 22px;
+	opacity: .6;
+	margin-right: 34px;
+	-webkit-transition: .3s ease-out;
+	-o-transition: .3s ease-out;
+	transition: .3s ease-out;
+}
+
+.sunsets-events__month:last-child {
+	margin-right: 0;
+}
+
+.sunsets-events__month.active {
+	opacity: 1;
+}
+
+.sunsets-events__wrapper {
+	position: relative;
+}
+
+.sunsets-events-slide {
+	padding: 33px 50px 30px;
+	position: relative;
+	width: 590px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	cursor: pointer;
+}
+
+.sunsets-events-slide__img {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	border-radius: 20px;
+	overflow: hidden;
+}
+
+.sunsets-events-slide__img>img {
+	width: 100%;
+	height: 100%;
+	max-width: 100%;
+	max-height: 100%;
+	-o-object-fit: cover;
+	object-fit: cover;
+	background: -o-linear-gradient(270.46deg,#000 .4%,rgba(0,0,0,0) 58.64%);
+	background: linear-gradient(179.54deg,#000 .4%,rgba(0,0,0,0) 58.64%);
+	-webkit-transition: 1s ease-out;
+	-o-transition: 1s ease-out;
+	transition: 1s ease-out;
+	z-index: 0;
+}
+
+.sunsets-events-slide__img::before {
+	content: "";
+	background: -o-linear-gradient(bottom,#000 -4.55%,rgba(0,0,0,0) 69.38%);
+	background: -webkit-gradient(linear,left bottom,left top,color-stop(-4.55%,#000),color-stop(69.38%,rgba(0,0,0,0)));
+	background: linear-gradient(0deg,#000 -4.55%,rgba(0,0,0,0) 69.38%);
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 1;
+}
+
+.sunsets-events-slide:hover .sunsets-events-slide__img>img {
+	-webkit-transform: scale(1.5);
+	-ms-transform: scale(1.5);
+	transform: scale(1.5);
+	-webkit-transition: 3s;
+	-o-transition: 3s;
+	transition: 3s;
+}
+
+.sunsets-events-slide__cont {
+	position: relative;
+	z-index: 1;
+}
+
+.sunsets-events-slide__tag-list {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+.sunsets-events-slide__tag {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1;
+	background: rgba(22,19,16,.66);
+	border-radius: 25px;
+	padding: 0 22px;
+	height: 34px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	margin-right: 10px;
+}
+
+.sunsets-events-slide__tag:last-child {
+	margin-right: 0;
+}
+
+.sunsets-events-slide__text {
+	margin-top: 155px;
+}
+
+.sunsets-events-slide__time {
+	margin-bottom: 30px;
+	display: block;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 1;
+}
+
+.sunsets-events-slide__title {
+	font-size: 34px;
+	line-height: 38px;
+}
+
+.sunsets-events-swiper-navigation .swiper-button {
+	position: absolute;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+	z-index: 2;
+	-webkit-filter: invert(1);
+	filter: invert(1);
+}
+.sunsets-events-swiper-navigation .swiper-button-prev {
+	left: -25px;
+}
+.sunsets-events-swiper-navigation .swiper-button-next {
+	right: -25px;
+}
+
+.sunsets-program__map-img {
+	max-width: 100%;
+	-o-object-fit: cover;
+	object-fit: cover;
+}
+
+.info-block {
+	margin: 33px 0;
+	background-color: rgba(244,197,0,.18);
+	border-radius: 10px;
+	padding: 20px 32px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: start;
+	-ms-flex-align: start;
+	align-items: flex-start;
+	color: #f4a100;
+}
+
+.info-block:last-child {
+	margin-bottom: 0;
+}
+
+.info-block__icon {
+	width: 30px;
+	height: 30px;
+	margin-right: 25px;
+}
+
+.info-block__cont {
+	-webkit-box-flex: 1;
+	-ms-flex: 1 0 0;
+	flex: 1 0 0;
+}
+
+.info-block__title {
+	font-style: normal;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 30px;
+	font-family: graphik lcg;
+	margin-bottom: 12px;
+}
+
+.info-block__descr {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+}
+
+.sunsets__blockquote {
+	margin-top: 40px;
+	padding: 52px 52px 55px 72px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: start;
+	-ms-flex-align: start;
+	align-items: flex-start;
+	background: #f7f7f7;
+	border-radius: 20px;
+}
+
+.sunsets__blockquote-photo {
+	margin-right: 77px;
+	width: 260px;
+	height: 260px;
+	-ms-flex-negative: 0;
+	flex-shrink: 0;
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+.sunsets__blockquote-photo img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	-o-object-fit: cover;
+	object-fit: cover;
+}
+
+.sunsets__blockquote-cont {
+	position: relative;
+	z-index: 1;
+}
+
+.sunsets__blockquote-text {
+	position: relative;
+	z-index: 1;
+	font-size: 20px;
+	line-height: 30px;
+	opacity: .8;
+}
+
+.sunsets__blockquote-text::after {
+	content: "";
+	position: absolute;
+	z-index: -1;
+	bottom: -83px;
+	right: 15px;
+	width: 206px;
+	height: 166px;
+	background: url(../img/sunsets2/quotes.png) no-repeat center;
+	background-size: contain;
+}
+
+.sunsets__blockquote-footer {
+	position: relative;
+	z-index: 1;
+	margin-top: 30px;
+}
+
+.sunsets__blockquote-author {
+	font-size: 32px;
+	line-height: 38px;
+	font-family: Platform,sans-serif;
+}
+
+.sunsets__blockquote-subauthor {
+	margin-top: 9px;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 22px;
+}
+
+.sunsets-weather__descr {
+	max-width: 100%;
+}
+
+.sunsets-news {
+	padding: 103px 0 173px;
+}
+
+@media only screen and (max-width:1679px) {
+	.sunsets-events-swiper-navigation .swiper-button {
+		width: 50px;
+		height: 50px;
+	}
+
+	.sunsets-inner .top-secetion {
+		background-image: url(../img/sunsets2/wave-1.svg),url(../img/sunsets2/wave-2.svg),url(../img/sunsets2/wave-3.svg);
+		min-height: 849px;
+	}
+
+	.sunsets__top-bg {
+		width: 2880px;
+		height: 1708px;
+	}
+
+	.sunsets__blockquote {
+		margin-top: 35px;
+		padding: 37px 84px 43px 78px;
+	}
+
+	.sunsets__blockquote-photo {
+		margin-right: 79px;
+		width: 220px;
+		height: 220px;
+	}
+
+	.sunsets__blockquote-text {
+		font-size: 18px;
+		line-height: 26px;
+	}
+
+	.sunsets__blockquote-text::after {
+		bottom: -85px;
+		right: -21px;
+		width: 149px;
+		height: 120px;
+	}
+
+	.sunsets__blockquote-author {
+		font-size: 26px;
+		line-height: 31px;
+	}
+
+	.sunsets__blockquote-subauthor {
+		margin-top: 0;
+	}
+
+	.sunsets-news {
+		padding: 100px 0;
+	}
+}
+
+@media only screen and (max-width:1439px) {
+	.sunsets-logo {
+		width: 451px;
+		height: 130px;
+	}
+
+	.sunsets-inner .top-secetion {
+		background-image: url(../img/sunsets2/wave-1.svg),url(../img/sunsets2/wave-2.svg),url(../img/sunsets2/wave-3.svg);
+		min-height: 597px;
+		background-size: 150%,150%,150%;
+		background-position-y: calc(100% + 120px),calc(100% + 170px),calc(100% + 200px);
+	}
+
+	.sunsets-inner .top-secetion>.grid__content {
+		margin-top: 60px;
+	}
+
+	.sunsets-section {
+		padding: 55px 0 70px;
+	}
+
+	.sunsets-program__title {
+		font-size: 20px;
+		margin-bottom: 55px;
+	}
+
+	.sunsets-card {
+		width: 31.9634703%;
+		margin-right: 2.00913242%;
+	}
+
+	.sunsets-events {
+		background-position: 123% 36px;
+		background-size: 460px;
+	}
+
+	.sunsets-events-slide {
+		width: auto;
+		padding: 30px 37px 40px;
+	}
+
+	.sunsets-events-slide__tag {
+		height: 32px;
+		padding: 0 20px;
+	}
+
+	.sunsets-events-slide__text {
+		margin-top: 140px;
+	}
+
+	.sunsets-events-slide__time {
+		margin-bottom: 24px;
+	}
+
+	.sunsets-events-slide__title {
+		font-size: 28px;
+		line-height: 31px;
+	}
+
+	.sunsets-events-swiper-navigation .swiper-button {
+		width: 40px;
+		height: 40px;
+	}
+
+	.sunsets-events-swiper-navigation .swiper-button-prev {
+		left: -20px;
+	}
+	.sunsets-events-swiper-navigation .swiper-button-next {
+		right: -20px;
+	}
+
+	.sunsets-weather__date {
+		font-size: 22px;
+		line-height: 1;
+	}
+
+	.sunsets-weather__title {
+		font-size: 60px;
+	}
+
+	.sunsets-weather__status {
+		font-size: 22px;
+	}
+
+	.sunsets-weather__degrees-cont {
+		font-size: 16px;
+	}
+
+	.sunsets-weather__degrees-small {
+		font-size: 10px;
+	}
+
+	.sunsets-weather__label {
+		font-size: 22px;
+		margin-right: 40px;
+	}
+
+	.sunsets-weather__descr {
+		font-size: 18px;
+	}
+
+	.sunsets__top-bg {
+		width: 2560px;
+		height: 1200px;
+	}
+}
+
+@media only screen and (max-width:1279px) {
+	.sunsets-inner .top-secetion {
+		min-height: 478px;
+		background-image: url(../img/sunsets2/wave-1.svg),url(../img/sunsets2/wave-2.svg),url(../img/sunsets2/wave-3.svg);
+		background-position-y: calc(100% + 90px),calc(100% + 140px),calc(100% + 170px);
+	}
+
+	.sunsets-inner .top-secetion>.grid__content {
+		margin-top: 80px;
+	}
+
+	.sunsets-program__title {
+		font-size: 16px;
+		margin-bottom: 45px;
+	}
+
+	.sunsets-card {
+		width: 32%;
+		margin-right: 2%;
+		padding: 35px;
+	}
+
+	.sunsets-card__ico {
+		width: 44px;
+		height: 44px;
+		margin-bottom: 23px;
+	}
+
+	.sunsets-card__name {
+		font-size: 12px;
+		line-height: 1;
+		margin-bottom: 20px;
+	}
+
+	.sunsets-card__numbers {
+		font-size: 46px;
+		margin-bottom: 20px;
+	}
+
+	.sunsets-card__descr {
+		font-size: 22px;
+		line-height: 25px;
+	}
+
+	.sunsets-events {
+		background-position: 123% 29px;
+		background-size: 366px;
+	}
+
+	.sunsets-events__month {
+		font-size: 18px;
+		margin-right: 26px;
+	}
+
+	.sunsets-events-slide {
+		padding: 24px 30px 55px;
+	}
+
+	.sunsets-events-slide__tag {
+		padding: 0 22px;
+		height: 34px;
+	}
+
+	.sunsets-events-slide__text {
+		margin-top: 110px;
+	}
+
+	.sunsets-events-slide__time {
+		font-size: 16px;
+		margin-bottom: 20px;
+	}
+
+	.sunsets-events-slide__title {
+		font-size: 22px;
+	}
+
+	.sunsets-weather__part {
+		margin-right: 15px;
+	}
+
+	.sunsets-weather__date {
+		font-size: 18px;
+	}
+
+	.sunsets-weather__title {
+		font-size: 48px;
+	}
+
+	.sunsets-weather__icon {
+		width: 46px;
+		height: 46px;
+	}
+
+	.sunsets-weather__status {
+		font-size: 16px;
+	}
+
+	.sunsets-weather__degrees-cont {
+		font-size: 12px;
+	}
+
+	.sunsets-weather__degrees-small {
+		font-size: 8px;
+	}
+
+	.sunsets-weather__label {
+		font-size: 16px;
+		margin-right: 30px;
+	}
+
+	.sunsets-weather__descr {
+		font-size: 16px;
+	}
+
+	.sunsets-weather {
+		padding-bottom: 0;
+	}
+
+	.info-block {
+		padding: 16px 25px;
+	}
+
+	.info-block__icon {
+		width: 24px;
+		height: 24px;
+		margin-right: 20px;
+	}
+
+	.info-block__title {
+		font-size: 16px;
+		line-height: 24px;
+	}
+
+	.info-block__descr {
+		font-size: 14px;
+		line-height: 24px;
+	}
+
+	.sunsets__top-bg {
+		width: 2048px;
+		height: 960px;
+	}
+
+	.sunsets__blockquote {
+		margin-top: 30px;
+		padding: 29px 67px 37px 65px;
+	}
+
+	.sunsets__blockquote-photo {
+		margin-right: 55px;
+		width: 180px;
+		height: 180px;
+	}
+
+	.sunsets__blockquote-text {
+		font-size: 16px;
+		line-height: 20px;
+	}
+
+	.sunsets__blockquote-text::after {
+		bottom: -62px;
+		right: -17px;
+		width: 119px;
+		height: 96px;
+	}
+
+	.sunsets__blockquote-footer {
+		margin-top: 18px;
+	}
+
+	.sunsets__blockquote-author {
+		font-size: 22px;
+		line-height: 26px;
+	}
+
+	.sunsets__blockquote-subauthor {
+		font-size: 12px;
+		line-height: 16px;
+	}
+
+	.sunsets-news {
+		padding: 60px 0 70px;
+	}
+}
+
+@media(max-width:1279px),screen and (orientation:portrait) {
+	.sunsets-inner .top-secetion {
+		height: 480px;
+	}
+}
+
+@media only screen and (max-width:1023px) {
+	.sunsets-inner .top-secetion {
+		background-image: url(../img/sunsets2/wave-1.svg),url(../img/sunsets2/wave-2.svg),url(../img/sunsets2/wave-3.svg);
+		background-position-y: calc(100% + 60px),calc(100% + 90px),calc(100% + 110px);
+	}
+
+	.sunsets-logo {
+		width: 346.92px;
+		max-width: 100%;
+		height: 100px;
+	}
+
+	.sunsets-section {
+		padding: 45px 0 60px;
+	}
+
+	.sunsets-card {
+		padding: 27px 28px 32px;
+	}
+
+	.sunsets-card__ico {
+		width: 36px;
+		height: 36px;
+		margin-bottom: 18px;
+	}
+
+	.sunsets-card__name {
+		font-size: 10px;
+		margin-bottom: 10px;
+	}
+
+	.sunsets-card__numbers {
+		margin-bottom: 10px;
+		font-size: 37px;
+	}
+
+	.sunsets-card__descr {
+		font-size: 17px;
+		line-height: 20px;
+	}
+
+	.sunsets-program__map {
+		margin-top: 20px;
+	}
+
+	.sunsets-events {
+		background-position: 123% 23px;
+		background-size: 295px;
+	}
+
+	.sunsets-events__month {
+		font-size: 16px;
+		margin-right: 22px;
+	}
+
+	.sunsets-events-slide {
+		padding: 19px 24px 27px;
+	}
+
+	.sunsets-events-slide__tag {
+		height: 30px;
+		padding: 0 16px;
+		font-size: 12px;
+	}
+
+	.sunsets-events-slide__text {
+		margin-top: 90px;
+	}
+
+	.sunsets-events-slide__time {
+		font-size: 14px;
+		margin-bottom: 15px;
+	}
+
+	.sunsets-events-slide__title {
+		font-size: 18px;
+		line-height: 20px;
+	}
+
+	.sunsets-weather__content {
+		display: block;
+	}
+
+	.sunsets-weather__part {
+		margin-bottom: 30px;
+		margin-right: 0;
+	}
+
+	.sunsets-weather__part:last-child {
+		margin-bottom: 0;
+	}
+
+	.sunsets-weather__date {
+		font-size: 16px;
+	}
+
+	.sunsets-weather__title {
+		font-size: 52px;
+	}
+
+	.sunsets-weather__icon {
+		width: 52px;
+		height: 52px;
+	}
+
+	.sunsets-weather__status {
+		font-size: 18px;
+	}
+
+	.sunsets-weather__label {
+		font-size: 18px;
+	}
+
+	.sunsets-weather__descr {
+		font-size: 18px;
+	}
+
+	.sunsets-weather {
+		padding-bottom: 0;
+	}
+
+	.info-block {
+		padding: 17px 23px 30px;
+		position: relative;
+	}
+
+	.info-block__icon {
+		position: absolute;
+		width: 20px;
+		height: 20px;
+		margin-right: 0;
+	}
+
+	.info-block__title {
+		margin-left: 36px;
+		line-height: 20px;
+	}
+
+	.sunsets__top-bg {
+		width: 1536px;
+		height: 960px;
+	}
+
+	.sunsets__blockquote {
+		margin-top: 20px;
+		padding: 30px 50px 30px 46px;
+	}
+
+	.sunsets__blockquote-photo {
+		margin-right: 34px;
+		width: 160px;
+		height: 160px;
+	}
+
+	.sunsets__blockquote-footer {
+		margin-top: 25px;
+	}
+
+	.sunsets-news {
+		padding: 65px 0;
+	}
+}
+
+@media only screen and (max-width:767px) {
+	.section__inner.top-secetion {
+		min-height: 300px;
+		height: 100vh;
+		max-height: 900px;
+		background-image: url(../img/sunsets2/wave-1.svg),url(../img/sunsets2/wave-2.svg),url(../img/sunsets2/wave-3.svg);
+		background-size: auto,auto,auto;
+		background-position-x: center,center,center;
+		background-position-y: calc(100% + 10%),calc(100% + 20%),calc(100% + 40%);
+		display: flex;
+		place-items: center;
+	}
+
+	.sunsets-inner .top-secetion>.grid__content {
+		margin-top: 0;
+	}
+
+	.sunsets-program__title {
+		margin-bottom: 30px;
+	}
+
+	.sunsets-program__title span {
+		display: block;
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.sunsets-program__title span:first-child {
+		width: 240px;
+	}
+
+	.sunsets-program__cards {
+		display: block;
+	}
+
+	.sunsets-card {
+		width: 100%;
+		margin-bottom: 10px;
+		padding: 18px 29px;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-align: start;
+		-ms-flex-align: start;
+		align-items: flex-start;
+		overflow: hidden;
+	}
+
+	.sunsets-card:last-child {
+		margin-bottom: 0;
+	}
+
+	.sunsets-card__ico {
+		margin: 7px 40px 0 0;
+	}
+
+	.sunsets-card__content {
+		-webkit-box-flex: 1;
+		-ms-flex: 1 0 0;
+		flex: 1 0 0;
+	}
+
+	.sunsets-card__name {
+		font-size: 12px;
+	}
+
+	.sunsets-card__descr {
+		font-size: 18px;
+	}
+
+	.sunsets-card__bg {
+		-webkit-transform: translateX(-20%) scale(1.4);
+		-ms-transform: translateX(-20%) scale(1.4);
+		transform: translateX(-20%) scale(1.4);
+	}
+
+	.sunsets-program__map img {
+		height: 200px;
+	}
+
+	.sunsets-program {
+		background-image: none;
+	}
+
+	.sunsets-localmap__wave {
+		display: none;
+	}
+
+	.sunsets-events .content-block__title {
+		display: block;
+		padding-bottom: 0;
+	}
+
+	.sunsets-events {
+		background-image: none;
+	}
+
+	.sunsets-events__switcher {
+		margin: 35px 0 25px;
+	}
+
+	.sunsets-events__month {
+		font-size: 18px;
+	}
+
+	.sunsets-events-slide {
+		padding: 18px 23px 40px;
+	}
+
+	.sunsets-events-slide__tag {
+		height: 28px;
+		padding: 0 13px;
+	}
+
+	.sunsets-events-slide__text {
+		margin-top: 85px;
+	}
+
+	.sunsets-weather .title__right {
+		display: block;
+	}
+
+	.sunsets-weather__date {
+		font-size: 18px;
+	}
+
+	.sunsets-weather__title {
+		font-size: 50px;
+		margin-right: 0;
+	}
+
+	.sunsets-weather__icon {
+		margin: 0 8px;
+	}
+
+	.sunsets-weather__part:last-child {
+		display: -ms-grid;
+		display: grid;
+		-ms-grid-columns: 114px 1fr;
+		grid-template-columns: 114px 1fr;
+	}
+
+	span.sunsets-weather__label {
+		margin-right: 0;
+		margin-left: 20px;
+		width: 100px;
+	}
+
+	.sunsets-weather__descr {
+		-ms-grid-column: 1;
+		grid-column-start: 1;
+		-ms-grid-column-span: 2;
+		grid-column-end: 3;
+		margin-top: 34px;
+		max-width: initial;
+	}
+
+	.info-block {
+		padding: 17px 23px 25px;
+	}
+
+	.info-block__descr {
+		font-size: 13px;
+	}
+
+	.sunsets__top-bg {
+		width: 750px;
+		height: 1400px;
+	}
+
+	.sunsets__blockquote {
+		margin-top: 26px;
+		padding: 22px 28px 25px;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column;
+	}
+
+	.sunsets__blockquote-photo {
+		margin-right: 0;
+		margin-bottom: 15px;
+		width: 80px;
+		height: 80px;
+	}
+
+	.sunsets__blockquote-text {
+		font-size: 14px;
+	}
+
+	.sunsets__blockquote-text::after {
+		bottom: -10px;
+		right: -5px;
+	}
+
+	.sunsets__blockquote-footer {
+		margin-top: 15px;
+	}
+
+	.sunsets__blockquote-subauthor {
+		margin-top: 5px;
+	}
+
+	.sunsets-news {
+		padding: 60px 0 56px;
+	}
+}
+
+.sunsets-quiz {
+	padding: 150px 0;
+	position: relative;
+	min-height: 900px;
+}
+
+.sunsets-quiz-bg {
+	position: absolute;
+	z-index: 0;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.sunsets-quiz-bg img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	-o-object-fit: cover;
+	object-fit: cover;
+}
+
+.sunsets-quiz .grid__content {
+	position: relative;
+	z-index: 1;
+}
+
+.ny .game__final-photo {
+	width: 430px;
+	height: 510px;
+}
+
+.sunsets-quiz-field {
+	width: 87%;
+	color: #000;
+}
+
+.game__final,.game__intro,.game__question {
+	min-height: 598px;
+	padding: 48px 74px 65px;
+	background-color: #fff;
+	border-radius: 20px;
+}
+
+.game-card__headline {
+	margin-top: 7px;
+	position: relative;
+	border-top: 2px solid #f3f3f3;
+}
+
+.game__intro-link {
+	top: 0;
+	left: 50%;
+	-webkit-transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+	padding: 0 30px;
+	position: absolute;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 95%;
+	text-align: center;
+	text-transform: uppercase;
+	color: #ff4d1c;
+	background-color: #fff;
+}
+
+.game__intro-title {
+	margin: 60px 0 40px;
+	font-size: 40px;
+	line-height: 45px;
+	color: #161310;
+	text-align: center;
+}
+
+.game__intro-text {
+	font-size: 18px;
+	line-height: 25px;
+	text-align: center;
+}
+
+.game__intro-btn {
+	display: block;
+	margin: 50px auto 85px;
+	position: relative;
+	padding: 18px 35px;
+	min-width: 280px;
+	border-radius: 652.893px;
+}
+
+.game__intro-btn::before {
+	content: "";
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: #ff4d1c;
+	border-radius: 652.893px;
+	-webkit-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s;
+}
+
+.game__intro-btn:hover::before {
+	-webkit-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.game__intro-btn:focus::before {
+	-webkit-transform: scale(.95);
+	-ms-transform: scale(.95);
+	transform: scale(.95);
+}
+
+.game__intro-btn span {
+	z-index: 2;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 142.34%;
+	color: #fff;
+	text-align: center;
+}
+
+.game__intro-social {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+}
+
+.game-social__link {
+	display: -webkit-inline-box;
+	display: -ms-inline-flexbox;
+	display: inline-flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	width: 54px;
+	height: 54px;
+	border-radius: 50%;
+	border: 2px solid #f3f3f3;
+	-webkit-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s;
+}
+
+.game-social__link svg path {
+	fill: #161310;
+	-webkit-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s;
+}
+
+.game-social__link:hover {
+	background-color: #000;
+}
+
+.game-social__link:hover svg path {
+	fill: #fff;
+}
+
+.game-social__link+.game-social__link {
+	margin-left: 25px;
+}
+
+.game-social__link img {
+	display: block;
+	margin: 0 auto;
+}
+
+.game__question {
+	min-height: 681px;
+	padding: 35px 130px;
+}
+
+.game__question-count {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	-webkit-transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+	padding: 0 40px;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 95%;
+	text-align: center;
+	text-transform: uppercase;
+	color: #c9c5c5;
+	background-color: #fff;
+}
+
+.game__question-count span {
+	padding: 0 5px;
+}
+
+.game__question-title {
+	margin: 40px 0 45px;
+	padding: 0 60px;
+	font-size: 32px;
+	line-height: 36px;
+	text-align: center;
+}
+
+.game__question-row {
+	width: 100%;
+}
+
+.question-row__label {
+	display: block;
+	position: relative;
+	width: 100%;
+	padding: 17px 30px 17px 90px;
+	font-size: 16px;
+	line-height: 142.34%;
+	color: #161310;
+	border: 2px solid #f3f3f3;
+	border-radius: 30px;
+	-webkit-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s;
+}
+
+.game__question-row+.game__question-row {
+	margin-top: 15px;
+}
+
+.question-row__label:hover {
+	border-color: #bdbdbd;
+}
+
+.question-row__input {
+	display: none;
+}
+
+.question-row__count {
+	position: absolute;
+	top: 50%;
+	left: 10px;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	width: 40px;
+	height: 40px;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	border: 2px solid #161310;
+	border-radius: 50%;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 39px;
+	text-align: center;
+	color: #161310;
+	-webkit-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s;
+}
+
+.question-row__count::before {
+	content: "";
+	opacity: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+	width: 15px;
+	height: 9px;
+	background-image: url(../img/game/game-check.svg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-radius: 50%;
+	-webkit-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s;
+}
+
+.question-row__input:checked~.question-row__label {
+	border-color: #161310;
+}
+
+.question-row__input:checked~.question-row__label .question-row__count {
+	background-color: #161310;
+	color: #161310;
+}
+
+.question-row__input:checked~.question-row__label .question-row__count:before {
+	opacity: 1;
+}
+
+.game__questions-grid {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: start;
+	-ms-flex-align: start;
+	align-items: flex-start;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	position: relative;
+	width: 100%;
+	max-width: 100%;
+	counter-reset: answer;
+}
+
+.grid-question-item {
+	margin-bottom: 20px;
+	width: 221px;
+	margin-right: 18px;
+}
+
+.grid-question-item:last-child,.grid-question-item:nth-child(3n) {
+	margin-right: 0;
+}
+
+.grid-question-item__img {
+	overflow: hidden;
+	border-radius: 4px;
+	margin-bottom: 7px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	height: 140px;
+	position: relative;
+}
+
+.grid-question-item__pic {
+	max-width: 100%;
+	max-height: 100%;
+	-o-object-fit: cover;
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+}
+
+.grid-question-item__img input {
+	z-index: 1;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	cursor: pointer;
+	display: block;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+}
+
+.grid-question-item__counter {
+	position: absolute;
+	left: 14px;
+	bottom: 14px;
+	width: 32px;
+	height: 32px;
+	background-color: #fff;
+	border-radius: 50%;
+	overflow: hidden;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 18px;
+	-webkit-transition: .3s;
+	-o-transition: .3s;
+	transition: .3s;
+	background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQiIGhlaWdodD0iMTAiIHZpZXdCb3g9IjAgMCAxNCAxMCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEuMzkxMTEgNC43NTE4MUw1LjY2MTEzIDguNjI0ODVMMTMuMTA5MSAxLjM3NTQ5IiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjIiLz4KPC9zdmc+Cg==);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 12px 8px;
+}
+
+.grid-question-item__counter::before {
+	counter-increment: answer;
+	content: counter(answer);
+	-webkit-transition: .3s;
+	-o-transition: .3s;
+	transition: .3s;
+}
+
+.grid-question-item__border {
+	opacity: 0;
+	visibility: hidden;
+	width: 100%;
+	height: 100%;
+	border: 2px solid #161310;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	border-radius: 4px;
+	-webkit-transition: .3s;
+	-o-transition: .3s;
+	transition: .3s;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+input:checked~.grid-question-item__counter {
+	background-color: #161310;
+	background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQiIGhlaWdodD0iMTAiIHZpZXdCb3g9IjAgMCAxNCAxMCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEuMzkxMTEgNC43NTE4MUw1LjY2MTEzIDguNjI0ODVMMTMuMTA5MSAxLjM3NTQ5IiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjIiLz4KPC9zdmc+Cg==);
+}
+
+input:checked~.grid-question-item__counter::before {
+	opacity: 0;
+	visibility: hidden;
+}
+
+input:checked~.grid-question-item__border {
+	opacity: 1;
+	visibility: visible;
+}
+
+.grid-question-item__label {
+	font-size: 12px;
+	line-height: 130%;
+	color: #16131066;
+}
+
+.game__question-btn {
+	margin: 45px auto 0;
+	min-width: 320px;
+}
+
+.game__question-btn.disabled {
+	opacity: .7;
+	pointer-events: none;
+}
+
+.game__final {
+	min-height: 745px;
+}
+
+.game__final-photo {
+	width: 200px;
+	height: 200px;
+	margin: 35px auto 0;
+	border-radius: 50%;
+}
+
+.game__final-photo img {
+	width: 100%;
+	height: 100%;
+	-o-object-fit: cover;
+	object-fit: cover;
+}
+
+.game__final-title {
+	margin: 30px 0;
+}
+
+.game__social-title {
+	margin: 50px 0 40px;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 142.34%;
+	text-align: center;
+	color: #161310;
+}
+
+.game__final-btn {
+	display: block;
+	margin: 50px auto 0;
+	padding: 4px 0;
+	border-bottom: 1px solid #ff4d1c;
+	-webkit-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s;
+}
+
+.game__final-btn:hover {
+	opacity: .5;
+}
+
+.game__final-btn span {
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 142.34%;
+	color: #ff4d1c;
+}
+
+.game-header .swiper-container-fade .swiper-slide {
+	opacity: 0!important;
+}
+
+.game-header .swiper-container-fade .swiper-slide-active {
+	opacity: 1!important;
+}
+
+@media(max-width:1430px) {
+	.sunsets-quiz {
+		padding: 85px 0;
+		min-height: 710px;
+	}
+
+	.game__intro {
+		padding: 48px 70px 74px;
+		min-height: 540px;
+	}
+
+	.game__intro-title {
+		margin: 52px 0 37px;
+		font-size: 36px;
+		line-height: 40px;
+	}
+
+	.game__intro-text {
+		font-size: 18px;
+		line-height: 26px;
+	}
+
+	.game__intro-btn {
+		margin: 33px auto 60px;
+		padding: 16px 35px;
+	}
+
+	.game__intro-btn span {
+		font-size: 16px;
+	}
+
+	.game-social__link {
+		width: 50px;
+		height: 50px;
+	}
+
+	.game__question {
+		min-height: 690px;
+		padding: 50px 35px;
+	}
+
+	.game__question-title {
+		width: 85%;
+		margin: 58px auto 50px;
+		padding: 0;
+		font-size: 28px;
+	}
+
+	.game__question-btn {
+		margin: 50px auto 0;
+	}
+
+	.game__final {
+		padding: 55px 65px;
+		min-height: 715px;
+	}
+
+	.game__final-photo {
+		width: 170px;
+		height: 170px;
+		margin: 35px auto 0;
+	}
+
+	.game__final-title {
+		font-size: 32px;
+		line-height: 39px;
+	}
+
+	.game__final-text {
+		font-size: 16px;
+		line-height: 142.34%;
+	}
+
+	.game__social-title {
+		font-size: 16px;
+	}
+
+	.game__final-btn span {
+		margin: 40px 0 16px;
+		font-size: 16px;
+	}
+
+	.game__final-btn {
+		margin: 65px auto 0;
+		padding: 0;
+	}
+}
+
+@media(max-width:1279px) {
+	.sunsets-quiz {
+		padding: 70px 0;
+		min-height: 540px;
+	}
+
+	.game__intro {
+		padding: 38px 55px 53px;
+		min-height: 401px;
+	}
+
+	.game__intro-link {
+		padding: 0 10px;
+		font-size: 13px;
+	}
+
+	.game__intro-title {
+		margin: 40px 0 15px;
+		font-size: 30px;
+		line-height: 33px;
+	}
+
+	.game__intro-text {
+		font-size: 14px;
+		line-height: 20px;
+	}
+
+	.game__intro-btn {
+		min-width: 224px;
+		margin: 25px auto 41px;
+		padding: 13px 35px;
+	}
+
+	.game__intro-btn span {
+		font-size: 14px;
+	}
+
+	.game-social__link {
+		width: 44px;
+		height: 44px;
+	}
+
+	.game-social__link+.game-social__link {
+		margin-left: 22px;
+	}
+
+	.game-social__link svg {
+		width: 16px;
+		height: 16px;
+		-o-object-fit: contain;
+		object-fit: contain;
+	}
+
+	.game__question {
+		min-height: 690px;
+		padding: 50px 35px;
+	}
+
+	.game__question-title {
+		width: 85%;
+		margin: 58px auto 50px;
+		padding: 0;
+		font-size: 28px;
+	}
+
+	.game__question-btn {
+		margin: 50px auto 0;
+	}
+
+	.game__final {
+		padding: 55px 65px;
+		min-height: 715px;
+	}
+
+	.game__final-photo {
+		width: 170px;
+		height: 170px;
+		margin: 35px auto 0;
+	}
+
+	.game__final-title {
+		font-size: 32px;
+		line-height: 39px;
+	}
+
+	.game__final-text {
+		font-size: 16px;
+		line-height: 142.34%;
+	}
+
+	.game__social-title {
+		font-size: 16px;
+	}
+
+	.game__final-btn span {
+		margin: 40px 0 16px;
+		font-size: 16px;
+	}
+
+	.game__final-btn {
+		margin: 65px auto 0;
+		padding: 0;
+	}
+
+	.grid-question-item {
+		width: 184px;
+		margin-right: 15px;
+	}
+
+	.grid-question-item__img {
+		height: 116px;
+		margin-bottom: 5px;
+	}
+
+	.grid-question-item__counter {
+		width: 26px;
+		height: 26px;
+		left: 10px;
+		bottom: 10px;
+		font-size: 12px;
+		line-height: 1;
+	}
+
+	.grid-question-item__label {
+		font-size: 10px;
+	}
+}
+
+@media(max-width:1023px) {
+	.sunsets-quiz-field {
+		width: 88.1%;
+	}
+
+	.sunsets-quiz {
+		padding: 45px 0;
+		min-height: 684px;
+	}
+
+	.game__intro {
+		padding: 55px 45px 50px;
+		min-height: 592px;
+	}
+
+	.game__intro-link {
+		padding: 0 30px;
+		font-size: 14px;
+	}
+
+	.game__intro-title {
+		width: 72%;
+		margin: 55px auto 30px;
+		font-size: 30px;
+		line-height: 36px;
+	}
+
+	.game__intro-text {
+		font-size: 16px;
+		line-height: 23px;
+	}
+
+	.game__intro-btn {
+		min-width: 280px;
+		margin: 43px auto 80px;
+		padding: 16px 35px;
+	}
+
+	.game__intro-btn span {
+		font-size: 16px;
+	}
+
+	.game-social__link {
+		width: 50px;
+		height: 50px;
+	}
+
+	.game-social__link+.game-social__link {
+		margin-left: 25px;
+	}
+
+	.game-social__link svg {
+		width: 19px;
+		height: 19px;
+	}
+
+	.game__question {
+		min-height: 690px;
+		padding: 50px 35px;
+	}
+
+	.game__question-title {
+		width: 85%;
+		margin: 58px auto 50px;
+		padding: 0;
+		font-size: 28px;
+	}
+
+	.game__question-btn {
+		margin: 50px auto 0;
+	}
+
+	.game__final {
+		padding: 55px 65px;
+		min-height: 715px;
+	}
+
+	.game__final-photo {
+		width: 170px;
+		height: 170px;
+		margin: 35px auto 0;
+	}
+
+	.game__final-title {
+		font-size: 32px;
+		line-height: 39px;
+	}
+
+	.game__final-text {
+		font-size: 16px;
+		line-height: 142.34%;
+	}
+
+	.game__social-title {
+		font-size: 16px;
+	}
+
+	.game__final-btn span {
+		margin: 40px 0 16px;
+		font-size: 16px;
+	}
+
+	.game__final-btn {
+		margin: 65px auto 0;
+		padding: 0;
+	}
+
+	.grid-question-item {
+		width: 172px;
+	}
+
+	.grid-question-item__img {
+		height: 110px;
+	}
+
+	.grid-question-item__counter {
+		width: 24px;
+		height: 24px;
+		font-size: 10px;
+	}
+
+	.grid-question-item__label {
+		font-size: 12px;
+	}
+}
+
+@media(max-width:767px) {
+	.game__final-photo img {
+		max-width: 100%;
+		width: 100%;
+		-o-object-fit: unset;
+		object-fit: unset;
+		height: initial;
+	}
+
+	.ny .game__final-photo {
+		width: 100%;
+		height: 300px;
+	}
+
+	.sunsets-quiz {
+		padding: 70px 0;
+	}
+
+	.sunsets-quiz-field {
+		width: 100%;
+	}
+
+	.game__intro {
+		padding: 32px 30px 62px;
+		min-height: 545px;
+	}
+
+	.game__intro-link {
+		padding: 0 5px;
+		width: 48%;
+	}
+
+	.game__intro-title {
+		width: 100%;
+		margin: 35px auto 30px;
+		font-size: 26px;
+		line-height: 32px;
+	}
+
+	.game__intro-text {
+		font-size: 14px;
+		line-height: 19px;
+	}
+
+	.game__intro-btn {
+		min-width: 248px;
+		margin: 35px auto 52px;
+		padding: 16px 35px;
+	}
+
+	.game__intro-btn span {
+		font-size: 14px;
+	}
+
+	.game-social__link {
+		width: 44px;
+		height: 44px;
+	}
+
+	.game-social__link+.game-social__link {
+		margin-left: 13px;
+	}
+
+	.game-social__link svg {
+		width: 17px;
+		height: 17px;
+	}
+
+	.game__question {
+		min-height: 576px;
+		padding: 32px 23px 54px;
+	}
+
+	.game__question-title {
+		width: 100%;
+		margin: 34px 0 30px;
+		font-size: 22px;
+	}
+
+	.question-row__label {
+		padding: 0;
+		padding-right: 45px;
+		padding-left: 85px;
+		min-height: 60px;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-align: center;
+		-ms-flex-align: center;
+		align-items: center;
+		font-size: 13px;
+		line-height: 130%;
+	}
+
+	.game__question-btn {
+		width: 100%;
+		min-width: auto;
+		margin: 40px 0 0;
+	}
+
+	.game__intro-btn:hover::before {
+		-webkit-transform: none;
+		-ms-transform: none;
+		transform: none;
+	}
+
+	.game__final {
+		padding: 32px 32px 54px;
+		min-height: 638px;
+	}
+
+	.game__final-photo {
+		width: 160px;
+		height: 160px;
+		margin: 30px auto 0;
+	}
+
+	.game__final-text {
+		font-size: 14px;
+		line-height: 142.34%;
+	}
+
+	.game__social-title {
+		margin: 40px 0 13px;
+		font-size: 14px;
+	}
+
+	.game__final-btn {
+		margin: 48px auto 0;
+		min-width: auto;
+	}
+
+	.grid-question-item {
+		width: 49%;
+		margin-right: 2%;
+		margin-bottom: 11px;
+	}
+
+	.grid-question-item:last-child,.grid-question-item:nth-child(2n) {
+		margin-right: 0;
+	}
+
+	.grid-question-item:nth-child(3n) {
+		margin-right: 2%;
+	}
+
+	.grid-question-item__img {
+		height: 0;
+		padding-bottom: 56.25%;
+	}
+
+	.grid-question-item__pic {
+		position: absolute;
+		z-index: 0;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+	}
+
+	.grid-question-item__counter {
+		width: 20px;
+		height: 20px;
+	}
+
+	.grid-question-item__label {
+		font-size: 10px;
+	}
+}
+
+.tourist-btn {
+	display: inline-block;
+	position: relative;
+	height: 50px;
+	padding: 0 25px;
+	border-radius: 40px;
+	color: #161310;
+	-webkit-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s;
+}
+
+.tourist-btn.orange-btn {
+	color: #fff;
+}
+
+.tourist-btn::before {
+	content: "";
+	position: absolute;
+	z-index: 0;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border-radius: 40px;
+	background-color: #fff;
+	-webkit-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.tourist-btn.orange-btn::before {
+	background-color: #ff4d1c;
+}
+
+.tourist-btn:hover::before {
+	-webkit-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.tourist-btn span {
+	height: 100%;
+	position: relative;
+	z-index: 1;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 1;
+}
+
+.tourist-btn span::after {
+	content: "";
+	width: 36px;
+	height: 9px;
+	position: relative;
+	margin-left: 20px;
+	background-image: url(../img/tourist/arrow-long-black.svg);
+	background-size: contain;
+	background-position: center;
+}
+
+.tourist-btn.orange-btn span::after {
+	background-image: url(../img/tourist/arrow-long-white.svg);
+}
+
+.tourist__plastic_card {
+	padding-bottom: 0;
+}
+
+.tourist__plastic_card-inner {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	padding: 50px 0;
+	border-top: 2px solid #f3f3f3;
+	border-bottom: 2px solid #f3f3f3;
+}
+
+.tourist__plastic_card-photo {
+	width: 39.5%;
+	margin-right: 3.58333333%;
+}
+
+.tourist__plastic_card-photo img {
+	width: 100%;
+	-o-object-fit: cover;
+	object-fit: cover;
+}
+
+.tourist__plastic_card-cont {
+	flex: 1 0 0;
+}
+
+.tourist-section__title {
+	font-size: 44px;
+	line-height: 110%;
+}
+
+.tourist__plastic_card-text {
+	margin-top: 45px;
+	width: 100%;
+	font-size: 20px;
+	line-height: 28px;
+}
+
+.tourist__plastic_card-btn {
+	margin-top: 44px;
+	display: block;
+	width: 250px;
+}
+
+.tourist__plastic_card-btn.tourist-btn span::after {
+	margin-left: auto;
+}
+
+@media(max-width:1799px) {
+	.tourist-btn {
+		height: 45px;
+	}
+
+	.tourist-btn span {
+		font-size: 16px;
+		line-height: 16px;
+	}
+
+	.tourist__plastic_card-inner {
+		padding: 54px 0;
+	}
+
+	.tourist__plastic_card-cont .tourist-section__title {
+		font-size: 40px;
+	}
+
+	.tourist__plastic_card-text {
+		margin-top: 35px;
+		font-size: 18px;
+		line-height: 25px;
+	}
+
+	.tourist__plastic_card-btn {
+		width: 225px;
+	}
+}
+
+@media(max-width:1279px) {
+	.tourist-btn {
+		padding: 0 20px;
+		height: 36px;
+	}
+
+	.tourist-btn span {
+		font-size: 12px;
+		line-height: 12px;
+	}
+
+	.tourist-btn span::after {
+		width: 24px;
+		height: 6px;
+		margin-left: 13px;
+	}
+
+	.tourist__plastic_card-cont .tourist-section__title {
+		font-size: 30px;
+	}
+
+	.tourist__plastic_card-text {
+		margin-top: 30px;
+		font-size: 14px;
+		line-height: 19px;
+	}
+
+	.tourist__plastic_card-btn {
+		margin-top: 35px;
+		width: 220px;
+	}
+}
+
+@media(max-width:1023px) {
+	.tourist__plastic_card-photo {
+		width: 45.325779%;
+		margin-right: 2.83286119%;
+	}
+
+	.tourist__plastic_card-inner {
+		padding: 50px 0;
+	}
+
+	.tourist__plastic_card-cont .tourist-section__title {
+		font-size: 28px;
+	}
+
+	.tourist__plastic_card-text {
+		margin-top: 15px;
+	}
+
+	.tourist__plastic_card-btn {
+		margin-top: 30px;
+	}
+}
+
+@media(max-width:767px) {
+	.tourist-btn {
+		padding: 0 27px;
+		height: 50px;
+	}
+
+	.tourist-btn span {
+		font-size: 14px;
+		line-height: 14px;
+	}
+
+	.tourist-btn span::after {
+		width: 27px;
+		height: 7px;
+		margin-left: 11px;
+	}
+
+	.tourist__plastic_card-inner {
+		display: block;
+		padding: 20px 0 50px;
+		margin: 0 auto;
+	}
+
+	.tourist__plastic_card-photo {
+		width: 100%;
+		margin-right: 0;
+		margin-bottom: 20px;
+	}
+
+	.tourist__plastic_card-cont .tourist-section__title {
+		font-size: 30px;
+	}
+
+	.tourist__plastic_card-cont {
+		margin: 0 auto;
+		width: 100%;
+	}
+
+	.tourist__plastic_card-text {
+		margin-top: 22px;
+	}
+
+	.tourist__plastic_card-btn {
+		margin-top: 30px;
+		width: 100%;
+	}
+}
+
+.sunsets-inner .top-secetion>.grid__content {
+	flex-direction: column;
+}
+
+.sunsets__top-dates {
+	font-size: 85px;
+	line-height: 140%;
+	text-align: center;
+	letter-spacing: .005em;
+	color: #fff;
+	margin-top: 65px;
+}
+
+.sunsets-program__title {
+	text-align: left;
+}
+
+.sunsets-program__title>span {
+	margin-bottom: 40px;
+	display: block;
+}
+
+.sunsets-card__ico {
+	margin-bottom: 30px;
+	width: 64px;
+	height: 64px;
+	object-fit: contain;
+}
+
+.sunsets-card__descr {
+	font-size: 44px;
+	line-height: 50px;
+}
+
+.video_wrap {
+	width: 100%;
+	border-radius: 20px;
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.video_wrap_pre {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+	z-index: 1;
+}
+
+.video_wrap_pre img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	-webkit-transition: .3s;
+	-o-transition: .3s;
+	transition: .3s;
+	width: 100%;
+	height: 100%;
+}
+
+.video_wrap_frame {
+	width: 100%;
+	height: 0;
+	overflow: hidden;
+	position: relative;
+	padding-bottom: 56.25%;
+}
+
+.video_wrap_frame iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border-width: 0;
+	outline-width: 0;
+}
+
+.s4_videobox {
+	margin-top: 40px;
+}
+
+.video_play_ico {
+	max-width: 147px;
+	max-height: 147px;
+}
+
+.video_play_ico:hover {
+	-webkit-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.video_wrap_pre:hover .video_play_ico {
+	-webkit-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.sunsets-events-slide:before {
+	content: "";
+	position: absolute;
+	background: url(../img/sunsets/watch-btn.svg);
+	width: 100px;
+	height: 100px;
+	right: 35px;
+	bottom: 35px;
+	z-index: 2;
+}
+
+.sunset-video-pp .eventpass-modal__photo {
+	width: 100%;
+	padding-bottom: 0;
+	position: relative;
+}
+
+.sunset-video-pp .eventpass-modal__photo::before {
+	display: none;
+}
+
+.sunset-video-pp .eventpass-modal__cont {
+	padding: 30px 0 60px;
+}
+
+.sunset-video-pp {
+	width: 840px!important;
+	padding: 65px 70px;
+}
+
+.video_play_ico.small {
+	max-width: 90px;
+	max-height: 90px;
+}
+
+.sunsets-audio_text {
+	font-size: 20px;
+	line-height: 140%;
+	margin: 65px 0 30px;
+}
+
+.audio-btn {
+	display: block;
+	position: relative;
+	padding: 17px 45px;
+	max-width: fit-content;
+	border-radius: 652.893px;
+}
+
+.audio-btn::before {
+	content: "";
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: #ff4d1c;
+	border-radius: 652.893px;
+	transition: all .3s;
+	z-index: 1;
+}
+
+.audio-btn:hover::before {
+	transform: scale(1.1);
+}
+
+.audio-btn span {
+	z-index: 2;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 142.34%;
+	color: #fff;
+	text-align: center;
+	position: relative;
+	width: 100%;
+	display: block;
+}
+
+.sunsets__top-dates>br {
+	display: none;
+}
+
+@media(max-width:1439px) {
+	.sunsets__top-dates {
+		font-size: 55px;
+		line-height: 139%;
+	}
+
+	.sunsets-card__descr {
+		font-size: 28px;
+		line-height: 31px;
+	}
+
+	.video_play_ico {
+		max-width: 134px;
+		max-height: 134px;
+	}
+
+	.sunsets-events-slide:before {
+		width: 90px;
+		height: 90px;
+		background-size: contain;
+	}
+
+	.sunsets-audio_text {
+		font-size: 20px;
+		line-height: 140%;
+		margin: 45px 0 30px;
+	}
+}
+
+@media(max-width:1279px) {
+	.sunsets__top-dates {
+		font-size: 36px;
+		line-height: 139%;
+	}
+
+	.sunsets-program__title>span {
+		margin-bottom: 20px;
+		display: block;
+	}
+
+	.video_play_ico {
+		max-width: 100px;
+		max-height: 100px;
+	}
+}
+
+@media(max-width:1023px) {
+	.sunsets-card__descr {
+		font-size: 18px;
+		line-height: 20px;
+	}
+
+	.video_play_ico {
+		max-width: 75px;
+		max-height: 75px;
+	}
+
+	.sunsets-events-slide:before {
+		width: 70px;
+		height: 70px;
+		background-size: contain;
+		right: 25px;
+		bottom: 25px;
+	}
+
+	.sunset-video-pp {
+		width: 700px!important;
+		padding: 65px 45px;
+	}
+
+	.video_play_ico.small {
+		max-width: 80px;
+		max-height: 80px;
+	}
+
+	.sunsets-audio_text {
+		font-size: 16px;
+	}
+}
+
+@media(max-width:767px) {
+	.sunsets__top-dates {
+		font-size: 44px;
+		line-height: 139%;
+		margin-top: 35px;
+		text-align: left;
+	}
+
+	.sunsets__top-dates>br {
+		display: block;
+	}
+
+	.sunsets-program__title span:first-child,.sunsets-program__title span {
+		width: 100%;
+	}
+
+	.sunsets-card__ico {
+		width: 36px;
+		height: 36px;
+	}
+
+	.video_play_ico {
+		max-width: 35px;
+		max-height: 35px;
+	}
+
+	.sunsets-events-slide:before {
+		width: 60px;
+		height: 60px;
+	}
+
+	.sunset-video-pp {
+		height: 100%;
+		width: 100%!important;
+		padding: 65px 20px;
+		top: 0!important;
+		border-radius: 0!important;
+	}
+
+	.sunset-video-pp+.pp__close {
+		z-index: 3;
+	}
+
+	.sunset-video-pp+.pp__close img {
+		filter: invert(1);
+	}
+
+	.video_play_ico.small {
+		max-width: 45px;
+		max-height: 45px;
+	}
+
+	.audio-btn {
+		max-width: 100%;
+	}
+
+	.audio-btn span {
+		font-size: 14px;
+		line-height: 14px;
+	}
+
+	.sunsets-audio_text {
+		margin: 25px 0;
+	}
+
+	.sunsets-card__name {
+		display: none;
+	}
+}
+
+
+/*New year start*/
+
+.new-year-program:before{
+    position: absolute;
+    content: "";
+    background: #fff;
+    width: 100%;
+    height: 10px;
+    top: -5px;
+    left: 0;
+  }
+  
+  .new-year-inner .top-secetion {
+      background-color: transparent;
+      background-image: 
+      url(../img/newYear/bottom-main.svg),
+      url(../img/newYear/yar.svg),
+      url(../img/newYear/three.svg), 
+      url(../img/newYear/bottom-main.svg),
+      none,
+      none;
+      background-repeat: no-repeat;
+      animation: none;
+      background-position-x: 
+      calc(0%),
+      calc(100%),
+      calc(0%),
+      calc(0%),
+      calc(0%),
+      calc(80%);
+      background-position-y: 
+      calc(101%),
+      calc(100%),
+      calc(100%), 
+      calc(101%), 
+      calc(90%),
+      calc(100%);
+      align-items: flex-start;
+      background-size: auto;
+      z-index: 2;
+  }
+  
+  .fire-wrapper-main{
+    position: relative;
+    background: #001D3D;
+  }
+  
+  .left-fire-main{
+    bottom: 5%;
+    position: absolute;
+    left: 0;
+    z-index: 1;
+  }
+  
+  .right-fire-main{
+    position: absolute;
+    right: 17%;
+    bottom: 0;
+    z-index: 1;
+  }
+  
+  .fire-stick{
+    animation: 2s stick ease forwards;
+  }
+  
+  .fire-head{
+    animation: 2s headBoom 2s ease forwards,
+    10s headRotate 2s linear infinite;
+    clip-path: circle(0% at center);
+    transform-box: fill-box;
+    transform-origin: 50% 50%;
+  }
+  
+  @keyframes stick {
+    0%{
+      clip-path: inset(100% 100% 0% 0%);
+    }
+    50%{
+      clip-path: inset(0% 0 0 0);
+    }
+    100%{
+      clip-path: inset(0 0 100% 100%);
+    }
+  }
+  
+  @keyframes headBoom {
+    0%{
+      clip-path: circle(0% at center);
+    }
+    100%{
+      clip-path: circle(100% at center);
+    }
+  }
+  
+  @keyframes headRotate {
+    0%{
+      transform: rotate(0deg);
+    }
+    100%{
+      transform: rotate(360deg);
+    }
+  }
+  
+  
+  .fire-stick.r{
+    animation: 2s stickR ease forwards;
+  }
+  
+  .fire-head.r{
+    animation: 2s headBoomR 2s ease forwards,
+    10s headRotateR 2s linear infinite;
+    clip-path: circle(0% at center);
+    transform-box: fill-box;
+    transform-origin: 50% 50%;
+  }
+  
+  @keyframes stickR {
+    0%{
+      clip-path: inset(100% 0% 100% 0);
+    }
+    50%{
+      clip-path: inset(0% 0 0 0);
+    }
+    100%{
+      clip-path: inset(0% 100% 100% 0%);
+    }
+  }
+  
+  @keyframes headBoomR {
+    0%{
+      clip-path: circle(0% at center);
+    }
+    100%{
+      clip-path: circle(100% at center);
+    }
+  }
+  
+  @keyframes headRotateR {
+    0%{
+      transform: rotate(0deg);
+    }
+    100%{
+      transform: rotate(360deg);
+    }
+  }
+  .scroll-anim-trigger{
+    height: auto;
+  }
+  .scroll-anim-trigger>path{
+    animation-play-state: paused !important;
+  }
+  .scroll-anim-trigger.anim>path{
+    animation-play-state: running !important;
+  }
+  
+  
+  .new-year-inner .sunsets__top-bg {
+      width: 100%;
+      height: 100%;
+      padding: 2.1% 1.6% 9.45% 1.6%;
+  }
+  
+  .new-year-inner .top-secetion>.grid__content {
+      display: block;
+      margin-top: 200px;
+  }
+  
+  .new-year-content .sunsets__top-dates{
+      margin: 0;
+      font-family: "Gropled";
+  }
+  
+  .new-year-content{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+  }
+  
+  .new-year-wrapper{
+      flex-wrap: wrap;
+  }
+  
+  .newYear-top-text{
+      margin-top: 35px;
+      text-align: left;
+      font-size: 101.221px;
+      line-height: 101px;
+      text-transform: uppercase;
+      color: #fff;
+      margin-bottom: 35px;
+      font-family: "Gropled";
+  }
+  
+  .bulb {
+      animation-duration: 1s;
+      animation-name: glow;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease-in-out;
+      animation-direction: alternate;
+      animation-name: glow;
+      animation-duration: 1s;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease-in-out;
+      animation-direction: alternate;
+      fill-opacity: 0;
+  }
+  
+  @keyframes glow {
+      0% {
+          fill-opacity: 0;
+      }
+      100% {
+          fill-opacity: 1.0;
+      }
+  }
+  
+  .blink-1 {
+      animation-delay: 0.6s;
+      animation-delay: 0.6s;
+  }
+  
+  .blink-2 {
+      animation-delay: 2s;
+      animation-delay: 2s;
+  }
+  
+  .blink-3 {
+      animation-delay: 2s;
+      animation-delay: 2s;
+  }
+  
+  .blink-4 {
+      animation-delay: 6s;
+      animation-delay: 6s;
+  }
+  
+  .blink-5 {
+      animation-delay: 2.5s;
+      animation-delay: 2.5s;
+  }
+  
+  .blink-6 {
+      animation-delay: .3s;
+      animation-delay: .3s;
+  }
+  
+  .blink-7 {
+      animation-delay: 2s;
+      animation-delay: 2s;
+  }
+  
+  .blink-8 {
+      animation-delay: .2s;
+      animation-delay: .2s;
+  }
+  
+  .blink-9 {
+      animation-delay: 0.95s;
+      animation-delay: 0.95s;
+  }
+  
+  .blink-10 {
+      animation-delay: 1.2s;
+      animation-delay: 1.2s;
+  }
+  
+  .new-year-cards .sunsets-card {
+      background: #0EB7DB;
+  }
+  .new-year-cards .sunsets-card-1 {
+      background: #E6352B;
+  }
+  .new-year-cards .sunsets-card-2 {
+      background: #FFD407;
+  }
+  
+  .new-year-program{
+      position: relative;
+      background-image: none;
+  }
+  
+  .cards-left{
+      position: absolute;
+      left: 0;
+      bottom: 0;
+  }
+  
+  .cards-right{
+      position: absolute;
+      right: 0;
+      bottom: 0;
+  }
+  
+  .new-year-events {
+      background-color: #00A5C8;
+      background-image: url(../img/newYear/pattern-left.svg),url(../img/newYear/pattern-right.svg);
+      background-repeat: no-repeat;
+      background-size: auto 100%;
+      background-position: 0% 0%, 100% 0%;
+      color: #fff;
+  }
+  
+  .new-year-events .sunsets-events__switcher{
+      display: none;
+  }
+  
+  .new-year-events .sunsets-events-slide:before{
+      display: none;
+  }
+  
+  .new-year-localmap{
+      background-color: #001D3C;
+      color: #fff;
+  }
+  
+  .new-year-localmap .content-block__title {
+      border-color: #fff;
+  }
+  
+  .eco-map-container > ymaps{
+      border-radius: 20px;
+      overflow: hidden;
+  }
+  
+  .newYear-map-container {
+      position: relative;
+      height: 370px;
+      margin-top: 55px;
+  }
+  
+  .newYear-map-container [class*="ymaps-2-1"][class*="-ground-pane"]{
+      filter: grayscale(1);
+  }
+  
+  .newYear-map-container .eco-map-info{
+      padding: 30px;
+      height: 290px;
+      top: 33px;
+      right: 37px;
+      border-radius: 12.2852px;
+  }
+  
+  .newYear-map-container .eco-map-info__time:not(.eco-map-info__time_weekend){
+      width: fit-content;
+      color: #fff;
+      padding: 6px 14px;
+      background: #E7362C;
+      border-radius: 22.7789px;
+      margin-bottom: 20px;
+  }
+  
+  .newYear-map-container .eco-map-info__area{
+      font-weight: normal;
+      font-size: 24px;
+      line-height: 43px;
+      color: #161310;
+      margin-bottom: 20px;
+      font-family: 'Platform';
+  }
+  
+  .newYear-map-container .eco-map-info__address{
+      font-size: 14px;
+      margin-bottom: 30px;
+      line-height: 142.34%;
+  }
+  
+  .time-icon-map{
+      margin-right:5px;
+  }
+  
+  .newYear-map-container .eco-map-info__time_weekend{
+      font-weight: 500;
+      font-size: 14px;
+      line-height: unset;
+      color: #161310;
+      margin: 0;
+  }
+  
+  .newYear-map-container .eco-map-info__time-box.bottom{
+      display: flex;
+      align-items: center;
+  }
+  
+  .new-events-header{
+      margin-top: 105px;
+  }
+  
+  .new-events-header .title__name{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+  }
+  
+  .new-events-header .title{
+      width: 100%;
+  }
+  
+  .new-event-card{
+      position: relative;
+      border-radius: 20px;
+      overflow: hidden;
+      width: 380px;
+      height: 380px;
+      padding: 25px 35px;
+      cursor: pointer;
+      display: flex;
+      flex-direction: column;
+      transition: 0.3s;
+      overflow: hidden;
+  }
+  
+  .new-event-card:hover .new-event-img{
+      -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+      transform: scale(1.1);
+  }
+  
+  .new-event-card::before{
+      content: "";
+      position: absolute;
+      background: linear-gradient(180deg, #0A1227 0%, rgba(10, 18, 39, 0) 75.52%);
+      opacity: 0.4;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      z-index: 1;
+  }
+  
+  .new-event-img{
+      position: absolute;
+      top: 0;
+      left: 0;
+      transition: 0.3s;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+  }
+  
+  .new-event-type{
+      z-index: 2;
+      position: relative;
+      width: fit-content;
+      background: #fff;
+      color: #FF4D1C;
+      font-weight: 500;
+      font-size: 13px;
+      line-height: 95%;
+      padding: 10px 18px;
+      border-radius: 6666px;
+      text-transform: uppercase;
+  }
+  .new-event-title{
+      z-index: 2;
+      position: relative;
+      font-weight: normal;
+      font-size: 25px;
+      line-height: 120%;
+      margin: 15px 0 0 0;
+  }
+  .new-event-dates{
+      z-index: 2;
+      position: relative;
+      background: rgba(22, 19, 16, 0.8);
+      border-radius: 6.66667e7px;
+      width: fit-content;
+      padding: 10px 20px;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 16px;
+      margin-top: auto;
+  }
+  
+  .new-events-cards{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-column-gap: 30px;
+      grid-row-gap: 30px;
+  }
+  
+  .all-events{
+      display: flex;
+      align-items: center;
+  }
+  
+  .all-events span{
+      font-weight: normal;
+      font-size: 26px;
+      line-height: 29px;
+      margin-right: 20px;
+  }
+  
+  .new-faq{
+      background-color: #00A5C8;
+      background-image: url(../img/newYear/pattern-left.svg),url(../img/newYear/pattern-right.svg);
+      background-repeat: no-repeat;
+      background-size: 350px auto;
+      background-position: 0% 0%, 100% 0%;
+      color: #fff;
+      background-repeat-y: repeat;
+  }
+  
+  .new-faq .tourist-faq__head-btn::before{
+      filter:invert(1) !important
+  }
+  .new-faq .tourist-faq__head-btn{
+      border-color: #fff;
+  }
+  
+  .new-faq .black{
+      color: #182D36;
+  }
+  
+  .new-more{
+      background: rgba(255, 255, 255, 0.16);
+      color: #fff;
+      border: 2px solid transparent;
+  }
+  
+  .new-more:hover{
+      background: transparent;
+      border: 2px solid #f3f3f3;
+  }
+  
+  
+  .new-partners{
+      background-color: #00A5C8;
+      background-image: url(../img/newYear/pattern-left.svg),url(../img/newYear/pattern-right.svg);
+      background-repeat: no-repeat;
+      background-size: 350px auto;
+      background-position: 0% 0%, 100% 0%;
+      color: #fff;
+      background-repeat-y: repeat;
+      padding: 55px 0 75px 0;
+  }
+  
+  .partners-new-header{
+      margin: 85px 0 0 0;
+  }
+  
+  .new-partners .content-block__title{
+      border-bottom: 2px solid rgb(255 255 255 / 20%);
+  }
+  
+  .event-stars{
+      position: absolute;
+      width: calc(100% - 6%);
+      height: calc(100% - 4%);
+      top: 2%;
+      left: 3%;
+  }
+  
+  .events-left-top{
+      position: absolute;
+      top: 15%;
+      left: 0;
+  }
+  
+  .events-right-top{
+      position: absolute;
+      right: 0;
+      top: 14.5%;
+  }
+  
+  .events-left-bottom{
+      position: absolute;
+      bottom: 24%;
+      left: 0;
+  }
+  
+  .events-right-bottom{
+      position: absolute;
+      right: 0;
+      bottom: -7.2%;
+  }
+  
+  .news-left{
+      position: absolute;
+      top: 21.7%;
+      left: 0;
+  }
+  
+  .news-right{
+      position: absolute;
+      right: 0;
+      top: 17.7%;
+  }
+  
+  .new-year-news{
+      position: relative;
+  }
+  
+  .new-partners-row{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-column-gap: 20px;
+      grid-row-gap: 20px;
+  }
+  
+  .new-part-item{
+      width: 100%;
+      transition: 0.3s;
+  }
+  
+  .new-part-item:hover{
+      opacity: 0.5;
+  }
+  
+  .new-part-item img{ 
+      width: 100%;
+      margin:0;
+      object-fit: contain;
+  }
+  
+  .info-block-new{
+      background-color: #E7362C;
+      top: 28vh;
+  }
+  
+  .info-block-new .fixed-info-block__close{
+      margin-bottom: 0;
+      position: absolute;
+      right: 20px;
+  }
+  
+  .mr0{
+      margin-top: 0 !important;
+  }
+  
+  .all-events.rev span{
+      margin-right: 0px;
+      margin-left: 11px;
+  }
+  
+  .new-event-dates.dates-popup{
+      position: absolute;
+      bottom: 20px;
+      right: 20px;
+      color: #fff;
+  }
+  
+  .eventpass-modal__adress span{
+      font-weight: 500;
+      font-size: 16px;
+      color: #FF4D1C;
+      line-height: 16px;
+      margin-left: 15px;
+  }
+  
+  .eventpass-modal__adress{
+      display: flex;
+      align-items: center;
+  }
+  
+  .fixed-bottom-line{
+    display: block;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #E7362C;
+    height: 72px;
+    color: #fff;
+    z-index: 1218;
+    transition: 0.3s;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+  }
+  
+  .fixed-bottom-line.line-show{
+    opacity: 1;
+    visibility: visible;
+    pointer-events: all;
+  }
+  
+  .line-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 100%;
+  }
+  
+  .line-wrapper>span{
+    font-size: 32px;
+    line-height: 36px;
+    font-family: 'Platform';
+    text-transform: uppercase;
+  }
+  
+  .new-year-inner{
+    overflow-x: unset !important;
+  }
+  
+  @media screen and (max-width:1799px){
+      .new-year-inner .top-secetion>.grid__content {
+          display: block;
+          margin-top: 150px;
+      }
+      .new-year-inner .top-secetion{
+          background-size: 100%, 52%, 10%, 100%, 8%, 16%;
+      }
+      .left-fire-main {
+        width: 8%;
+      }
+      .right-fire-main {
+        width: 16%;
+      }
+  }
+  
+  
+  @media screen and (max-width:1550px){
+    .new-partners {
+      background-position: -10% 0%, 110% 0%;
+    }
+    .new-faq{
+      background-position: -10% 0%, 110% 0%;
+    }
+    .new-year-events{
+      background-position: -10% 0%, 110% 0%;
+    }
+    .newYear-map-container .eco-map-info {
+      padding: 30px 20px;
+  }
+  }
+  
+  @media screen and (max-width:1550px) and (max-height:800px){
+    .info-block-new {
+      top: 35vh;
+  }
+  }
+  
+  
+  @media screen and (max-width:1439px){
+      .line-wrapper{
+        width: 86%;
+      }
+      .line-wrapper>span {
+        font-size: 20px;
+        line-height: 22px;
+      }
+      .line-arrow-img{
+        max-width: 40px;
+      }
+      .fixed-bottom-line{
+        height: 50px;
+      }
+      .new-year-inner .top-secetion>.grid__content {
+          width: 63%;
+          margin-top: 135px;
+      }
+      .new-year-content .sunsets-logo {
+          width: 205px;
+          height: auto;
+      }
+      .newYear-top-text {
+          margin-top: 30px;
+          font-size: 68px;
+          line-height: 68px;
+          margin-bottom: 35px;
+      }
+      .new-year-inner .top-secetion {
+          background-color: #001D3D;
+          background-image:
+           url(../img/newYear/bottom-main.svg), 
+           url(../img/newYear/yar.svg), 
+           url(../img/newYear/three.svg), 
+           none,
+           none;
+          background-repeat: no-repeat;
+          animation: none;
+          background-position-x: calc(0%), calc(100%), calc(0%), calc(0%), calc(80%);
+          background-position-y: calc(101%), calc(100%), calc(100%), calc(90%), calc(100%);
+          align-items: flex-start;
+          background-size: 100%, 52%, 10%, 8%, 16%;
+      }
+      .left-fire-main{
+        z-index: 3;
+      }
+      .right-fire-main{
+        z-index: 3;
+      }
+      .new-year-inner .sunsets__top-bg svg{
+          width: 100%;
+          height: 100%;
+      }
+      .new-year-btn span{
+          font-size: 12px;
+      }
+      .cards-left{
+          display: none;
+      }
+      .cards-right{
+          display: none;
+      }
+      .newYear-map-container {
+          position: relative;
+          height: 350px;
+          margin-top: 40px;
+      }
+      .newYear-map-container .eco-map-info{
+          width: 360px;
+      }
+      .events-left-top{
+          left: -3%;
+          width: 14%;
+      }
+      .events-right-top {
+          top: 12.5%;
+          width: 9%;
+      }
+      .events-left-bottom {
+          bottom: 26%;
+          width: 14%;
+      }
+      .new-event-card {
+          width: 345px;
+          height: 380px;
+      }
+      .events-right-bottom {
+          bottom: 4.8%;
+          width: 17%;
+      }
+      .event-stars {
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          top: 0;
+          left: 0;
+      }
+      .event-stars svg{
+          width: 100%;
+          height: 100%;
+      }
+      .new-faq{
+          padding: 65px 0;
+      }
+      .news-left {
+          top: -2.3%;
+          left: -3%;
+          width: 11%;
+      }
+      .news-right {
+          right: 0;
+          top: 52.7%;
+          width: 8.5%;
+      }
+      .new-partners {
+          background-position: -22% 0%, 122% 0%;
+      }
+      .new-partners-row {
+          grid-template-columns: 1fr 1fr 1fr;
+          grid-column-gap: 40px;
+          grid-row-gap: 20px;
+      }
+  }
+  
+  @media (max-width: 1279px), screen and (orientation: portrait){
+  .new-year-inner .top-secetion {
+      height: 535px;
+  }
+  .newYear-top-text {
+      margin-top: 20px;
+      font-size: 54px;
+      line-height: 54px;
+      margin-bottom: 20px;
+  }
+  .new-year-content .sunsets-logo {
+      width: 165px;
+      height: auto;
+  }
+  .events-left-top{
+      display: none;
+  }
+  .events-right-bottom{
+      display: none;
+  }
+  .event-stars{
+      display: none;
+  }
+  .new-year-btn {
+      padding: 7px 29px;
+  }
+  .newYear-map-container {
+      position: relative;
+      height: 280px;
+      margin-top: 30px;
+  }
+  .newYear-map-container .eco-map-info {
+      width: 300px;
+      padding: 23px;
+      top: 15px;
+      right: 15px;
+      height: 240px;
+  }
+  .newYear-map-container .eco-map-info__address {
+      font-size: 12px;
+  }
+  .newYear-map-container .eco-map-info__area {
+      font-size: 16px;
+      line-height: 35px;
+  }
+  .new-events-header {
+      margin-top: 65px;
+  }
+  .new-event-card {
+      width: 100%;
+      height: 305px;
+      padding: 20px 15px 30px 15px;
+  }
+  .new-events-cards {
+      grid-column-gap: 25px;
+      grid-row-gap: 25px;
+  }
+  .new-event-type {
+      font-size: 9px;
+      padding: 8px 13px;
+  }
+  .new-event-title{
+      font-size: 20px;
+  }
+  .new-faq {
+      background-position: -30% 0%, 130% 0%;
+  }
+  .news-left {
+      top: 9.7%;
+      left: -1%;
+      width: 11%;
+  }
+  .news-right {
+      right: 0;
+      top: 65.7%;
+      width: 8.5%;
+  }
+  .new-partners {
+      background-position: -35% 0%, 135% 0%;
+  }
+  .partners-new-header {
+      margin: 55px 0 0 0;
+  }
+  .left-fire-main {
+    width: 5%;
+    bottom: -19%;
+  }
+  .right-fire-main {
+    width: 12%;
+    bottom: -20%;
+    right: 19%;
+  }
+  }
+  
+  @media (max-width: 1023px){
+  .fixed-bottom-line {
+      height: 70px;
+  }
+  .new-year-inner .top-secetion {
+      height: 1170px;
+  }
+  .new-year-inner .top-secetion>.grid__content {
+      width: 92%;
+      margin-top: 135px;
+  }
+  .newYear-top-text {
+      margin-top: 30px;
+      font-size: 78px;
+      line-height: 78px;
+      margin-bottom: 30px;
+  }
+  .new-year-btn span {
+      font-size: 16px;
+  }
+  .new-year-btn {
+      padding: 14px 64px;
+  }
+  .new-year-content .sunsets-logo {
+      width: 250px;
+      height: auto;
+  }
+  .new-year-content .sunsets__top-dates{
+      font-size: 81px;
+      line-height: 139%;
+  }
+  .new-year-inner .top-secetion {
+      background-color: #001D3D;
+      background-image: 
+      url(../img/newYear/bottom-main.svg),
+      url(../img/newYear/yar.svg),
+      url(../img/newYear/three.svg),
+      none,
+      none;
+      background-repeat: no-repeat;
+      animation: none;
+      background-position-x: calc(0%), calc(78%), calc(0%), calc(0%), calc(102%);
+      background-position-y: calc(101%), calc(100%), calc(100%), calc(90%), calc(43%);
+      align-items: flex-start;
+      background-size: 300%, 155%, 10%, 0%, 29%;
+  }
+  .new-year-events {
+      background-position: -20% 0%, 120% 0%;
+  }
+  .all-events span {
+      font-weight: normal;
+      font-size: 20px;
+      line-height: 29px;
+      margin-right: 10px;
+  }
+  .new-events-cards {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-column-gap: 15px;
+      grid-row-gap: 15px;
+  }
+  .new-event-card {
+      width: 100%;
+      height: 380px;
+      padding: 20px 15px 30px 15px;
+  }
+  .new-event-title {
+      font-size: 24px;
+      margin-top: 20px;
+  }
+  .new-event-dates {
+      padding: 12px 20px;
+  }
+  .new-event-type {
+      font-size: 12px;
+      padding: 8px 13px;
+  }
+  .news-left{
+      display: none;
+  }
+  .new-partners {
+      background-position: -50% 0%, 150% 0%;
+  }
+  .right-fire-main {
+    width: 29%;
+    bottom: 32%;
+    right: -2%;
+  }
+  .left-fire-main {
+    width: 0%;
+  }
+  }
+  
+  @media (max-width: 767px){
+  .new-year-inner .top-secetion {
+      height: 720px;
+  }
+  .new-year-inner .top-secetion>.grid__content {
+      width: 92%;
+      margin-top: 85px;
+  }
+  .newYear-top-text {
+      margin-top: 30px;
+      font-size: 39px;
+      line-height: 39px;
+      margin-bottom: 100px;
+  }
+  .new-year-content .sunsets-logo {
+      width: 205px;
+      height: auto;
+  }
+  .new-year-content .sunsets__top-dates{
+      position: absolute;
+      top: 240px;
+      font-size: 60px;
+  }
+  .info-block-new {
+      display: none !important;
+  }
+  .new-year-btn span {
+      font-size: 12px;
+  }
+  .new-year-btn {
+      padding: 14px 50px;
+      width: fit-content;
+  }
+  .new-year-inner .top-secetion {
+      background-color: #001D3D;
+      background-image: 
+      url(../img/newYear/bottom-main.svg), 
+      url(../img/newYear/yar.svg), 
+      url(../img/newYear/three.svg), 
+      none,
+      none;
+      background-repeat: no-repeat;
+      animation: none;
+      background-position-x: calc(0%), calc(78%), calc(0%), calc(0%), calc(109%);
+      background-position-y: calc(101%), calc(100%), calc(100%), calc(90%), calc(67%);
+      align-items: flex-start;
+      background-size: 300%, 142%, 10%, 0%, 31%;
+  }
+  .new-year-inner .sunsets__top-bg {
+      width: 100%;
+      height: 100%;
+      padding: 23.1% 0 9.45% 0;
+  }
+  .new-year-inner .sunsets__top-bg svg {
+      width: 500%;
+      height: 100%;
+  }
+  .new-year-cards .sunsets-card__ico {
+      display: none;
+  }
+  .new-year-events .sunsets-events-slide {
+      padding: 18px 23px 40px;
+      height: 460px;
+  }
+  .new-year-events .sunsets-events-slide__text {
+      margin-top: 270px;
+  }
+  .all-events.rev span {
+      margin-right: 0px;
+      margin-left: 0px;
+  }
+  .events-right-top {
+      top: 12.5%;
+      width: 9%;
+      display: none;
+  }
+  .events-left-bottom {
+      bottom: 26%;
+      width: 14%;
+      display: none;
+  }
+  .newYear-map-container {
+      position: relative;
+      height: 505px;
+      margin-top: 30px;
+  }
+  .newYear-map-container .eco-map-info {
+      width: 300px;
+      padding: 23px;
+      top: 165px;
+      right: auto;
+      left: 50%;
+      transform: translateX(-50%);
+      height: 240px;
+  }
+  
+  .all-events.mobile{
+      position: absolute;
+      bottom: 0;
+      padding: 13px 25px;
+      background: #E7362C;
+      border-radius: 666px;
+      width: 100%;
+  }
+  .all-events.mobile img{
+      margin-right: 0;
+      margin-left: auto;
+  }
+  .new-events-header.mobile{
+      position: static;
+  }
+  .new-events-header.mobile .title{
+      position: static;
+  }
+  .new-events-cards{
+      padding-bottom: 70px;
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-column-gap: 0;
+      grid-row-gap: 30px;
+  }
+  .all-events.mobile span {
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 22px;
+      margin-right: 0;
+  }
+  .new-faq {
+      background-position: -60% 0%, 160% 0%;
+      background-size: 50% auto;
+  }
+  .news-right{
+      display: none;
+  }
+  .new-partners-row {
+      grid-template-columns: 1fr 1fr;
+      grid-column-gap: 20px;
+      grid-row-gap: 20px;
+  }
+  .new-partners {
+      background-position: -60% 0%, 160% 0%;
+      background-size: 50% auto;
+  }
+  .partners-new-header {
+      margin: 35px 0 0 0;
+  }
+  .line-wrapper>span {
+    max-width: 250px;
+  }
+  .fixed-bottom-line {
+    height: 80px;
+  }
+  .right-fire-main {
+    width: 29%;
+    bottom: 1%;
+    right: -2%;
+  }
+  }
+  
+
+
+
+
+
+/*Map for new year*/
+
+.eco-map-info::-webkit-scrollbar-track {
+	background-color: transparent;
+}
+
+.eco-map-info::-webkit-scrollbar {
+	width: 6px;
+	background-color: transparent;
+}
+
+.eco-map-info::-webkit-scrollbar-thumb {
+	border-radius: 5px;
+	background-color: #001d3c;
+}
+
+.new-partners .partner__item {
+	height: initial;
+}
+
+.new-partners-row img {
+	max-height: 70px;
+}
+
+.new-partners-row.new-partners-row2 .new-part-item {
+	min-height: 100px;
+}
+
+.new-partners-row.new-partners-row2 .new-part-item img {
+	min-height: 100px;
+	max-width: 160px;
+}
+
+.sunsets-program__title {
+	font-family: graphik lcg;
+	font-weight: 300;
+}
+
+.sunsets-events-slide:hover .sunsets-events-slide__img>img {
+	-webkit-transform: scale(1.05);
+	-ms-transform: scale(1.05);
+	transform: scale(1.05);
+	-webkit-transition: .5s;
+	-o-transition: .5s;
+	transition: .5s;
+}
+
+.swiper-button-prev {
+	left: -30px;
+}
+
+.swiper-button-next {
+	right: -30px;
+	left: initial;
+}
+
+@media only screen and (max-width:767px){
+.new-partners-row.new-partners-row2 .new-part-item img {
+    min-height: 80px;
+    min-width: initial;
+    max-height: 30px;
+    max-width: 40%;
+}
+.new-part-item {
+    transform-origin: left;
+    text-align: left;
+}
+
+.new-partners-row img {
+    min-height: 82px;
+    min-width: initial;
+    max-height: 70px;
+    max-width: 60%;
+}
+}
+
+/*Map for new year*/
+
+.video-slider-section-new{
+	background-color: #001d3c;
+    color: #fff;
+}
+
+.slider-new-year{
+	margin-bottom: 0 !important;
+	position: relative;
+}
+.video-slider-section-new .content-block__title {
+    border-color: #fff;
+	color: #fff;
+}
+
+
+.tourist-faq__item.rules{
+	background: rgba(255, 255, 255, 0.05);
+	border-radius: 10px;
+	border: none;
+	padding: 15px 30px;
+  }
+  .tourist-faq__inner.rules{
+	margin: 0 0 75px 0;
+  }
+  .tourist-faq__item.rules .tourist-faq__head-btn{
+	border: none;
+  }
+  .tourist-faq__item.rules .tourist-faq__head-btn::before{
+	background: url(../img/newYear/down-acc.svg) no-repeat center;
+	background-size: contain;
+  }
+  .tourist-faq__item.rules .tourist-faq__head{
+	display: flex;
+	align-items: center;
+  }
+  img.rules-faq-icon {
+	width: 30px;
+	height: 30px;
+	object-fit: contain;
+	margin-right: 30px;
+  }
+  .tourist-faq__item.rules .tourist-faq-item__title{
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 18px;
+  }
+  .tourist-faq__item.rules .tourist-faq-item__text {
+	text-align: center;
+	width: 100%;
+	max-width: 84.6%;
+	margin: 0 auto;
+	font-size: 14px;
+	line-height: 20px;
+	font-family: 'Graphik LCG';
+  }
+  .tourist-faq-img{
+	width: 100%;
+	margin-top: 15px;
+	object-fit: contain;
+  }
+  .tourist-faq-img.mob{
+	  display: none;
+  }
+
+  @media screen and (max-width:1023px) {
+	.tourist-faq-img.mob{
+		display: block;
+	}
+	.tourist-faq-img.desk{
+		display: none;
+	}
+	.tourist-faq__inner.rules {
+		margin: 0 0 65px;
+	}
+  }
+
+  @media screen and (max-width:767px) {
+  .tourist-faq__item.rules .tourist-faq-item__text {
+    max-width: 100%;
+    font-size: 12px;
+}
+img.rules-faq-icon {
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+    margin-right: 10px;
+}
+.tourist-faq__item.rules {
+    padding: 15px 15px;
+}
+.tourist-faq__inner.rules {
+    margin: 0 0 35px;
+}
+}

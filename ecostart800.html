@@ -1,0 +1,1389 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Нижний800 / Официальный портал 800-летия Нижнего Новгорода</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="author" content="# Нижний 800 ">
+	<meta name="description" content="На портале можно подать проект или идею к 800-летию города, а также узнать ключевые новости о подготовке к празднованию.">
+	<link rel="shortcut icon" href="static/img/images/favicon.ico">
+	<meta property="og:title" content="Нижний800 / Официальный портал 800-летия Нижнего Новгорода"> <meta property="og:description" content="На портале можно подать проект или идею к 800-летию города, а также узнать ключевые новости о подготовке к празднованию.">
+	<meta property="og:url" content="https://nizhny800.ru/">
+	<meta property="og:image" content="static/img/og/og_800.png">
+	<meta property="og:image:secure_url" content="static/img/og/og_800.png">
+	<meta property="og:locale" content="ru_RU">
+	<meta property="og:site name" content="# Нижний 800 ">	
+
+	<link rel="icon" href="static/img/images/favicon.ico">
+	<link rel="apple-touch-icon" href="static/img/images/favicon-16.png">
+	<link rel="apple-touch-icon" sizes="16x16" href="static/img/images/favicon-16.png">
+	<link rel="apple-touch-icon" sizes="32x32" href="static/img/images/favicon-32.png">
+	<link rel="apple-touch-icon" sizes="48x48" href="static/img/images/favicon-48.png">
+	<link rel="apple-touch-icon" sizes="57x57" href="static/img/images/favicon-57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="static/img/images/favicon-60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="static/img/images/favicon-72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="static/img/images/favicon-76.png">
+	<link rel="apple-touch-icon" sizes="96x96" href="static/img/images/favicon-96.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="static/img/images/favicon-114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="static/img/images/favicon-120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="static/img/images/favicon-144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="static/img/images/favicon-152.png">
+	<link rel="apple-touch-icon" sizes="160x160" href="static/img/images/favicon-160.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="static/img/images/favicon-180.png">
+	<link rel="apple-touch-icon" sizes="192x192" href="static/img/images/favicon-192.png">
+	<link rel="apple-touch-icon" sizes="256x256" href="static/img/images/favicon-256.png">
+	<link rel="apple-touch-icon" sizes="512x512" href="static/img/images/favicon-512.png">
+
+	<link rel="stylesheet" href="static/fontsnew/stylesheet.css">
+	<link rel="stylesheet" href="static/css/reset.css">
+	<link rel="stylesheet" href="static/css/bundle.css">
+	<link rel="stylesheet" href="static/css/main-new.css">
+	<link rel="stylesheet" href="static/css/main.css">
+	<link rel="stylesheet" href="static/css/main-extra.css">
+
+	<link rel="stylesheet" href="static/css/media.css">
+	<link rel="stylesheet" href="static/css/jquery.fancybox.css">
+	<link rel="stylesheet" href="static/css/special.css">
+	<link rel="stylesheet" href="static/css/talisman.css">
+	<link rel="stylesheet" href="static/css/eventsSection.css">
+	
+	
+		<link rel="stylesheet" href="static/css/ecostart.css">
+	
+	
+	<link rel="stylesheet" href="static/css/style.min.css">
+
+    <script src="static/js/libs/imagesloaded.pkgd.min.js"></script>
+	<script>
+		document.addEventListener("DOMContentLoaded", function () {
+			let lazyImages = [].slice.call(document.querySelectorAll("img.lazy"))
+			let active = false;
+			if (lazyImages.length > 0) {
+				const lazyLoad = function () {
+				if (active === false) {
+					active = true;
+	
+					setTimeout(function () {
+						lazyImages.forEach(function (lazyImage) {
+							if ((lazyImage.getBoundingClientRect().top <= window.innerHeight + 500 && lazyImage.getBoundingClientRect().bottom >= 0) && getComputedStyle(lazyImage).display !==
+									"none") {
+								lazyImage.src = lazyImage.dataset.src;
+								//lazyImage.srcset = lazyImage.dataset.srcset;
+								lazyImage.classList.remove("lazy");
+	
+								lazyImages = lazyImages.filter(function (image) {
+									return image !== lazyImage;
+								});
+	
+								if (lazyImages.length === 0) {
+									document.removeEventListener("scroll", lazyLoad);
+									window.removeEventListener("resize", lazyLoad);
+									window.removeEventListener("orientationchange",
+											lazyLoad);
+								}
+							}
+						});
+	
+						active = false;
+					}, 200);
+				}
+			};
+	
+			lazyLoad();
+			document.addEventListener("scroll", lazyLoad);
+			window.addEventListener("resize", lazyLoad);
+			window.addEventListener("orientationchange", lazyLoad);
+			}
+		});
+	</script>
+
+	<script src="https://api-maps.yandex.ru/2.1/?apikey=bb34617d-47c3-4cd5-ad4a-f6e86d49022a&lang=ru_RU"></script>
+</head>
+
+
+<body>
+	<div class="blind-panel-back"></div>
+<div class="blind-panel">
+	<div class="button blind_mode">
+		<img src="static/img/eye-invert.svg" alt="blind_mode">
+	</div>
+
+	<div>Размер шрифта:</div>
+	<div class="button js-font" data-fontsize="small">A</div>
+	<div class="button js-font" data-fontsize="mid">A+</div>
+	<div class="button js-font" data-fontsize="big">A++</div>
+	<div>Межстрочный интервал:</div>
+	<div class="button js-lineheight" data-lineheight="regular">И</div>
+	<div class="button js-lineheight" data-lineheight="incr">И+</div>
+	<div>Цвет :</div>
+	<div class="button js-scheme sh1" data-scheme="bw" style="background: #fff !important; color: #000 !important;">
+		Ч/Б</div>
+	<div class="button js-scheme sh2" data-scheme="wb" style="background: #000 !important; color: #fff !important;">
+		Б/Ч</div>
+	<div class="button js-scheme sh3" data-scheme="yb" style="background: #0000ff !important; color: #ffff00 !important;">Ж/С</div>
+
+	<div>Изображения:</div>
+	<div class="button js-images" data-on="true">Вкл</div>
+
+</div>
+    <div class="preloader">
+    <div class="preloader__logo">
+        <svg viewBox="0 0 291 41" xmlns="http://www.w3.org/2000/svg">
+            <path  d="M286.829 34.5036H275.465V11.4793H286.891L286.829 34.5036ZM271.886 7.96172V38.0458H290.335V7.96172H271.886ZM204.325 38.0458V7.96172H200.722L181.781 32.4373V7.96172H178.165V38.0458H181.781L200.722 13.8654V38.0458H204.325ZM131.993 38.0458V7.96172H128.389V21.1834H115.893V7.96172H112.277V38.0458H115.893V24.7994H128.389V38.0458H131.993ZM168.165 38.0458V7.96172H164.549L145.608 32.4373V7.96172H142.005V38.0458H145.608L164.549 13.8654V38.0458H168.165ZM86.387 23.0161L100.261 38.0458H105.279L91.2821 23.0161L105.279 7.98631H100.261L86.387 23.0161ZM82.5987 38.0458H86.1656V7.96172H82.5987V38.0458ZM185.68 0.569824V4.18582H196.847V0.569824H185.68ZM82.3651 22.9915L68.4914 7.96172H63.461L77.4453 22.9915L63.4856 38.0458H68.516L82.3651 22.9915ZM260.607 34.5036H249.181V11.4793H260.607V34.5036ZM245.664 7.96172V38.0458H264.113V7.96172H245.664ZM20.3271 38.0458V7.96172H16.7234V21.1834H4.21503V7.96172H0.611328V38.0458H4.21503V24.7994H16.7234V38.0458H20.3271ZM56.4873 38.0458V7.96172H52.8466L33.9056 32.4373V7.96172H30.3388V38.0458H33.9425L52.8466 13.8408V38.0458H56.4873ZM221.114 17.8749L226.317 22.9915L221.114 28.108L228.075 35.1432L235.037 28.108L229.834 22.9915L235.037 17.8749L228.075 10.8398L221.114 17.8749ZM228.075 5.77244L240.018 17.8749L234.877 22.9915L240.08 28.108L228.137 40.2105L216.194 28.108L221.397 22.9915L216.194 17.8749L228.075 5.77244Z"></path>
+         </svg>
+    </div>
+</div>
+
+  <div class="grid">
+	  <div class="grid__left">
+	   	
+		  <!--header-->
+
+
+<header class="header fixed-block">
+
+   <div class="grid__content">
+      
+      
+      <div class="header__inner">
+      
+         <div class="header__inner_item header__new">
+            <div class="item__menu">
+               <div class="item__menu_mobile">
+                  <div class="menu__mobile_item"></div>
+                  <div class="menu__mobile_item"></div>
+                  <div class="menu__mobile_item"></div>
+               </div>
+               <div class="item__menu_logo">
+                  <a href="/">
+                     <svg width="291" height="41" viewBox="0 0 291 41" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M286.829 34.5036H275.465V11.4793H286.891L286.829 34.5036ZM271.886 7.96172V38.0458H290.335V7.96172H271.886ZM204.325 38.0458V7.96172H200.722L181.781 32.4373V7.96172H178.165V38.0458H181.781L200.722 13.8654V38.0458H204.325ZM131.993 38.0458V7.96172H128.389V21.1834H115.893V7.96172H112.277V38.0458H115.893V24.7994H128.389V38.0458H131.993ZM168.165 38.0458V7.96172H164.549L145.608 32.4373V7.96172H142.005V38.0458H145.608L164.549 13.8654V38.0458H168.165ZM86.387 23.0161L100.261 38.0458H105.279L91.2821 23.0161L105.279 7.98631H100.261L86.387 23.0161ZM82.5987 38.0458H86.1656V7.96172H82.5987V38.0458ZM185.68 0.569824V4.18582H196.847V0.569824H185.68ZM82.3651 22.9915L68.4914 7.96172H63.461L77.4453 22.9915L63.4856 38.0458H68.516L82.3651 22.9915ZM260.607 34.5036H249.181V11.4793H260.607V34.5036ZM245.664 7.96172V38.0458H264.113V7.96172H245.664ZM20.3271 38.0458V7.96172H16.7234V21.1834H4.21503V7.96172H0.611328V38.0458H4.21503V24.7994H16.7234V38.0458H20.3271ZM56.4873 38.0458V7.96172H52.8466L33.9056 32.4373V7.96172H30.3388V38.0458H33.9425L52.8466 13.8408V38.0458H56.4873ZM221.114 17.8749L226.317 22.9915L221.114 28.108L228.075 35.1432L235.037 28.108L229.834 22.9915L235.037 17.8749L228.075 10.8398L221.114 17.8749ZM228.075 5.77244L240.018 17.8749L234.877 22.9915L240.08 28.108L228.137 40.2105L216.194 28.108L221.397 22.9915L216.194 17.8749L228.075 5.77244Z"/>
+                     </svg>
+                  </a>
+               </div>   
+               <div class="item__menu_user">
+                  <div class="user__weather blind_mode">
+                     <img src="static/img/eye.svg" alt="eye">
+                  </div>
+                  <a class="store__link" onclick="ym(55467490,'reachGoal','header_shop');" target="_blank" href="https://store.nizhny800.ru/">
+                     <span>Интернет-магазин</span>
+                  </a>
+               </div>
+            </div>
+         </div>
+         <div class="header__inner_item mobile-menu header__new">
+            <div class="item__menu">
+               <div class="item__menu_items">
+                  <div class="menu__items-cont">
+                     <div class="menu__items_item" data-layer="1">
+                        <a>0 800-летии</a>
+                     </div>
+                     <div class="menu__items_item" data-layer="2">
+                        <a>Проекты 800</a>
+                     </div>
+                     <div class="menu__items_item" data-layer="3">
+                        <a>Ключевые события</a>
+                     </div>
+                     <div class="menu__items_item" data-layer="4">
+                        <a>В фокусе</a>
+                     </div>
+                     <div class="menu__items_item" data-layer="5">
+                        <a>Спецпроекты</a>
+                     </div>
+                     <div class="menu__items_item news" data-layer="6">
+                        <a href="#">Пaртнёры</a>
+                     </div>
+                  </div>
+               </div>
+               <div class="menu-store-mobile">
+                  <a class="store__link" onclick="ym(55467490,'reachGoal','header_shop');" target="_blank" href="https://store.nizhny800.ru/">
+                     <span>Интернет-магазин</span>
+                  </a>
+               </div>
+               <div class="item__menu_sn-box">
+                  <a href="https://vk.com/nizhny800" target="_blank" rel="noreferrer noopener nofollow" class="sn-box__item">
+                     <img src="static/img/vk_black.svg" alt="vk_black">
+                  </a>
+                  <a href="https://www.tiktok.com/@nizhny800" rel="noreferrer noopener nofollow" target="_blank" class="sn-box__item">
+                     <img src="static/img/tt_black.svg" alt="tt_black">
+                  </a>
+                  <a href="https://clck.ru/T8pw6" rel="noreferrer noopener nofollow" target="_blank" class="sn-box__item">
+                     <img src="static/img/ydezn.svg" alt="ydezn">
+                  </a>
+                  <a href="https://www.youtube.com/channel/UCY9nch3eFIvRcs9i8HAb-qA" rel="noreferrer noopener nofollow" target="_blank" class="sn-box__item">
+                     <img src="static/img/youtube-152810%201.svg" alt="youtube">
+                  </a>
+               </div>
+            </div>
+            <form class="search-elem" action="" method="get">
+               <button type="button" class="search-elem-button"></button>
+               <input class="search-elem-input" type="text" name="search" id="search" value="" placeholder="Что вы ищете?">
+               <button type="button" class="search-elem-reset"></button>
+            </form>
+         </div>
+      </div>
+      <div class="header__additional-layer header__new">
+         <div class="header__additional-layer_item" data-layer="1">
+            <div>
+               <p>Нижний Новгород — центр Нижегородской области и столица Приволжского федерального округа, шестой по численности мегаполис России. Город расположен на месте встречи рек Волги и Оки в центральной части Восточно-Европейской равнины, в 400 километрах на восток от Москвы. </p>
+            </div>
+            <div>
+               <a href="about.html"> О юбилее</a>
+               <a href="history/">История города</a>
+               <a href="#">Видео</a>
+            </div>
+         </div>
+         <div class="header__additional-layer_item" data-layer="2">
+            <div>
+               <p>Специальные проекты, направленные на развитие Нижнего Новгорода в рамках 800-летия города и после юбилея</p>
+            </div>
+            <div>
+               <a href="#">Город 800</a>
+               <a href="#" target="_blank">Волонтеры 800</a>
+               <a href="#" target="_blank">800 добрых дел</a>
+               <a href="#">Команда 800</a>
+            </div>
+         </div>
+         <div class="header__additional-layer_item" data-layer="3">
+            <div>
+               <p>«Нижний 800» подготовил увлекательные интерактивы и материалы на актуальные темы. Будь в фокусе!</p>
+               <a class="store__link mob-hidden" target="_blank" href="https://nn-afisha.ru/"><span>Актуальные события</span></a>
+            </div>
+            <div>
+               <a href="#">Гала шоу Начало нового</a>
+               <a href="#">Столица закатов</a>              
+               <a href="#">Новогодняя столица</a>
+               <a class="store__link desc-hidden" target="_blank" href="https://nn-afisha.ru/"><span>Актуальные события</span></a>
+            </div>
+         </div>
+         <div class="header__additional-layer_item" data-layer="4">
+            <div>
+               <p>«Нижний 800» подготовил увлекательные интерактивы и материалы на актуальные темы. Будь в фокусе!</p>
+            </div>
+            <div>
+               <a href="#">Статьи</a>
+               <a href="#">Новости</a>              
+               <a href="#">Рекомендуем</a>
+            </div>
+         </div>
+         <div class="header__additional-layer_item" data-layer="5">
+            <div>
+               <p>Специальные проекты, направленные на развитие Нижнего Новгорода в рамках 800-летия города и после юбилея</p>
+            </div>
+            <div>
+               <a href="#">Дворы 800</a>
+               <a href="#">Экостарт 800</a>
+               <a target="_blank" rel="noopener noreferrer" href="https://name.nizhny800.ru/">Имя Нижнего</a>
+            </div>
+         </div>
+      </div>
+   </div>
+</header>
+		  <main>
+            <div class="main__inner broun-body ecostart">
+                <section>   
+                    <div class="section__inner general-section general-section_showcase general-section_i background-container ecostart-bg">
+                      <div class="grid__content">
+                        <div class="general-section__item">
+                          <div class="general-section__item_title">
+                            <h1>ЭКОСТАРТ 800</h1>
+                          </div>
+                          <div class="general-section__item_text">
+                            <p class="large">
+                              Цикл мероприятий, направленных на повышение уровня экологической культуры и грамотности жителей Нижнего Новгорода. Проект формирует экологическое мышление и бережное отношение к городскому пространству за счет непосредственного участия жителей в реализации природоохранных мер благоустройства города.            </p>
+                          </div>
+                          <a href="https://www.volga-paper.ru/" rel="noreferrer noopener" target="_blank" class="eco-general-partner">
+                            <img src="static/img/ecostart/volga.png" alt="volga">
+                            <span> Генеральный партнёр программы</span>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                </section>
+                <section class="ecostart-about">
+                  <div class="container">
+                    <div class="grid__content">
+                      <div class="content-block__title">
+                        <div class="title">
+                          <div class="title__name">
+                            <h3>О проекте</h3>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="ecostart-about__content">
+                        <div class="ecostart-about__left">
+                          <img class="ecostart-about__img" width="409" height="194" src="static/img/ecostart/eco-logo.svg" alt="800">
+                          <p class="large ecostart-about__text">
+                            Проект формирует экологическое мышление и бережное отношение к городскому пространству за счет
+                            непосредственного участия жителей в реализации природоохранных мер благоустройства города.
+                          </p>
+                        </div>
+                        <div class="ecostart-about__right">
+                          <p class="large ecostart-about__text"><b class="ecostart-about__title">Формирует единую комплексную экосистему:</b> существующие экопроекты, волонтёрские движения, областные ведомства и бизнес-сообщество объединяются.</p>
+						              <p class="large ecostart-about__text"><b class="ecostart-about__title">Просвещает:</b> у людей формируется активная экологическая позиция.</p>
+						              <p class="large ecostart-about__text"><b class="ecostart-about__title">Вовлекает:</b> горожане замечают свалки и объединяются, чтобы их устранить.</p>
+						              <p class="large ecostart-about__text"><b class="ecostart-about__title">Мотивирует:</b> жители понимают, как сделать свой образ жизни более экологичным и что это даст в перспективе.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+                <section class="ecostart-members">
+                  <div class="container">
+                    <div class="grid__content">
+                      <div class="content-block__title">
+                        <div class="title">
+                          <div class="title__name">
+                            <h3>Участники проекта</h3>
+                          </div>
+                          <div class="title__right">
+                            <div class="swiper-navigation swiper-navigation_top swiper-navigation-members">
+                              <div class="swiper-button swiper-button-prev"></div>
+                              <div class="swiper-button swiper-button-next"></div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="swiper-container swiper-container-members">
+                        <div class="swiper-wrapper ecostart-members__grid">
+                          <div class="ecostart-member swiper-slide">
+                            <div class="ecostart-member__img">
+                              <img src="static/img/ecostart/eco-member-ico-1.svg" alt="icon Жители <br> города">
+                            </div>
+                            <div class="ecostart-member__cont">
+                              <h4 class="ecostart-member__title">Жители <br> города</h4>               
+                            </div>
+                          </div><div class="ecostart-member swiper-slide">
+                            <div class="ecostart-member__img">
+                              <img src="static/img/ecostart/eco-member-ico-2.svg" alt="icon Органы власти и <br> подведомственные организации">
+                            </div>
+                            <div class="ecostart-member__cont">
+                              <h4 class="ecostart-member__title">Органы власти и <br> подведомственные организации</h4>                
+                            </div>
+                          </div>
+                          <div class="ecostart-member swiper-slide">
+                            <div class="ecostart-member__img">
+                              <img src="static/img/ecostart/eco-member-ico-3.svg" alt="icon Общественные <br> экодвижения">
+                            </div>
+                            <div class="ecostart-member__cont">
+                              <h4 class="ecostart-member__title">Общественные <br> экодвижения</h4>               
+                            </div>
+                          </div>
+                          <div class="ecostart-member swiper-slide">
+                            <div class="ecostart-member__img">
+                              <img src="static/img/ecostart/eco-member-ico-4.svg" alt="icon Профессиональные <br> сообщества">
+                            </div>
+                            <div class="ecostart-member__cont">
+                              <h4 class="ecostart-member__title">Профессиональные <br> сообщества</h4>               
+                            </div>
+                          </div>
+                          <div class="ecostart-member swiper-slide">
+                            <div class="ecostart-member__img">
+                              <img src="static/img/ecostart/eco-member-ico-5.svg" alt="icon Бизнес<br>-сообщество">
+                            </div>
+                            <div class="ecostart-member__cont">
+                              <h4 class="ecostart-member__title">Бизнес<br>-сообщество</h4>               
+                            </div>
+                          </div>
+                        </div>
+                      </div>            
+                    </div>
+                  </div>
+                </section>
+                <section class="ecostart-events">
+                  <div class="container">
+                    <div class="grid__content">
+                      <div class="content-block__title">
+                        <div class="title">
+                          <div class="title__name">
+                            <h3>В рамках проекта пройдут:</h3>
+                          </div>
+                          <div class="title__right">
+                            <div class="swiper-navigation swiper-navigation_top swiper-navigation-events">
+                              <div class="swiper-button swiper-button-prev"></div>
+                              <div class="swiper-button swiper-button-next"></div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="content-block__text">
+                        <p class="large">Загрязнение окружающей среды — острая социальная проблема, которая касается каждого жителя. В событийной программе проекта <b>«Экостарт 800»</b> — целая серия мероприятий, которые будут интересны участникам разного возраста: можно выйти на субботник и навести чистоту в своём дворе, послушать лекции от эксперта или узнать об экологичном образе жизни через мобильное приложение.          </p>
+                      </div>
+                      <div class="content-block__cont">
+                        <div class="swiper-container swiper-container_ecostart-events">
+                          <div class="swiper-wrapper">
+                            <div class="ecostart-event swiper-slide">
+                              <div class="ecostart-eventes__img">
+                                <img src="static/img/ecostart/ecostart-eventes-ico-1.svg" alt="icon Акции">
+                              </div>
+                              <div class="ecostart-eventes__cont">
+                                <h4 class="ecostart-eventes__title">Акции</h4>
+                                <p class="ecostart-eventes__text">Проведение еженедельных акций выходного дня по сбору и сортировке
+                                  ТКО в разных точках города.</p>
+                              </div>
+                            </div>
+                            <div class="ecostart-event swiper-slide">
+                              <div class="ecostart-eventes__img">
+                                <img src="static/img/ecostart/ecostart-eventes-ico-3.svg" alt="icon Лекции и мастер классы">
+                              </div>
+                              <div class="ecostart-eventes__cont">
+                                <h4 class="ecostart-eventes__title">Лекции и мастер классы</h4>
+                                <p class="ecostart-eventes__text">Реализация просветительской части программы в формате лекций и
+                                  мастер-классов. Возможно привлечение партнеров из числа профессиональных организаций и
+                                  представителей бизнеса.</p>
+                              </div>
+                            </div>
+                            <div class="ecostart-event swiper-slide">
+                              <div class="ecostart-eventes__img">
+                                <img src="static/img/ecostart/ecostart-eventes-ico-6.svg" alt="icon Субботники">
+                              </div>
+                              <div class="ecostart-eventes__cont">
+                                <h4 class="ecostart-eventes__title">Субботники</h4>
+                                <p class="ecostart-eventes__text">Проведение общегородских и локальных субботников.</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+                <section class="ecostart-enterprises">
+                  <div class="container">
+                    <div class="grid__content">
+                      <div class="content-block__title">
+                        <div class="title">
+                          <div class="title__name">
+                            <h3>Экология на предприятиях</h3>
+                          </div>
+                        </div>
+                      </div>
+	              	    <div class="content-block__text">
+                        <p class="large">Охрана окружающей среды — актуальный вопрос для ведущих предприятий Нижегородской области. Компании принимают целый комплекс мер, чтобы свести к минимуму негативное воздействие на экологию.          </p>
+                      </div>
+                      <article class="content-block__text">
+                        <p><b>Лесопромышленная компания АО «Волга»</b> из Нижегородской области (г. Балахна) традиционно выступает инициатором акций, направленных на улучшение экологической ситуации на своих объектах, а также в Балахнинском районе в целом.</p>
+                        <p>Бумкомбинат выпускает бумагу из 100% термомеханической массы для печати газет, книг и упаковки. Такое сырье считается наиболее экономичным, а при его производстве практически не остаётся отходов, загрязняющих природу.</p>
+                        <p>Совершить экскурсию на производство уникальной бумаги, не имеющей аналогов в России, теперь может каждый. <b> Компания «Волга» приглашает в виртуальный тур по цехам.</b></p>
+                      </article>
+                      <a href="https://www.volga-paper.ru/tur/" target="_blank" rel="noreferrer noopener noindex" class="button ecobutton ecobutton-arrow">
+                        <span>Отправиться на производство</span>
+                      </a>
+	              	  </div>
+                  </div>
+                </section>  
+                <section class="articlesNew-main">
+                  <div class="content-block__title proj_title grid__content">
+                    <div class="articlesNew-main__title title">
+                        <div class="title__name">
+                            <h3>Экологически чистые клипы</h3>
+                        </div>
+                    </div>
+		            		<article class="content-block__text content-block__text_vkvideo">
+		            	    <p>Экологичный подход и забота о будущем планеты — безусловная необходимость последних лет.</p>
+                      <p>Знали ли вы, что ежегодно один россиянин выбрасывает до 450 кг бытового мусора? При этом каждый из нас может сократить это количество минимум на треть. Для этого достаточно выбирать продукты без лишней упаковки, а также сортировать отходы, чтобы отправлять на переработку. 100 килограммов макулатуры спасают одно дерево, а из переработанного пластика можно сделать уличную скамейку.</p>
+                      <p>В рамках проекта «Экостарт 800» при поддержке лесопромышленной компании АО «Волга» «Нижний 800» выпустил 5 роликов о том, как жить экологично. В них всё очень просто и понятно!</p>
+		            	  </article>
+                  </div>
+                  <div class="articlesNew-main__slider">
+                    <div class="articlesNew-main__items swiper-wrapper">
+		            	    <div class="articlesNew__item articlesNew__item_vkvideo grid-item swiper-slide" data-aos="fade-up" style="background-image: url('assets/video_oblozhki/eco-1-min.png');" data-video="https://vk.com/video_ext.php?oid=-181940196&id=456239847&hash=3a79d227bd5fde8a&hd=2">
+	                      <div class="articlesNew__item_vkvideo-embedbox"></div>
+                        <div class="video-pic__btn"></div>	
+                        <div class="articlesNew__item-text">Раздельный сбор в Нижнем Новгороде: три первых шага </div>
+                      </div>
+                      <div class="articlesNew__item articlesNew__item_vkvideo grid-item swiper-slide" data-aos="fade-up" style="background-image: url('assets/video_oblozhki/eco-2-min.png');" data-video="https://vk.com/video_ext.php?oid=-181940196&id=456239847&hash=3a79d227bd5fde8a&hd=2">
+	                      <div class="articlesNew__item_vkvideo-embedbox"></div>
+                        <div class="video-pic__btn"></div>	
+                        <div class="articlesNew__item-text">Раздельный сбор в Нижнем Новгороде: три первых шага </div>
+                      </div>
+                      <div class="articlesNew__item articlesNew__item_vkvideo grid-item swiper-slide" data-aos="fade-up" style="background-image: url('assets/video_oblozhki/eco-3-min.png');" data-video="https://vk.com/video_ext.php?oid=-181940196&id=456239847&hash=3a79d227bd5fde8a&hd=2">
+	                      <div class="articlesNew__item_vkvideo-embedbox"></div>
+                        <div class="video-pic__btn"></div>	
+                        <div class="articlesNew__item-text">Раздельный сбор в Нижнем Новгороде: три первых шага </div>
+                      </div>
+                      <div class="articlesNew__item articlesNew__item_vkvideo grid-item swiper-slide" data-aos="fade-up" style="background-image: url('assets/video_oblozhki/eco-2-min.png');" data-video="https://vk.com/video_ext.php?oid=-181940196&id=456239847&hash=3a79d227bd5fde8a&hd=2">
+	                      <div class="articlesNew__item_vkvideo-embedbox"></div>
+                        <div class="video-pic__btn"></div>	
+                        <div class="articlesNew__item-text">Раздельный сбор в Нижнем Новгороде: три первых шага </div>
+                      </div>
+                  </div>
+                  <div class="swiper-button-prev"></div>
+                  <div class="swiper-button-next"></div>
+                </div>
+                </section>  
+                <section id="map" class="ecostart-enterprises-map">
+                  <div class="container">
+                    <div class="grid__content">
+                      <div class="content-block__title">
+                        <div class="title">
+                          <div class="title__name">
+                            <h3>Адреса пунктов приема вторсырья</h3>
+                          </div>
+                        </div>
+                      </div>
+                      <article class="content-block__text">
+                        <p>В среднем в год на одного россиянина приходится 450 кг бытового мусора. Но если сортировать отходы, можно сократить это количество практически на треть и сделать природу чуточку лучше. Вторсырьё, например, пластиковые или стеклянные бутылки, алюминиевые&nbsp;банки, можно переработать и сделать новые вещи.</p>
+                        <p><strong>Сортировать отходы несложно.</strong> Достаточно завести рядом с обычным мусорным ведром отдельный контейнер, например, под пластиковые бутылки — важно, чтобы всё было чистым. В отдельную ёмкость можно собирать разрядившиеся батарейки, складывать ненужные бумаги и газеты. <strong>Экологичный подход и забота о будущем планеты — безусловный тренд последних лет. Присоединяйтесь!</strong></p>
+                        <p><strong>По всему Нижнему Новгороду располагаются стационарные пункты приёма вторсырья «ИСТОК».</strong> Посмотрите адреса на карте, чтобы найти ближайший центр. Подробнее — на сайте.</p>
+                      </article>
+                      <a href="https://istoknn.ru/punkty-prijoma-vtorsyrya" target="_blank" rel="noreferrer noopener noindex" class="button ecobutton ecobutton-arrow">
+                        <span>Подробнее</span>
+                      </a>
+                    </div>
+                    <div class="grid__content map">
+                      <div class="eco-map-container" id="eco-map">
+                        <div class="eco-map-info" style="display:none;">
+                          <button class="eco-map-info__close"></button>
+                          <address class="eco-map-info__heading">
+                              <span class="eco-map-info__area">wfqqwf</span>
+                              <span class="eco-map-info__address">wfqqwf</span>
+                          </address>
+                          <div class="eco-map-info__time-box">
+                            <span class="eco-map-info__time">wfqqwf</span>
+                            <span class="eco-map-info__time eco-map-info__time_weekend">wfqqwf</span>
+                          </div>
+                          <div class="eco-map-info__garbage-box">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </section> 
+                <section class="ecostart-partners">
+                  <div class="container">
+                    <div class="grid__content">
+                      <div class="content-block">
+                        <div class="content-block__title">
+                          <div class="title">
+                            <div class="title__name">
+                              <h3>Партнёры</h3>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="ecostart-partners__list-wrapper">
+                          <div class="ecostart-partners__list">                         
+                            <a href="https://www.volga-paper.ru/" target="_blank" class="ecostart-partners__item">
+                                <img src="assets/Partners/Ecostart/volgalogo.png" alt="icon Акционерное Общество " волга""="">
+                            </a>            
+                            <a href="https://istoknn.ru/" target="_blank" class="ecostart-partners__item">
+                                <img src="assets/Partners/Ecostart/okapolimer_bezfona.png" alt="icon ГК Исток">
+                            </a>            
+                            <a href="https://mega.ru/nn/" target="_blank" class="ecostart-partners__item">
+                                <img src="assets/Partners/MEGA_logo-removebg-preview.png" alt="icon МЕГА">
+                            </a>            
+                            <a href="http://oka-polymer.ru/" target="_blank" class="ecostart-partners__item">
+                                <img src="assets/Partners/Ecostart/oka_bezfona.png" alt="icon Индустриальный парк «Ока-Полимер»">
+                            </a>            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+            </div>
+		  </main>
+		  <!--footer-->
+		  <footer class="footer">
+    <div class="footer__inner grid__left">
+        <div class="grid__content">
+            <div class="footer__menu footer-new">
+                <div class="footer__menu_item">
+                    <div class="item__menu_items">
+                        <div class="item__menu-col">
+                            <div class="footer__menu-links">
+                                <div class="footer__links-head footer__link">О 800-летии</div>
+                                <a class="footer__link" href="#">О юбилее</a>
+                                <a class="footer__link" href="history/">История города</a>
+                                <a class="footer__link" href="#">Видео</a>
+                            </div>
+                            <div class="footer__menu-links">
+                                <div class="footer__links-head footer__link">Проекты 800</div>
+                                <a class="footer__link" href="city/">Город 800</a>
+                                <a class="footer__link" href="https://nn-creative.ru/komanda-kreativnyh-praktik/" target="_blank">Команда креативных практик</a>
+                                <a class="footer__link" href="volunteers/">Волонтеры 800</a>
+                                <a class="footer__link" href="https://dobro.nn-young.ru/" target="_blank">800 добрых дел</a>
+                            </div>
+                        </div>
+                        <div class="item__menu-col">
+                            <div class="footer__menu-links">
+                                <div class="footer__links-head footer__link">Ключевые события</div>
+                                <a class="footer__link" href="#">Гала-шоу “Начало нового”</a>
+                                <a class="footer__link" href="#">Столица закатов</a>
+                                <a class="footer__link" href="#">Новогодняя столица</a>
+                            </div>
+                            <div class="footer__menu-links">
+                                <div class="footer__links-head footer__link">В фокусе</div>
+                                <a class="footer__link" href="vfokuse/articles/">Статьи</a>
+                                <a class="footer__link" href="#">Новости</a>
+                                <a class="footer__link" href="#">Блог</a>
+                            </div>
+                        </div>
+
+                        <div class="item__menu-col">
+                            <div class="footer__menu-links">
+                                <div class="footer__links-head footer__link">Спецпроекты</div>
+                                <a class="footer__link" href="yards/">Дворы 800</a>
+                                <a class="footer__link" href="ekostart800" target="_blank">Экостарт 800</a>
+                                <a class="footer__link" href="https://name.nizhny800.ru/" target="_blank">Имя Нижнего</a>
+                            </div>
+                            <div class="footer__menu-links">
+                                <a class="footer__links-head footer__link-store footer__link" target="_blank" href="https://store.nizhny800.ru">Интернет-магазин</a>                                              
+                                <a class="footer__links-head footer__link" href="#">Партнёры 800-летия</a>
+                                <a class="footer__links-head footer__link" href="#">Контакты</a>
+                            </div>
+                            <div class="item__menu_sn-box">
+                                <a href="https://ok.ru/nizhny800" rel="noreferrer noopener nofollow" target="_blank" class="sn-box__item">
+                                    <img src="static/img/ok-icon.svg" alt="одноклассники">
+                                </a>
+                                <a href="https://t.me/nizhny800" rel="noreferrer noopener nofollow" target="_blank" class="sn-box__item">
+                                    <img src="static/img/telegram-icon.svg" alt="telegram">
+                                </a>
+                                <a href="https://www.youtube.com/channel/UCY9nch3eFIvRcs9i8HAb-qA" rel="noreferrer noopener nofollow" target="_blank" class="sn-box__item">
+                                    <img src="static/img/youtube-152810 1.svg" alt="youtube">
+                                </a>
+                                <a href="https://clck.ru/T8pw6" rel="noreferrer noopener nofollow" target="_blank" class="sn-box__item">
+                                    <img src="static/img/ydezn.svg" alt="ydezn">
+                                </a>
+                                <a href="https://www.tiktok.com/@nizhny800" rel="noreferrer noopener nofollow" target="_blank" class="sn-box__item">
+                                    <img src="static/img/tt_black.svg" alt="inst_black">
+                                </a>
+                                <a href="https://vk.com/nizhny800" target="_blank" rel="noreferrer noopener nofollow" class="sn-box__item">
+                                    <img src="static/img/vk_black.svg" alt="vk_black">
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="footer__menu_item">
+                    <div class="copyright-box">
+                        <div class="copyright-box__copyright">
+                            <span>© Нижний800, 2024</span>
+                            <a href="static/files/policy.pdf" target="_blank">
+                                Политика обработки персональных данных
+                            </a>
+                            <a href="static/files/docs/agreement.pdf" target="_blank">
+                                Пользовательское соглашение
+                            </a>                          
+                        </div>
+                        <div class="team800">
+                            <div class="team800__text">
+                               <a href="mailto:info@nizhny800.ru">
+                                   <span class="f_mail_ico"></span>
+                                   info@nizhny800.ru
+                               </a>
+                           </div>
+                       </div>
+                    </div>
+                </div>
+                <div class="footer__menu_item">
+                    <a class="ourlogo" href="https://omniagency.ru/" target="_blank" rel="nofollow">
+                        <img src="static/img/new/icons/dev.svg" alt="made by Omni">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+		  <div class="cookie_message">
+    <div class="cookie_message_close"></div>
+    <div class="cookie_message_inner">
+        <p>
+            Мы используем cookie, чтобы собирать статистику и делать контент более интересным.
+            Также cookie используются для отображения более релевантной рекламы.
+            Продолжая навигацию по веб-сайту, вы соглашаетесь на использование файлов cookie.
+        </p>
+        <p>
+            Вы можете прочитать подробнее о <a href="https://ru.wikipedia.org/wiki/Cookie" target="_blank">cookie-файлах</a> и изменить настройки вашего браузера.
+        </p>
+    </div>
+</div>
+	 </div>
+  </div>
+  <div class="global pageup">
+    <img src="static/img/global_pageup.svg" alt="pageup">
+</div>
+	<!--Layout pps-->
+<div id="office-auth-form">
+	<div class="pp pp_small" data-mod="recovery">
+		<div class="pp__bg"></div>
+		<div class="pp__content pp__content_small">
+			<div class="pp-content pp-content_small">
+				<div class="pp-cross"></div>
+				<div class="pp-enter">
+					<div class="pp-enter__title">
+						<h5>Восстановление пароля</h5>
+					</div>
+					<div class="pp-enter__text">
+						<span>
+							Введите e-mail, указанный при регистрации, чтобы мы смогли выслать инструкции по
+							восстановлению</span>
+					</div>
+					<div class="pp-enter__fields">
+						<form id="office-auth-recover">
+                            <fieldset>
+                                <div class="pp__inputs">
+                                    <div class="pp-inputs">
+                                        <div class="pp-inputs__item">
+											<label class="error"></label>
+                                            <img src="static/img/images/pp-input-ico-1.svg" alt="input">
+                                            <input autocomplete="off" required="" tabindex="1" type="email" name="email" id="office-auth-recover-username" placeholder="Введите ваш e-mail">
+                                        </div>
+                                    </div>
+                                </div>
+                                <a class="color_green pp_ go_to_thanx" data-pp="thanx" style="visibility: hidden"></a>
+                                <div class="pp__button">
+                                    <button type="submit" class="btn">
+                                        <span>
+                                            отправить
+                                        </span>
+                                    </button>
+                                </div>
+                            </fieldset>
+                        </form>					
+                    </div>
+					<div class="pp-enter__toreg">
+						<span>Уже зарегитрированы?<a class="color_green pp_ pp-ajax" data-pp="signin">
+								Вход</a></span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="pp pp_double" data-mod="signin">
+		<div class="pp__bg"></div>
+		<div class="pp__content pp__content_enter">
+			<div class="pp-content">
+				<div class="pp-cross"></div>
+				<div class="pp-content__left">
+					<div class="pp__enter">
+						<div class="pp-enter">
+							<div class="pp-enter__title">
+								<h5>
+									Быстрый вход
+								</h5>
+							</div>
+							<div class="pp-enter__socs">
+                                <div class="socs">
+                                    <div class="socs-cont">
+                                        <a href="https://nizhny800.ru/about?hauth_action=login&provider=Vkontakte" class="socs__item socs__item_vk" rel="nofollow" title="Vkontakte"><span></span></a>
+                                        <a href="https://nizhny800.ru/about?hauth_action=login&provider=Odnoklassniki" class="socs__item socs__item_ok" rel="nofollow" title="Odnoklassniki"><span></span></a>                                                     
+                                    </div>
+                                    <div class="socs-or">
+                                        <span>
+                                            или
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>                                   
+                            <div class="pp-enter__fields">
+                                <form method="post" id="office-auth-login">
+                                    <fieldset>
+                                        <div class="pp__inputs">
+                                            <div class="pp-inputs">
+                                                <div class="pp-inputs__item">
+													<label class="error">Введите корректный email</label>
+                                                    <img src="static/img/images/pp-input-ico-1.svg" alt="username">
+                                                    <input class="error" autocomplete="off" tabindex="1" type="email" name="username" class="" id="office-auth-login-username" placeholder="Введите ваш e-mail">
+                                                </div>
+                                                <div class="pp-inputs__item">
+													<label class="error"></label>
+                                                    <img src="static/img/images/pp-input-ico-2.svg" alt="password">
+                                                    <a class="pp_ pp-input-pp pp-ajax" data-pp="recovery">
+                                                        Восстановить пароль
+                                                    </a>
+                                                    <input autocomplete="off" tabindex="2" type="password" name="password" class="" id="office-auth-login-password" placeholder="Пароль">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="pp__button">
+                                            <button type="submit" class="btn">
+                                                <span>
+                                                    войти
+                                                </span>
+                                            </button>
+                                        </div>
+                                    </fieldset>
+                                </form>
+                            </div>
+							<div class="pp-enter__toreg">
+								<span>
+									Впервые на сайте?
+									<a class="color_green pp_ pp-ajax" data-pp="registration">
+										Зарегистрируйтесь
+									</a>
+								</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="pp pp_double" data-mod="registration">
+		<div class="pp__bg"></div>
+		<div class="pp__content pp__content_enter">
+			<div class="pp-content">
+				<div class="pp-cross"></div>
+				<div class="pp-content__left">
+					<div class="pp__enter">
+						<div class="pp-enter">
+							<div class="pp-enter__title">
+								<h5>
+									Регистрация
+									<br>
+									нового пользователя
+								</h5>
+							</div>
+							<div class="pp-enter__fields">
+								<form method="post" id="office-auth-register" class="js-register">
+                                    <fieldset>
+                                        <div class="pp__inputs">
+                                            <div class="pp-inputs">
+                                                <div class="pp-inputs__item">
+													<label class="error"></label>
+                                                    <img src="static/img/images/pp-input-ico-1.svg" alt="email">
+                                                    <input autocomplete="off" required="" tabindex="1" type="text" name="email" placeholder="Введите ваш e-mail">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="pp__check">
+                                            <div class="pp-check">
+                                                <div class="pp-check__checkbox">
+                                                    <div class="check">
+														<label class="error"></label>
+                                                        <input autocomplete="off" class="styled-checkbox" id="checkrules" value="" name="terms_ok" type="checkbox">
+                                                        <label for="checkrules"></label>
+                                                    </div>
+                                                </div>
+                                                <div class="pp-check__text">
+                                                    <span>
+                                                        Нажимая кнопку зарегистрироваться, я подтверждаю, что ознакомился и принимаю
+                                                        <a class="" href="static/files/policy.pdf" target="_blank">
+                                                          политику обработки персональных данных
+                                                        </a>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <a class="color_green pp_ go_to_thanx" data-pp="registration_thanx" style="visibility: hidden"></a>
+                                        <div class="pp__button">
+                                            <button class="btn emailRegistrate" type="submit">
+                                                <span>
+                                                  зарегистрироваться
+                                                </span>
+                                            </button>
+                                        </div>
+                                    </fieldset>
+                                </form>								
+                            </div>
+							<div class="pp-enter__toreg">
+								<span>
+									Уже зарегистрированы?
+									<a class="color_green pp_ pp-ajax" data-pp="signin">
+										Вход
+									</a>
+								</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="pp pp_small pp_thanx" data-mod="registration_thanx">
+		<div class="pp__bg"></div>
+		<div class="pp__content pp__content_small">
+			<div class="pp-content pp-content_small">
+				<div class="pp-cross"></div>
+				<div class="pp-enter">
+					<div class="pp-enter__thanx-ico">
+						<img src="static/img/images/thanx-ico.svg" alt="thanx">
+					</div>
+					<div class="pp-enter__text">
+						<span>
+							Пароль сгенерирован и успешно отправлен на указанную вами электронную почту
+						</span>
+					</div>
+					<div class="pp__button">
+						<button type="button" class="btn btn_close">
+							<span>
+								закрыть
+							</span>
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="pp pp_simple pp_simple_rules pp_simple_test" data-mod="pp_poll">
+	<div class="pp__bg"></div>
+	<div class="pp__content pp__content_simple">
+		<div class="pp-content pp-content_simple">
+			<div class="pp-cross"></div>
+			<div class="content-block__title">
+				<div class="title">
+					<div class="title__name">
+						<h2></h2>
+					</div>
+				</div>
+			</div>	    
+			<div class="pp-content__text">
+            </div>                                
+		</div>
+	</div>
+</div>
+
+<div class="pp pp_success" data-mod="pp_success">
+	<div class="pp__bg"></div>
+	<div class="pp__content pp__content_success">
+		<div class="pp-cross"></div>
+		<div class="success-container">
+			<div class="success-container__title"></div>
+			<div class="success-container__descr"></div>
+			<button class="btn success-container__button pink close_btn">
+				<span>Закрыть</span>
+			</button>
+		</div>
+	</div>
+</div>
+<div class="pp pp_success pp_error" data-mod="pp_error">
+	<div class="pp__bg"></div>
+	<div class="pp__content pp__content_success">
+		<div class="pp-cross"></div>
+		<div class="success-container">
+			<div class="success-container__title">Что-то пошло не так</div>
+			<div class="success-container__descr"></div>
+			<button class="btn success-container__button pink close_btn">
+				<span>Закрыть</span>
+			</button>
+		</div>
+	</div>
+</div>
+
+	<script src="static/js/libs/jquery.slim.min.js"></script>
+<script src="static/js/libs/jquery.inputmask.min.js"></script>
+<script src="static/js/libs/jquery.fancybox.js"></script>
+<script src="static/js/libs/swiper.min.js"></script>
+<script src="static/js/libs/aos.js"></script>
+<script src="static/js/libs/PNotify.js"></script>
+<script src="static/js/libs/jquery.ba-throttle-debounce.min.js"></script>
+<script src="static/js/libs/jquery.cookie.js"></script>
+<script src="static/js/libs/tilt.jquery.min.js"></script>
+<script src="static/js/libs/cocoen.js"></script>
+<script src="static/js/main.js"></script>
+<script src="static/js/special.js"></script>
+
+
+	<script src="static/js/ecostartMap.js"></script>
+	<script src="static/js/ecostart.js"></script>
+
+<script src="static/js/scripts.min.js"></script>
+	<script> 
+	var fanzonesMap = [{
+		id: 1,
+		сoords:[56.243773, 43.833014],
+		area: "Автозаводский район",
+		address: "ул. Толбухина, д. 7",
+		timeInterval: "ПН -ПТ 8:00-16:00 (обед 12:00 - 13:00)",
+		timeIntervalWeekEnd: "СБ 8:00 - 14:00 (без обеда), ВС-выходной",
+		garbageList: ["бумага","пластик","батарейки","стекло","аккумуляторы",]
+	  },{
+		id: 2,
+		сoords:[56.226119, 43.862349],
+		area: "Автозаводский район",
+		address: "Южное шоссе, д. 22В",
+		timeInterval: "ПН -ПТ 8:00-16:00 (обед 12:00 - 13:00)",
+		timeIntervalWeekEnd: "СБ 8:00 - 14:00 (без обеда), ВС-выходной",
+		garbageList: ["батарейки","стекло","бумага","пластик","аккумуляторы",]
+	  },{
+		id: 3,
+		сoords:[56.230267, 43.830671],
+		area: "Автозаводский район",
+		address: "ул. Маковского, д. 17В",
+		timeInterval: "ПН -ПТ 8:00-16:00 (обед 12:00 - 13:00)",
+		timeIntervalWeekEnd: "СБ 8:00 - 14:00 (без обеда), ВС-выходной",
+		garbageList: ["батарейки","стекло","бумага","пластик","аккумуляторы",]
+	  },{
+		id: 4,
+		сoords:[56.259905, 43.882136],
+		area: "Автозаводский район",
+		address: "ул. Дьяконова, д. 20",
+		timeInterval: "ПН -ПТ 8:00-16:00 (обед 12:00 - 13:00)",
+		timeIntervalWeekEnd: "СБ 8:00 - 14:00 (без обеда), ВС-выходной",
+		garbageList: ["батарейки","стекло","бумага","пластик","аккумуляторы",]
+	  },{
+		id: 5,
+		сoords:[56.268432, 43.880106],
+		area: "Автозаводский район",
+		address: "ул. Львовская, д. 13",
+		timeInterval: "ПН -ПТ 8:00-16:00 (обед 12:00 - 13:00)",
+		timeIntervalWeekEnd: "СБ 8:00 - 14:00 (без обеда), ВС-выходной",
+		garbageList: ["батарейки","стекло","бумага","пластик","техника","аккумуляторы",]
+	  },{
+		id: 6,
+		сoords:[56.262458, 43.855487],
+		area: "Автозаводский район",
+		address: "ул. Политбойцов, д. 19",
+		timeInterval: "ПН -ПТ 8:00-16:00 (обед 12:00 - 13:00)",
+		timeIntervalWeekEnd: "СБ 8:00 - 14:00 (без обеда), ВС-выходной",
+		garbageList: ["стекло","бумага","пластик","аккумуляторы",]
+	  },{
+		id: 7,
+		сoords:[56.250999, 43.843416],
+		area: "Автозаводский район",
+		address: "пр-т Кирова, д. 22",
+		timeInterval: "ПН -ПТ 8:00-16:00 (обед 12:00 - 13:00)",
+		timeIntervalWeekEnd: "СБ 8:00 - 14:00 (без обеда), ВС-выходной",
+		garbageList: ["стекло","бумага","пластик","аккумуляторы",]
+	  },{
+		id: 8,
+		сoords:[56.281432, 43.936466],
+		area: "Ленинский район",
+		address: "ул. Профинтерна, д. 10 ",
+		timeInterval: "ПН -ПТ 8:00-16:00 (обед 12:00 - 13:00)",
+		timeIntervalWeekEnd: "СБ 8:00 - 14:00 (без обеда), ВС-выходной",
+		garbageList: ["стекло","бумага","пластик","батарейки","аккумуляторы",]
+	  },{
+		id: 9,
+		сoords:[56.282194, 43.923434],
+		area: "Ленинский район",
+		address: "проспект Ленина, д. 45А",
+		timeInterval: "ПН -ПТ 8:00-16:00 (обед 12:00 - 13:00)",
+		timeIntervalWeekEnd: "СБ 8:00 - 14:00 (без обеда), ВС-выходной",
+		garbageList: ["стекло","бумага","пластик","батарейки","аккумуляторы",]
+	  },{
+		id: 10,
+		сoords:[56.296120, 43.942998],
+		area: "Ленинский район",
+		address: "пл. Комсомольская, д. 6/1",
+		timeInterval: "ПН -ПТ 8:00-15:00 (обед 12:00 - 13:00)",
+		timeIntervalWeekEnd: "СБ 8:00 - 14:00 (без обеда), ВС-выходной",
+		garbageList: ["стекло","бумага","пластик","батарейки","аккумуляторы",]
+	  },{
+		id: 11,
+		сoords:[56.271512, 43.917266],
+		area: "Ленинский район",
+		address: "проспект Ленина, д. 67 ",
+		timeInterval: "ПН -ПТ 8:00-16:00 (обед 12:00 - 13:00)",
+		timeIntervalWeekEnd: "СБ 8:00 - 14:00 (без обеда), ВС-выходной",
+		garbageList: ["стекло","бумага","пластик","батарейки","аккумуляторы",]
+	  },{
+		id: 12,
+		сoords:[56.288149, 43.925783],
+		area: "Ленинский район",
+		address: "ул. Героя Самочкина, д. 29/2",
+		timeInterval: "ПН -ПТ 8:00-16:00 (обед 12:00 - 13:00)",
+		timeIntervalWeekEnd: "СБ 8:00 - 14:00 (без обеда), ВС-выходной",
+		garbageList: ["стекло","бумага","пластик","батарейки","аккумуляторы",]
+	  },{
+		id: 13,
+		сoords:[56.290110, 43.933356],
+		area: "Ленинский район",
+		address: "проспект Ленина, д. 26Б",
+		timeInterval: "ПН -ПТ 8:00-16:00 (обед 12:00 - 13:00)",
+		timeIntervalWeekEnd: "СБ 8:00 - 14:00 (без обеда), ВС-выходной",
+		garbageList: ["стекло","бумага","пластик","аккумуляторы",]
+	  },{
+		id: 14,
+		сoords:[56.324147, 43.876719],
+		area: "Московский район",
+		address: "ул. Березовская,  д. 82",
+		timeInterval: "ПН -ПТ 8:00-16:00 (обед 12:00 - 13:00)",
+		timeIntervalWeekEnd: "СБ 8:00 - 14:00 (без обеда), ВС-выходной",
+		garbageList: ["стекло","бумага","пластик","батарейки","аккумуляторы",]
+	  },{
+		id: 15,
+		сoords:[56.337616, 43.876674],
+		area: "Московский район",
+		address: "ул. Коминтерна, д. 6",
+		timeInterval: "ПН -ПТ 8:00-16:00 (обед 12:00 - 13:00)",
+		timeIntervalWeekEnd: "СБ 8:00 - 14:00 (без обеда), ВС-выходной",
+		garbageList: ["стекло","бумага","пластик","батарейки","аккумуляторы",]
+	  },{
+		id: 16,
+		сoords:[56.332866, 43.846915],
+		area: "Московский район",
+		address: "ул. Баранова, д. 12А",
+		timeInterval: "ПН -ПТ 8:00-16:00 (обед 12:00 - 13:00)",
+		timeIntervalWeekEnd: "СБ 8:00 - 14:00 (без обеда), ВС-выходной",
+		garbageList: ["стекло","бумага","пластик","батарейки","техника","аккумуляторы",]
+	  },{
+		id: 17,
+		сoords:[56.316159, 43.940877],
+		area: "Канавинский район",
+		address: "ул. Чкалова, д. 11",
+		timeInterval: "ПН -ПТ 8:00-16:00 (обед 12:00 - 13:00)",
+		timeIntervalWeekEnd: "СБ 8:00 - 14:00 (без обеда), ВС-выходной",
+		garbageList: ["стекло","бумага","пластик","батарейки","аккумуляторы",]
+	  },{
+		id: 18,
+		сoords:[56.340316, 43.944431],
+		area: "Канавинский район",
+		address: "ул. Карла Маркса, д. 42А",
+		timeInterval: "ПН -ПТ 8:00-16:00 (обед 12:00 - 13:00)",
+		timeIntervalWeekEnd: "СБ 8:00 - 14:00 (без обеда), ВС-выходной",
+		garbageList: ["стекло","бумага","пластик","батарейки","аккумуляторы",]
+	  },{
+		id: 19,
+		сoords:[56.344610, 43.927107],
+		area: "Канавинский район",
+		address: "ул. Карла Маркса, д. 7Б",
+		timeInterval: "ПН -ПТ 8:00-16:00 (обед 12:00 - 13:00)",
+		timeIntervalWeekEnd: "СБ 8:00 - 14:00 (без обеда), ВС-выходной",
+		garbageList: ["стекло","бумага","пластик","батарейки","аккумуляторы",]
+	  },{
+		id: 20,
+		сoords:[56.324175, 43.943757],
+		area: "Канавинский район",
+		address: "Московское шоссе, д. 11",
+		timeInterval: "ПН -ПТ 8:00-16:00 (обед 12:00 - 13:00)",
+		timeIntervalWeekEnd: "СБ 8:00 - 14:00 (без обеда), ВС-выходной",
+		garbageList: ["стекло","бумага","пластик","батарейки","аккумуляторы",]
+	  },{
+		id: 21,
+		сoords:[56.312763, 43.854355],
+		area: "Канавинский район",
+		address: "Московское шоссе, д. 284",
+		timeInterval: "ПН -ПТ 8:00-16:00 (обед 12:00 - 13:00)",
+		timeIntervalWeekEnd: "СБ 8:00 - 14:00 (без обеда), ВС-выходной",
+		garbageList: ["стекло","бумага","пластик","батарейки","техника","аккумуляторы",]
+	  },{
+		id: 22,
+		сoords:[56.332020, 43.934161],
+		area: "Канавинский район",
+		address: "ул. Акимова, д. 5",
+		timeInterval: "ПН -ПТ 8:00-16:00 (обед 12:00 - 13:00)",
+		timeIntervalWeekEnd: "СБ 8:00 - 14:00 (без обеда), ВС-выходной",
+		garbageList: ["стекло","бумага","пластик","аккумуляторы",]
+	  },{
+		id: 23,
+		сoords:[56.381777, 43.796767],
+		area: "Сормовский район",
+		address: "ул. Ясная, д. 31",
+		timeInterval: "ПН -ПТ 8:00-16:00 (обед 12:00 - 13:00)",
+		timeIntervalWeekEnd: "СБ 8:00 - 14:00 (без обеда), ВС-выходной",
+		garbageList: ["стекло","бумага","пластик","батарейки","аккумуляторы",]
+	  },{
+		id: 24,
+		сoords:[56.350370, 43.860192],
+		area: "Сормовский район",
+		address: "ул. Льва Толстого, д. 6",
+		timeInterval: "ПН -ПТ 8:00-16:00 (обед 12:00 - 13:00)",
+		timeIntervalWeekEnd: "СБ 8:00 - 14:00 (без обеда), ВС-выходной",
+		garbageList: ["стекло","бумага","пластик","батарейки","аккумуляторы",]
+	  },{
+		id: 25,
+		сoords:[56.357738, 43.852544],
+		area: "Сормовский район",
+		address: "проспект Союзный, д. 43",
+		timeInterval: "ПН -ПТ 8:00-16:00 (обед 12:00 - 13:00)",
+		timeIntervalWeekEnd: "СБ 8:00 - 14:00 (без обеда), ВС-выходной",
+		garbageList: ["стекло","бумага","пластик","батарейки","аккумуляторы",]
+	  },{
+		id: 26,
+		сoords:[56.364755, 43.814942],
+		area: "Сормовский район",
+		address: "проспект Кораблестроителей, д. 22/2",
+		timeInterval: "ПН -ПТ 8:00-16:00 (обед 12:00 - 13:00)",
+		timeIntervalWeekEnd: "СБ 8:00 - 14:00 (без обеда), ВС-выходной",
+		garbageList: ["стекло","бумага","пластик","батарейки","аккумуляторы",]
+	  },{
+		id: 27,
+		сoords:[56.367687, 43.820098],
+		area: "Сормовский район",
+		address: "ул. Василия Иванова, д. 14",
+		timeInterval: "ПН -ПТ 8:00-16:00 (обед 12:00 - 13:00)",
+		timeIntervalWeekEnd: "СБ 8:00 - 14:00 (без обеда), ВС-выходной",
+		garbageList: ["стекло","бумага","пластик","батарейки","аккумуляторы",]
+	  },{
+		id: 28,
+		сoords:[56.299593, 44.043849],
+		area: "Советский район",
+		address: "ул. Корнилова, д. 8",
+		timeInterval: "ПН -ПТ 8:00-16:00 (обед 12:00 - 13:00)",
+		timeIntervalWeekEnd: "СБ 8:00 - 14:00 (без обеда), ВС-выходной",
+		garbageList: ["стекло","бумага","пластик","батарейки","аккумуляторы",]
+	  },{
+		id: 29,
+		сoords:[56.293337, 44.013856],
+		area: "Советский район",
+		address: "ул. Бекетова, д. 13А",
+		timeInterval: "ПН -ПТ 8:00-16:00 (обед 12:00 - 13:00)",
+		timeIntervalWeekEnd: "СБ 8:00 - 14:00 (без обеда), ВС-выходной",
+		garbageList: ["стекло","бумага","пластик","батарейки","техника","аккумуляторы",]
+	  },{
+		id: 30,
+		сoords:[56.283380, 44.044012],
+		area: "Советский район",
+		address: "ул. Маршала Рокоссовского, д. 9",
+		timeInterval: "ПН -ПТ 8:00-16:00 (обед 12:00 - 13:00)",
+		timeIntervalWeekEnd: "СБ 8:00 - 14:00 (без обеда), ВС-выходной",
+		garbageList: ["стекло","бумага","пластик","батарейки","аккумуляторы",]
+	  },{
+		id: 31,
+		сoords:[56.292311, 44.041056],
+		area: "Советский район",
+		address: "ул. Богородского, д. 5/6",
+		timeInterval: "ПН -ПТ 8:00-16:00 (обед 12:00 - 13:00)",
+		timeIntervalWeekEnd: "СБ 8:00 - 14:00 (без обеда), ВС-выходной",
+		garbageList: ["стекло","бумага","пластик","батарейки","техника","аккумуляторы",]
+	  },{
+		id: 32,
+		сoords:[56.311736, 44.025094],
+		area: "Советский район",
+		address: "ул. Ванеева, д. 25/88",
+		timeInterval: "ПН -ПТ 8:00-16:00 (обед 12:00 - 13:00)",
+		timeIntervalWeekEnd: "СБ 8:00 - 14:00 (без обеда), ВС-выходной",
+		garbageList: ["стекло","бумага","пластик","батарейки","аккумуляторы",]
+	  },{
+		id: 33,
+		сoords:[56.290728, 43.982032],
+		area: "Советский район",
+		address: "пр-т Гагарина, д. 50",
+		timeInterval: "ПН -ПТ 8:00-16:00 (обед 12:00 - 13:00)",
+		timeIntervalWeekEnd: "СБ 8:00 - 14:00 (без обеда), ВС-выходной",
+		garbageList: ["стекло","бумага","пластик","аккумуляторы",]
+	  },{
+		id: 34,
+		сoords:[56.303866, 44.079793],
+		area: "Нижегородский район",
+		address: "ул. Родионова, д. 191",
+		timeInterval: "ПН -ПТ 8:00-16:00 (обед 12:00 - 13:00)",
+		timeIntervalWeekEnd: "СБ 8:00 - 14:00 (без обеда), ВС-выходной",
+		garbageList: ["стекло","бумага","пластик","батарейки","аккумуляторы",]
+	  },{
+		id: 35,
+		сoords:[56.312545, 44.007127],
+		area: "Нижегородский район",
+		address: "перекресток ул. Белинского/ул. Ашхабадская ",
+		timeInterval: "ПН -ПТ 8:00-16:00 (обед 12:00 - 13:00)",
+		timeIntervalWeekEnd: "СБ 8:00 - 14:00 (без обеда), ВС-выходной",
+		garbageList: ["стекло","бумага","пластик","батарейки","техника","аккумуляторы",]
+	  },{
+		id: 36,
+		сoords:[56.295051, 44.069457],
+		area: "Нижегородский район",
+		address: "ул. Германа Лопатина, д. 6Б",
+		timeInterval: "ПН -ПТ 8:00-16:00 (обед 12:00 - 13:00)",
+		timeIntervalWeekEnd: "СБ 8:00 - 14:00 (без обеда), ВС-выходной",
+		garbageList: ["стекло","бумага","пластик","батарейки","аккумуляторы",]
+	  },{
+		id: 37,
+		сoords:[56.287006, 44.077098],
+		area: "Нижегородский район",
+		address: "Казанское шоссе, д. 10/5",
+		timeInterval: "ПН -ПТ 8:00-14:00 (обед 12:00 - 13:00)",
+		timeIntervalWeekEnd: "СБ 8:00 - 14:00 (без обеда), ВС-выходной",
+		garbageList: ["стекло","бумага","пластик","батарейки","аккумуляторы",]
+	  },{
+		id: 38,
+		сoords:[56.315068, 44.054313],
+		area: "Нижегородский район",
+		address: "ул Героя Усилова, д. 3/3а",
+		timeInterval: "ПН -ПТ 8:00-16:00 (обед 12:00 - 13:00)",
+		timeIntervalWeekEnd: "СБ 8:00 - 14:00 (без обеда), ВС-выходной",
+		garbageList: ["стекло","бумага","пластик","батарейки","аккумуляторы",]
+	  },{
+		id: 39,
+		сoords:[56.321574, 44.025384],
+		area: "Нижегородский район",
+		address: "ул. Ковалихинская, д.77",
+		timeInterval: "ПН -ПТ 8:00-16:00 (обед 12:00 - 13:00)",
+		timeIntervalWeekEnd: "СБ 8:00 - 14:00 (без обеда), ВС-выходной",
+		garbageList: ["стекло","бумага","пластик","батарейки","техника","аккумуляторы",]
+	  },{
+		id: 40,
+		сoords:[56.255327, 43.970090],
+		area: "Приокский район",
+		address: "пр. Гагарина, д. 105",
+		timeInterval: "ПН -ПТ 8:00-16:00 (обед 12:00 - 13:00)",
+		timeIntervalWeekEnd: "СБ 8:00 - 14:00 (без обеда), ВС-выходной",
+		garbageList: ["стекло","бумага","пластик","батарейки","аккумуляторы",]
+	  },{
+		id: 41,
+		сoords:[56.255601, 43.971965],
+		area: "Приокский район",
+		address: "ул. Горная, д. 2А",
+		timeInterval: "ПН -ПТ 8:00-16:00 (обед 12:00 - 13:00)",
+		timeIntervalWeekEnd: "СБ 8:00 - 14:00 (без обеда), ВС-выходной",
+		garbageList: ["стекло","бумага","пластик","батарейки","техника","аккумуляторы",]
+	  },{
+		id: 42,
+		сoords:[56.229797, 43.957082],
+		area: "Приокский район",
+		address: "ул. Маршала Голованова, д. 73 ",
+		timeInterval: "ПН -ПТ 8:00-16:00 (обед 12:00 - 13:00)",
+		timeIntervalWeekEnd: "СБ 8:00 - 14:00 (без обеда), ВС-выходной",
+		garbageList: ["стекло","бумага","пластик","батарейки","аккумуляторы",]
+	  },{
+		id: 43,
+		сoords:[56.239873, 43.967431],
+		area: "Приокский район",
+		address: "ул. Маршала Голованова, д. 19/3",
+		timeInterval: "ПН -ПТ 8:00-15:00 (обед 12:00 - 13:00)",
+		timeIntervalWeekEnd: "СБ 8:00 - 14:00 (без обеда), ВС-выходной",
+		garbageList: ["стекло","бумага","пластик","батарейки","аккумуляторы",]
+	  },{
+		id: 44,
+		сoords:[56.267172, 44.023531],
+		area: "Приокский район",
+		address: "ул. Академика Cахарова, д. 111",
+		timeInterval: "ПН -ПТ 8:00-16:00 (обед 12:00 - 13:00)",
+		timeIntervalWeekEnd: "СБ 8:00 - 14:00 (без обеда), ВС-выходной",
+		garbageList: ["стекло","бумага","пластик","батарейки","аккумуляторы",]
+	  },{
+		id: 45,
+		сoords:[56.258493, 43.998324],
+		area: "Приокский район",
+		address: "ул. Шатковская, д. 27",
+		timeInterval: "ПН -ПТ 8:00-16:00 (обед 12:00 - 13:00)",
+		timeIntervalWeekEnd: "СБ 8:00 - 14:00 (без обеда), ВС-выходной",
+		garbageList: ["стекло","бумага","пластик","батарейки","техника","аккумуляторы",]
+	  },{
+		id: 46,
+		сoords:[56.240953, 43.390434],
+		area: "г. Дзержинск",
+		address: "б-р Космонавтов, д. 2",
+		timeInterval: "ПН -ПТ 9:00-17:00 (обед 12:00 - 13:00)",
+		timeIntervalWeekEnd: "СБ 8:00 - 14:00 (без обеда), ВС-выходной",
+		garbageList: ["стекло","бумага","пластик","батарейки","техника","аккумуляторы",]
+	  },{
+		id: 47,
+		сoords:[56.232208, 43.425756],
+		area: "г. Дзержинск",
+		address: "пр. Циолковского, д. 54",
+		timeInterval: "ПН -ПТ 8:00-16:00 (обед 12:00 - 13:00)",
+		timeIntervalWeekEnd: "СБ 8:00 - 14:00 (без обеда), ВС-выходной",
+		garbageList: ["стекло","бумага","пластик","батарейки","аккумуляторы",]
+	  },{
+		id: 48,
+		сoords:[56.286528, 43.851844],
+		area: "Канавинский район",
+		address: "ул. Гороховецкая, д. 3",
+		timeInterval: "ПН -ПТ 8:00-16:00 (обед 12:00 - 13:00)",
+		timeIntervalWeekEnd: "СБ 8:00 - 14:00 (без обеда), ВС-выходной",
+		garbageList: ["стекло","бумага","пластик","батарейки","аккумуляторы",]
+	  },{
+		id: 49,
+		сoords:[56.281355, 43.936505],
+		area: "Ленинский район",
+		address: "ул. Гончарова, д. 10",
+		timeInterval: "ПН -ПТ 8:00-16:00 (обед 12:00 - 13:00)",
+		timeIntervalWeekEnd: "СБ 8:00 - 14:00 (без обеда), ВС-выходной",
+		garbageList: ["стекло","бумага","пластик","аккумуляторы",]
+	  },{
+		id: 50,
+		сoords:[56.331012, 43.917508],
+		area: "Московский район",
+		address: "ул. Куйбышева, д. 59",
+		timeInterval: "ПН -ПТ 8:00-16:00 (обед 12:00 - 13:00)",
+		timeIntervalWeekEnd: "СБ 8:00 - 14:00 (без обеда), ВС-выходной",
+		garbageList: ["стекло","бумага","пластик","аккумуляторы",]
+	  },]
+	</script>
+</body>
+
+</html>
